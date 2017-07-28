@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="assets/css/styles.css">
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/i/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/i/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/i/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/i/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/i/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/i/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/i/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/i/favicon/apple-touch-icon-152x152.png">
+    <link rel="icon" type="image/png" href="assets/i/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="assets/i/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="assets/i/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="assets/i/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="assets/i/favicon/mstile-144x144.png">
+    <meta name="theme-color" content="#800000">
+    <title>gulpApp</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header-container">
+        <header class="header"><a href="" class="header__logo">
+            <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="27px" viewbox="0 0 194.269 36.132" enable-background="new 0 0 194.269 36.132" xml:space="preserve">
+              <g class="logo-content">
+                <path fill="#FFFFFF" d="M65.146,3.737v25.205c0,1.912-1.564,3.477-3.477,3.477c-1.956,0-3.521-1.564-3.521-3.477V16.644                                    l-6.301,12.907c-0.566,1.13-1.651,1.738-2.738,1.738c-1.13,0-2.216-0.652-2.737-1.738l-6.345-12.907v12.298                                    c0,1.912-1.564,3.477-3.521,3.477c-1.868,0-3.433-1.564-3.433-3.477V3.737c0-1.912,1.564-3.477,3.433-3.477                                    c1.825,0,2.868,1.26,3.607,2.694c0.261,0.522,5.605,11.516,8.995,18.426c3.347-6.91,8.735-17.861,8.996-18.426                                    c0.695-1.434,1.738-2.694,3.563-2.694C63.582,0.261,65.146,1.825,65.146,3.737z"></path>&#x9;
+                <path fill="#FFFFFF" d="M100.873,16.34c0,9.039-7.301,16.34-16.34,16.34c-8.995,0-16.34-7.301-16.34-16.34S75.538,0,84.533,0                                    C93.572,0,100.873,7.301,100.873,16.34z M75.146,16.34c0,5.215,4.129,9.43,9.344,9.43c5.128,0,9.43-4.302,9.43-9.43                                    s-4.302-9.43-9.43-9.43C79.275,6.91,75.146,11.125,75.146,16.34z"></path>&#x9;
+                <path fill="#FFFFFF" d="M129.56,3.694v25.249c0,3.172-3.868,4.52-6.084,2.39c-0.435-0.435-0.826-1.087-1.174-1.608                                    c-0.521-0.826-10.604-15.514-11.212-16.383v15.601c0,1.912-1.564,3.477-3.477,3.477s-3.477-1.564-3.477-3.477V3.694                                    c0-1.869,1.564-3.433,3.477-3.433c1.174,0,2.043,0.565,2.781,1.477c0.739,0.956,8.083,11.646,12.255,17.731V3.694                                    c0-1.869,1.521-3.433,3.434-3.433C127.996,0.261,129.56,1.825,129.56,3.694z"></path>&#x9;
+                <path fill="#FFFFFF" d="M160.159,32.115c-1.434,0.739-3.65,0.261-4.563-1.782l-1.521-3.433h-13.298l-1.564,3.433                                    c-0.913,1.999-3.042,2.434-4.563,1.782c-1.738-0.739-2.521-2.825-1.738-4.563L144.167,2.39c0.348-0.826,1.043-1.477,1.825-1.825                                    c0.869-0.348,1.955-0.348,2.824,0c0.826,0.348,1.435,0.999,1.825,1.825l11.256,25.162C162.679,29.29,161.853,31.246,160.159,32.115                                    z M150.946,19.99l-3.52-7.909l-3.52,7.909H150.946z"></path>&#x9;
+                <path fill="#FFFFFF" d="M194.261,17.035c-0.174,4.215-1.825,8.126-4.737,10.995c-2.955,2.999-6.953,4.65-11.168,4.65                                    c-4.389,0-8.431-1.695-11.43-4.824c-2.955-3.085-4.562-7.17-4.562-11.516c0-8.996,7.301-16.34,16.34-16.34                                    c2.738,0,5.432,0.695,7.822,1.956c1.695,0.956,2.303,3.042,1.391,4.737c-0.912,1.695-3.042,2.303-4.693,1.391                                    c-1.391-0.739-2.955-1.173-4.52-1.173c-5.172,0-9.387,4.259-9.387,9.43c0,2.564,0.912,4.954,2.607,6.692                                    c1.651,1.738,3.955,2.738,6.432,2.738c3.998,0,7.301-2.607,8.475-6.301h-7.953c-1.651,0-3.042-1.347-3.042-3.042                                    c0-1.651,1.391-3.042,3.042-3.042h12.081C192.87,13.428,194.391,15.08,194.261,17.035z"></path>&#x9;
+              </g>
+              <g class="logo-ico">
+                <path fill="#FFFFFF" d="M29.289,27.552L18.034,2.39c-0.392-0.826-1-1.477-1.825-1.825c-0.869-0.348-1.956-0.348-2.825,0                                    c-0.782,0.348-1.477,0.999-1.825,1.825L0.304,27.552c-0.782,1.738,0,3.824,1.738,4.563c1.52,0.652,3.65,0.217,4.562-1.782                                    l8.214-18.252l8.216,18.332c0.936,1.969,3.104,2.43,4.517,1.702C29.246,31.246,30.071,29.29,29.289,27.552z"></path>&#x9;
+                <path fill="#FFFFFF" d="M14.709,22.219c-1.912,0-3.434,1.565-3.434,3.433v7.317v-0.271c0,1.869,1.564,3.433,3.477,3.433                                    s3.434-1.564,3.434-3.433v0.536v-7.583C18.185,23.784,16.621,22.219,14.709,22.219z"></path>
+              </g>
+            </svg></a>
+          <div class="header__actions">
+            <div class="header__toggle fa fa-bars js-toggler"></div>
+            <div class="page-title">Избранное</div>
+            <div class="header__select">
+              <div class="click-nav">
+                <ul class="no-js">
+                  <li><a href="#" class="clicker">RU</a>
+                    <ul>
+                      <li><a href="#">EN</a></li>
+                      <li><a href="#">ES</a></li>
+                      <li><a href="#">ES</a></li>
+                      <li><a href="#">ES</a></li>
+                      <li><a href="#">ES</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div><a href="" class="fa fa-search js-filters-call"></a>
+          </div>
+        </header>
+      </div>
+      <div class="filters js-filters"><a class="fa fa-close js-filters-close"></a>
+        <form class="filters__search filters-search">
+          <input type="text" placeholder="Искать по названию">
+          <button type="submit" class="fa fa-arrow-right"></button>
+        </form>
+        <form class="filters__select-form">
+          <div class="filters__block filters-block js-filters-block">
+            <div class="filters-block__title">Материалы</div>
+            <div class="filters-block__options">
+              <label>
+                <input type="radio" name="b" checked="checked" class="js-popular"><span class="wide">Популярные</span>
+              </label>
+              <label>
+                <input type="radio" name="b"><span class="wide">Новые</span>
+              </label>
+              <label>
+                <input type="radio" name="b"><span class="wide">По алфавиту</span>
+              </label>
+            </div>
+          </div>
+          <div class="filters__block filters-block"></div>
+          <div class="filters__block filters-block js-filters-block">
+            <div class="filters-block__title">Материалы</div>
+            <div class="filters-block__options">
+              <label>
+                <input type="checkbox" name="q" checked="checked"><span>RU</span>
+              </label>
+              <label>
+                <input type="checkbox" name="q" checked="checked"><span>EN</span>
+              </label>
+              <label>
+                <input type="checkbox" name="q" checked="checked"><span>ES</span>
+              </label>
+              <label>
+                <input type="checkbox" name="q" checked="checked"><span>GE</span>
+              </label>
+              <label>
+                <input type="checkbox" name="q" checked="checked"><span>FR</span>
+              </label>
+              <label>
+                <input type="checkbox" name="q" checked="checked"><span>IT</span>
+              </label>
+              <label>
+                <input type="checkbox" name="q" checked="checked"><span>PO</span>
+              </label>
+              <label>
+                <input type="checkbox" name="q" checked="checked"><span>AR</span>
+              </label>
+              <label>
+                <input type="checkbox" name="q" checked="checked"><span>MA</span>
+              </label>
+            </div>
+          </div>
+          <div class="filters__block filters-block js-filters-block">
+            <div class="filters-block__title">Тип</div>
+            <div class="filters-block__options">
+              <label>
+                <input type="checkbox" name="a" checked="checked"><span>Литература</span>
+              </label>
+              <label>
+                <input type="checkbox" name="a" checked="checked"><span>Учебники</span>
+              </label>
+              <label>
+                <input type="checkbox" name="a" checked="checked"><span>Фильмы</span>
+              </label>
+              <label>
+                <input type="checkbox" name="a" checked="checked"><span>Песни</span>
+              </label>
+              <label>
+                <input type="checkbox" name="a" checked="checked"><span>Диалоги</span>
+              </label>
+              <label>
+                <input type="checkbox" name="a" checked="checked"><span>Разное</span>
+              </label>
+            </div>
+          </div>
+          <div class="filters__block filters-block js-filters-block">
+            <div class="filters-block__title">Уровень</div>
+            <div class="filters-block__options">
+              <label>
+                <input type="checkbox" name="b" checked="checked"><span>0</span>
+              </label>
+              <label>
+                <input type="checkbox" name="b" checked="checked"><span>A</span>
+              </label>
+              <label>
+                <input type="checkbox" name="b" checked="checked"><span>B</span>
+              </label>
+              <label>
+                <input type="checkbox" name="b" checked="checked"><span>C</span>
+              </label>
+            </div>
+            <input type="hidden" name="level">
+          </div>
+          <button type="submit" class="btn btn-lg btn-2lg">Искать</button>
+          <p class="text-center"><a href="" class="js-clear-filters">Отменить фильтр <br> (Показать все)</a></p>
+        </form>
+      </div>
+      <div class="nav">
+        <div class="nav__authorization authorization-tabs js-tabs">
+          <div class="authorization-tabs__headings">
+            <div class="authorization-tabs__header js-tabs-head active text-left">Вход</div>
+            <div class="authorization-tabs__header js-tabs-head">Регистрация</div>
+          </div>
+          <div class="authorization-tabs__content">
+            <div class="authorization-tabs__item js-tabs-item active">
+              <form>
+                <input type="email" placeholder="E-mail">
+                <input type="password" placeholder="Пароль">
+                <button type="submit">Вход</button><a href="" class="authorization-tabs__link">Забыли пароль?</a>
+              </form>
+            </div>
+            <div class="authorization-tabs__item js-tabs-item">
+              <form>
+                <input type="text" placeholder="Имя">
+                <input type="email" placeholder="E-mail">
+                <button type="submit" class="registartion">Регистрация</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#" class="nav__link js-authorize">Вход</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Контакты</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">О AMONAG</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Блог AMONAG</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Фильтрация</a></li>
+        </ul>
+        <!--.custom-search-input-->
+        <!--    input(type="text")-->
+        <!--    button(type="submit")-->
+      </div>
+      <div class="container-index">
+        <div class="catalog catalog-other">
+          <div class="catalog__item"><a href="#" class="catalog__img-wrap"><img src="assets/i/catalog1.png"></a>
+            <div class="catalog__text">
+              <div class="catalog__languages"><span>RU</span><span>EN</span><span>ES</span></div>Заголовок анонса материала, содержащий до 250 символов
+            </div>
+            <div class="catalog__likes"><span class="catalog__likes-count">24</span>
+              <div class="likes-wrap"><a href="#" title="Мне нравиться" class="fa fa-thumbs-o-up"></a></div>
+            </div>
+            <div class="catalog__price">
+              <div class="catalog__price-left">
+                <div class="catalog__price-old">6000<i class="fa fa-rub"></i></div>
+                <div class="catalog__price-current">3000
+                  <div class="fa fa-rub"></div>
+                </div>
+              </div>
+              <div class="catalog__price-right"><a href="" title="Добавить в избранное" class="fa fa-folder-o"></a></div>
+            </div><a href="" class="btn btn-lg btn-block">Читать</a>
+          </div>
+          <div class="catalog__item"><a href="#" class="catalog__img-wrap"><img src="assets/i/catalog1.png"></a>
+            <div class="catalog__text">
+              <div class="catalog__languages"><span>RU</span><span>EN</span><span>ES</span></div>Заголовок анонса материала, содержащий до 250 символов
+            </div>
+            <div class="catalog__likes"><span class="catalog__likes-count">24</span>
+              <div class="likes-wrap"><a href="#" title="Мне нравиться" class="fa fa-thumbs-o-up"></a></div>
+            </div>
+            <div class="catalog__price">
+              <div class="catalog__price-left">
+                <div class="catalog__price-old">6000<i class="fa fa-rub"></i></div>
+                <div class="catalog__price-current">3000
+                  <div class="fa fa-rub"></div>
+                </div>
+              </div>
+              <div class="catalog__price-right"><a href="" title="Добавить в избранное" class="fa fa-folder-o"></a></div>
+            </div><a href="" class="btn btn-lg btn-block">Читать</a>
+          </div>
+          <div class="catalog__item"><a href="#" class="catalog__img-wrap"><img src="assets/i/catalog1.png"></a>
+            <div class="catalog__text">
+              <div class="catalog__languages"><span>RU</span><span>EN</span><span>ES</span></div>Заголовок анонса материала, содержащий до 250 символов
+            </div>
+            <div class="catalog__likes"><span class="catalog__likes-count">24</span>
+              <div class="likes-wrap"><a href="#" title="Мне нравиться" class="fa fa-thumbs-o-up active"></a></div>
+            </div>
+            <div class="catalog__price">
+              <div class="catalog__price-left">
+                <div class="catalog__price-old">6000<i class="fa fa-rub"></i></div>
+                <div class="catalog__price-current">3000
+                  <div class="fa fa-rub"></div>
+                </div>
+              </div>
+              <div class="catalog__price-right"><a href="" title="Добавить в избранное" class="fa fa-folder-o active"></a></div>
+            </div><a href="" class="btn btn-lg btn-block">Читать</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="assets/js/plugins/jquery-1.9.1.min.js"></script>
+  <script src="assets/js/plugins/masonry.pkgd.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</html>
