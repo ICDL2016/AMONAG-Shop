@@ -1,0 +1,95 @@
+extends layouts/layout-book
+block title
+block content
+    .header__navigation.phone-visible
+        a.nav-next(href="")
+        .page-nav-wrap
+            input(type="text", value="111")
+            span 1800
+        a.nav-prev(href="")
+    .book-nav
+        ul.book-nav__list
+            li.book-nav__item
+                a.book-nav__link(href="#") Анотации
+            li.book-nav__item.js-slide-parent
+                a.book-nav__link(href="#") Языки
+                div.book-nav__sub.js-slide-child
+                    form.languages-form.js-languages-list(action="/")
+                        ol.book-subnav-list
+                        a.book-subnav-list__add.js-add-lang(href="") +
+                        div
+                            button(type="submit") Сохранить
+            li.book-nav__item.book-nav__item_content.js-slide-parent
+                a.book-nav__link(href="#") Содержание
+                div.book-nav__sub.js-slide-child
+                    .book-subnav
+                        .book-subnav__item
+                            .book-subnav__title Глава 1
+                            .book-subnav__link Страница 1
+                            .book-subnav__link Страница 2
+                            .book-subnav__link Страница 3
+                    .book-subnav
+                        .book-subnav__item
+                            .book-subnav__title Глава 2
+                            .book-subnav__link Страница 1
+                            .book-subnav__link Страница 2
+                            .book-subnav__link Страница 3
+
+    .container.container_book
+        .book-page
+            h1.text-center.js-sentence.text-biggest
+                | Harry Potter and the philosopher’s stone
+                | &nbsp;
+                b (Самый большой - 36px)
+            h3.text-center.js-sentence.text-big
+                | The boy who lived
+                | &nbsp;
+                b (Большой 30px)
+            span.book-page__item.book-page__item_paragraph.js-sentence.text-increased
+                | Mr and Mrs Dursley, of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much.
+                | &nbsp;
+                b (увеличенный 24px)
+            span.book-page__item.js-sentence.text-normal
+                | They were the last people you’d expect to be involved in anything strange or mysterious, because they just didn’t hold with such nonsense.
+                | &nbsp;
+                b (обычный 20px, специальный класс не нужен)
+            br
+            span.book-page__item.book-page__item_paragraph.js-sentence.text-reduced
+                | Mr Dursley was the director of a firm called Grunnings, which made drills.
+                | &nbsp;
+                b (уменьшенный 14px)
+            div.m-b-10.text-center
+                p.text-increased Маленькая картинка
+                img.book-img-small(src="http://vignette2.wikia.nocookie.net/harrypotter/images/f/fe/Mr_Potter_wallpaper.jpg/revision/latest?cb=20140729094849")
+            div.m-b-10.text-left
+                p.text-increased Обычная картинка (позиция лево)
+                img.book-img-normal(src="http://vignette2.wikia.nocookie.net/harrypotter/images/f/fe/Mr_Potter_wallpaper.jpg/revision/latest?cb=20140729094849")
+            div.m-b-10.text-right
+                p.text-increased Увеличенная картинка (позиция право)
+                img.book-img-big(src="https://tribzap2it.files.wordpress.com/2016/04/wizarding-world-of-harry-potter.jpg?w=769")
+            div.m-b-10.text-center
+                p.text-increased Предмаксимальная картинка
+                img.book-img-verybig(src="https://tribzap2it.files.wordpress.com/2016/04/wizarding-world-of-harry-potter.jpg?w=769")
+            div.m-b-10.text-center
+                p.text-increased Большая картинка
+                img.book-img-biggest(src="http://skuttcatholicflightline.com/wp-content/uploads/2016/02/635890934224265787884431994_new-harry-potter-story-halloween.png")
+            .text-left.m-b-10
+                .video-small
+                    .video-wrap
+                        iframe(src='https://www.youtube.com/embed/eKSB0gXl9dw', frameborder='0', allowfullscreen='')
+            .text-right.m-b-10
+                .video-normal
+                    .video-wrap
+                        iframe(src='https://www.youtube.com/embed/eKSB0gXl9dw', frameborder='0', allowfullscreen='')
+            .text-center.m-b-10
+                .video-big
+                    .video-wrap
+                        iframe(src='https://www.youtube.com/embed/eKSB0gXl9dw', frameborder='0', allowfullscreen='')
+            .text-left.m-b-10
+                .video-verybig
+                    .video-wrap
+                        iframe(src='https://www.youtube.com/embed/eKSB0gXl9dw', frameborder='0', allowfullscreen='')
+            .text-left.m-b-10
+                .video-biggest
+                    .video-wrap
+                        iframe(src='https://www.youtube.com/embed/eKSB0gXl9dw', frameborder='0', allowfullscreen='')

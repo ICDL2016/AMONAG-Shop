@@ -1,0 +1,38 @@
+extends layouts/layout-lc
+block content
+    .container
+        form.lc
+            .lc__item
+                .lc__title Имя
+                .lc__content
+                    input(type="text",value='Иван',placeholder="Ваше имя")
+            .lc__item
+                .lc__title Фамилия
+                .lc__content
+                    input(type="text",value='Иванов',placeholder="Ваша фамилия")
+            .lc__item
+                .lc__title Отчество
+                .lc__content
+                    input(type="text",value='Иванович',placeholder="Ваше отчество")
+            .lc__item
+                .lc__title Дата рождения
+                .lc__content
+                    input(type="text",value='01.01.1980',placeholder="Ваша дата рождения")
+            .lc__item
+                .lc__title E-mail
+                .lc__content
+                    input(type="email",value='email@email.com',placeholder="Ваш e-mail")
+            .lc__item
+                .lc__title Телефон
+                .lc__content
+                    input(type="tel",value='+7 900 000 00 00',placeholder="Ваш номер телефона телефон")
+            .lc__item
+                .lc__title Skype
+                .lc__content
+                    input(type="text",value='Lognskype',placeholder="Ваш skype")
+            .lc__item
+                .lc__title Адрес
+                .lc__content
+                    input(type="text",value='Старан, Город, улица, дом',placeholder="Ваш адрес")
+            button.btn.btn-lg(type="submit") Сохранить профиль
+            a(href='') Отменить редактирование

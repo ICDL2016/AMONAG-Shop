@@ -1,0 +1,90 @@
+.filters.js-filters
+    a.fa.fa-close.js-filters-close
+    form.filters__search.filters-search
+        input(type="text", placeholder='Искать по названию')
+        button.fa.fa-arrow-right(type="submit")
+    form.filters__select-form
+        .filters__block.filters-block.js-filters-block
+            .filters-block__title Материалы
+            .filters-block__options
+                label
+                    input(type="radio", name="b", checked="checked").js-popular
+                    span.wide Популярные
+                label
+                    input(type="radio", name="b")
+                    span.wide Новые
+                label
+                    input(type="radio", name="b")
+                    span.wide По алфавиту
+        .filters__block.filters-block
+
+        .filters__block.filters-block.js-filters-block
+            .filters-block__title Материалы
+            .filters-block__options
+                label
+                    input(type="checkbox", name="q", checked="checked")
+                    span RU
+                label
+                    input(type="checkbox", name="q", checked="checked")
+                    span EN
+                label
+                    input(type="checkbox", name="q", checked="checked")
+                    span ES
+                label
+                    input(type="checkbox", name="q", checked="checked")
+                    span GE
+                label
+                    input(type="checkbox", name="q", checked="checked")
+                    span FR
+                label
+                    input(type="checkbox", name="q", checked="checked")
+                    span IT
+                label
+                    input(type="checkbox", name="q", checked="checked")
+                    span PO
+                label
+                    input(type="checkbox", name="q", checked="checked")
+                    span AR
+                label
+                    input(type="checkbox", name="q", checked="checked")
+                    span MA
+        .filters__block.filters-block.js-filters-block
+            .filters-block__title Тип
+            .filters-block__options
+                label
+                    input(type="checkbox", name="a", checked="checked")
+                    span Литература
+                label
+                    input(type="checkbox", name="a", checked="checked")
+                    span Учебники
+                label
+                    input(type="checkbox", name="a", checked="checked")
+                    span Фильмы
+                label
+                    input(type="checkbox", name="a", checked="checked")
+                    span Песни
+                label
+                    input(type="checkbox", name="a", checked="checked")
+                    span Диалоги
+                label
+                    input(type="checkbox", name="a", checked="checked")
+                    span Разное
+        .filters__block.filters-block.js-filters-block
+            .filters-block__title Уровень
+            .filters-block__options
+                label
+                    input(type="checkbox", name="b", checked="checked")
+                    span 0
+                label
+                    input(type="checkbox", name="b", checked="checked")
+                    span A
+                label
+                    input(type="checkbox", name="b", checked="checked")
+                    span B
+                label
+                    input(type="checkbox", name="b", checked="checked")
+                    span C
+            input(type="hidden",name="level")
+        button.btn.btn-lg.btn-2lg(type="submit") Искать
+        p.text-center
+            a(href="").js-clear-filters Отменить фильтр <br> (Показать все)

@@ -1,0 +1,31 @@
+extends layouts/layout
+block title
+    .page-title Контакты
+block content
+    .container
+        .text-center
+            .contacts
+                .contacts__title Написать в AMONAG
+                form.contacts__form
+                    input(type="text",placeholder='Имя')
+                    input(type="tel",placeholder='Телфон')
+                    input(type="email",placeholder='E-mail')
+                    textarea(placeholder='Сообщение')
+                    button.btn.btn-lg(type="submit") Отправить
+                .contacts__info Телефон: </br> +7 926 214 60 60
+                .contacts__info Адрес: </br> г. Москва, Проспект мира, 150
+                .socials
+                    a.social_fb(href="")
+                        i.fa.fa-facebook
+                    a.social_tw(href="")
+                        i.fa.fa-twitter
+                    a.social_in(href="")
+                        i.fa.fa-linkedin
+                    a.social_vk(href="")
+                        i.fa.fa-vk
+                    a.social_od(href="")
+                        i.fa.fa-odnoklassniki
+                    a.social_yt(href="")
+                        i.fa.fa-youtube
+                    a.social_inst(href="")
+                        i.fa.fa-instagram

@@ -1,0 +1,57 @@
+extends layouts/layout
+block content
+    .container
+        .product
+            .product__left-part
+                .product__img-wrap
+                    img(src="assets/i/product1.png")
+                .product__info
+                    .product__languages
+                        span RU
+                        span EN
+                        span ES
+                        span RU
+                        span EN
+                        span ES
+                        span RU
+                        span EN
+                        span ES
+                        span RU
+                        span EN
+                        span ES
+                    .product__likes
+                        span.product__likes-count 24
+                        .likes-wrap
+                            a.fa.fa-thumbs-o-up(href="#",title="Мне нравиться" )
+                    .product__price
+                        .product__price-left
+                            .product__price-old 6000
+                                i.fa.fa-rub
+                            .product__price-current 3000
+                                .fa.fa-rub
+                        .product__price-right
+                            a.fa.fa-folder-o(href="",title="Добавить в избранное")
+                form.product__form
+                    .product__form-in
+                        input(type="text", placeholder="Имя")
+                        input(type="email", placeholder="E-mail")
+                        .product__form-message.product__form-message_padding
+                            | Отправить на мой
+                            br
+                            | E-Mail ссылку для
+                            br
+                            | восстановления пароля
+                        input(type="password", placeholder="Пароль")
+                    button.btn.btn-lg(type="submit") Отправить
+                a(href='#') Комментарии
+            .product__right-part
+                .product__title Заголовок полного описания материала, содержащий до 250 символов.
+                .product__description
+                    p Полное описание материала объемом до 10000 символов с медиа данными (картинки, аудио, видео). Полное описание материала объемом до 10000 символов. материала объемом.
+                    b Аудио и видео материалы, размещенные на различных сайтах, обычно воспроизводятся так:
+                    p 1. На сайте есть собственный плеер;
+                    p 2. Воспроизведение возможно только на Вашем плеере, причем встречаются следующие случаи: файлы типа mp3, воспроизводимые на стандартном плеере Windows Media Player;
+                    p б) файлы, для воспроизведения которых требуется Real Player;
+                    p в) на выбор предлагается оба варианта воспроизведения.
+                    p Можете скачать здесь бесплатный плеер Real Alternative 1.51.
+                    p Скачать Real Alternative 1.51 ( 6,9 Мб). После скачивания (он не заархивирован) просто щелкнуть по его иконке, а потом лишь следовать установщику, нажимая на кнопку "Next".

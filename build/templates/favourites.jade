@@ -1,0 +1,72 @@
+extends layouts/layout
+block title
+    .page-title Избранное
+block content
+    .container-index
+        .catalog.catalog-other
+            .catalog__item
+                a(href="#").catalog__img-wrap
+                    img(src="assets/i/catalog1.png")
+                .catalog__text
+                    .catalog__languages
+                        span RU
+                        span EN
+                        span ES
+                    | Заголовок анонса материала, содержащий до 250 символов
+                .catalog__likes
+                    span.catalog__likes-count 24
+                    .likes-wrap
+                        a.fa.fa-thumbs-o-up(href="#",title="Мне нравиться" )
+                .catalog__price
+                    .catalog__price-left
+                        .catalog__price-old 6000
+                            i.fa.fa-rub
+                        .catalog__price-current 3000
+                            .fa.fa-rub
+                    .catalog__price-right
+                        a.fa.fa-folder-o(href="",title="Добавить в избранное")
+                a.btn.btn-lg.btn-block(href='') Читать
+            .catalog__item
+                a(href="#").catalog__img-wrap
+                    img(src="assets/i/catalog1.png")
+                .catalog__text
+                    .catalog__languages
+                        span RU
+                        span EN
+                        span ES
+                    | Заголовок анонса материала, содержащий до 250 символов
+                .catalog__likes
+                    span.catalog__likes-count 24
+                    .likes-wrap
+                        a.fa.fa-thumbs-o-up(href="#",title="Мне нравиться" )
+                .catalog__price
+                    .catalog__price-left
+                        .catalog__price-old 6000
+                            i.fa.fa-rub
+                        .catalog__price-current 3000
+                            .fa.fa-rub
+                    .catalog__price-right
+                        a.fa.fa-folder-o(href="",title="Добавить в избранное")
+                a.btn.btn-lg.btn-block(href='') Читать
+            .catalog__item
+                a(href="#").catalog__img-wrap
+                    img(src="assets/i/catalog1.png")
+                .catalog__text
+                    .catalog__languages
+                        span RU
+                        span EN
+                        span ES
+                    | Заголовок анонса материала, содержащий до 250 символов
+                .catalog__likes
+                    span.catalog__likes-count 24
+                    .likes-wrap
+                        a.fa.fa-thumbs-o-up.active(href="#",title="Мне нравиться" )
+                .catalog__price
+                    .catalog__price-left
+                        .catalog__price-old 6000
+                            i.fa.fa-rub
+                        .catalog__price-current 3000
+                            .fa.fa-rub
+                    .catalog__price-right
+                        a.fa.fa-folder-o.active(href="",title="Добавить в избранное")
+                a.btn.btn-lg.btn-block(href='') Читать

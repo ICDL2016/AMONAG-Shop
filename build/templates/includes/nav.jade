@@ -1,0 +1,32 @@
+.nav
+    .nav__authorization.authorization-tabs.js-tabs
+        .authorization-tabs__headings
+            .authorization-tabs__header.js-tabs-head.active.text-left Вход
+            .authorization-tabs__header.js-tabs-head Регистрация
+        .authorization-tabs__content
+            .authorization-tabs__item.js-tabs-item.active
+                form
+                    input(type="email",placeholder="E-mail")
+                    input(type="password",placeholder="Пароль")
+                    button(type="submit") Вход
+                    a.authorization-tabs__link(href="") Забыли пароль?
+            .authorization-tabs__item.js-tabs-item
+                form
+                    input(type="text",placeholder="Имя")
+                    input(type="email",placeholder="E-mail")
+                    button.registartion(type="submit") Регистрация
+
+    ul.nav__list
+        li.nav__item
+            a.nav__link.js-authorize(href="#") Вход
+        li.nav__item
+            a.nav__link(href="#") Контакты
+        li.nav__item
+            a.nav__link(href="#") О AMONAG
+        li.nav__item
+            a.nav__link(href="#") Блог AMONAG
+        li.nav__item
+            a.nav__link(href="#") Фильтрация
+    //.custom-search-input
+    //    input(type="text")
+    //    button(type="submit")

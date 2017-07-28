@@ -1,0 +1,357 @@
+.header-container {
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  z-index: 3;
+}
+
+.logo-ico {
+  &:hover {
+    transform: scale(1) !important;
+  }
+}
+
+.logo-content {
+  @media #{$phone-medium}{
+    display: none;
+  }
+}
+
+.header {
+  position: relative;
+  z-index: 3;
+  @extend %clearfix;
+  padding: 13px 28px 13px 43px;
+  background: rgba(#740000, 0.83);
+  @extend %transition;
+  text-align: center;
+  @media #{$phone}{
+    padding: 13px 10px 13px 24px;
+  }
+  &__navigation {
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 10px;
+    @media #{$phone}{
+      top: 60px
+    }
+    input {
+      margin-top: -1px;
+      padding: 0;
+      width: 44px;
+      font-size: 15px;
+    }
+    span {
+      color: #ccc;
+      margin-left: 4px;
+    }
+    .page-nav-wrap {
+      background: rgb(116, 0, 0);
+      display: inline-block;
+      vertical-align: middle;
+      padding: 4px 8px;
+      input {
+        padding: 0;
+      }
+    }
+
+    .nav-next {
+      @extend %transition;
+      position: absolute;
+      left: 100%;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 15px 0 15px 20px;
+      border-color: transparent transparent transparent #ccc;
+      &:hover {
+        border-color: transparent transparent transparent rgb(116, 0, 0);
+      }
+    }
+    .nav-prev {
+      @extend %transition;
+      position: absolute;
+      right: 100%;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 15px 20px 15px 0px;
+      border-color: transparent #ccc transparent transparent;
+      &:hover {
+        border-color: transparent rgb(116, 0, 0) transparent transparent;
+      }
+    }
+  }
+  &:hover {
+    background: rgba(#fff, 0.83);
+    .header__logo {
+      color: #800000;
+      path {
+        fill: #800000 !important;
+
+      }
+    }
+
+    .clicker {
+      color: #800000;
+    }
+    .fa {
+      color: #800000;
+    }
+    .page-title {
+      color: #800000;
+    }
+
+  }
+  color: #fff;
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .fa {
+    cursor: pointer;
+    color: #fff;
+  }
+
+  .fa-bars {
+    font-size: 1.7em;
+  }
+  .ico-search-new {
+    margin-right: 15px;
+    float: right;
+    margin-top: 8px;
+  }
+  .ico-user {
+    margin-right: 35px;
+    float: right;
+
+  }
+  &__book-actions {
+    cursor: pointer;
+    position: relative;
+    padding-left: 60px;
+    margin-left: 40px;
+    float: left;
+    @media #{$phone-medium}{
+      position: absolute;
+      left: -5px;
+    }
+    .fa {
+      font-size: 1.5em;
+      float: left;
+      margin-right: 20px;
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+  .book-avatar {
+    position: absolute;
+    left: 0;
+    top: -13px;
+    bottom: -16px;
+    width: 40px;
+    @extend %transition;
+    &:hover {
+      transform: scale(1.2);
+    }
+    img {
+      display: inline-block;
+      vertical-align: middle;
+      min-width: 100%;
+      max-height: 100%;
+    }
+    //@include vertical-center(40px, 44px);
+  }
+  &__logo {
+    float: left;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 21px;
+    line-height: 22px;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: -15px;
+    &:hover {
+      color: #fff;
+      font-weight: 700;
+    }
+    svg {
+      max-width: 110px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+  &__actions {
+    float: right;
+    line-height: 24px;
+  }
+  &__select {
+    float: right;
+    margin-left: 10px;
+    margin-right: -10px;
+  }
+  &__toggle {
+    float: right;
+    margin-left: 20px;
+  }
+  .fa-user {
+    font-size: 1.7em;
+    vertical-align: middle;
+    &.active {
+      position: absolute;
+      left: 50%;
+      margin-left: -10px;
+      top: 14px;
+    }
+  }
+  .fa-search {
+    margin-left: 20px;
+    font-size: 1.3em;
+    vertical-align: middle;
+    &.align {
+      vertical-align: bottom;
+    }
+    &.active {
+      transform: scale(1.7);
+      //@media #{$phone-min}{
+      //  position: absolute;
+      //  left: 50%;
+      //}
+    }
+  }
+}
+
+.book-nav {
+  @extend %transition;
+  position: fixed;
+  overflow-y: auto;
+  z-index: 2;
+  left: -310px;
+  top: 0;
+  width: 310px;
+  height: 100%;
+  padding-top: 48px;
+  //background: rgba(#841812, 0.85);
+  background: rgba(#740000, 0.83);
+  color: #fff;
+  .fa-plus {
+    display: none;
+    position: relative;
+    z-index: 3;
+    cursor: pointer;
+    font-size: 1.5em;
+    margin: 10px 0 0 20px;
+    &.active {
+      display: inline-block;
+    }
+  }
+  &.active {
+    left: 0;
+  }
+  &__sub {
+    display: none;
+  }
+  .ico-user {
+    z-index: 5;
+    position: fixed;
+    top: 13px;
+    left: 20px;
+  }
+  &__list {
+    padding-left: 0;
+    list-style: none;
+    margin-bottom: 20px;
+  }
+  &__item {
+    &.active {
+      color: #800000;
+      background: rgba(#e8d7d5, 0.9);
+      .book-nav__link {
+        color: #800000;
+        font-weight: bold;
+      }
+    }
+    &_content {
+      padding-bottom: 1px;
+    }
+  }
+
+  &__link {
+    display: block;
+    padding: 0 20px;
+    font-size: 20px;
+    line-height: 40px;
+    text-decoration: none;
+    color: #f2e6e6;
+    &:hover, &.active {
+      color: #800000;
+      background: rgba(#e8d7d5, 0.9);
+    }
+    span {
+      margin-left: 8px;
+      font-size: 16px;
+    }
+
+  }
+}
+
+.book-subnav-list {
+  padding: 0 20px 0 40px;
+  font-size: 18px;
+  line-height: 23px;
+  li {
+    margin-bottom: 5px;
+  }
+  &__item {
+    margin-bottom: 5px;
+    a {
+      display: inline-block;
+      vertical-align: middle;
+      padding: 4px;
+      min-width: 110px;
+      text-decoration: none;
+      background: #ffffff;
+    }
+  }
+  &__add {
+    text-decoration: none;
+    padding: 0 20px;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+  }
+}
+
+.book-subnav {
+  &__item {
+    margin-bottom: 10px;
+  }
+
+  &__title {
+    color: #800000;
+    padding: 0 20px;
+    display: block;
+    text-decoration: none;
+  }
+  &__link {
+    display: block;
+    padding: 0 20px 0 30px;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: #800000;
+    cursor: pointer;
+    &:hover, &.active {
+      color: #e8d7d5;
+      background: rgba(#800000, 0.9);
+    }
+    span {
+      margin-left: 8px;
+      font-size: 16px;
+    }
+
+  }
+}
