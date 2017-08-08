@@ -5081,6 +5081,14 @@ a {
 .item-masonry_post a:hover .item__title {
   color: #fff;
 }
+.item-masonry .item__description,
+.item-masonry_post .item__description {
+    font-size: 12px;
+    color: #808080;
+    line-height: 1.2;
+    padding-bottom: 5px;
+    display: block;
+}
 .item-masonry .item__content,
 .item-masonry_post .item__content {
   display: block;
