@@ -5086,6 +5086,12 @@ a {
   display: block;
   padding: 6px 8px;
 }
+.item-masonry a .item__lastrow {
+  padding: 5px 0 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 .item-masonry .item__type,
 .item-masonry_post .item__type,
 .item-masonry .item__level,
@@ -5093,14 +5099,20 @@ a {
   font-size: 12px;
   color: #808080;
   line-height: 1.2;
-  /*padding-bottom: 5px;*/
-  /*display: block;*/
 }
 .item-masonry a:hover .item__type,
 .item-masonry_post a:hover .item__type,
 .item-masonry a:hover .item__level,
 .item-masonry_post a:hover .item__level {
   color: #fff;
+}
+.item-masonry a span .item__type,
+.item-masonry_post a span .item__type {
+  display: inline-block;
+}
+.item-masonry a .item__level,
+.item-masonry_post a .item__level {
+  display: inline-block;
 }
 .item-masonry .lang__span,
 .item-masonry_post .lang__span {
