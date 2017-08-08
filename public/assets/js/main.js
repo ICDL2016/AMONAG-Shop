@@ -145,5 +145,30 @@ $(document).ready(function () {
     });
   }
 
+  $(document).on('click', '.js-languages-menu', function() {
+    $('.book-nav').removeClass('active');
+    $('.languages-nav').toggleClass('active');
+    if ($('body').hasClass('open-sidebar') && !$('.languages-nav').hasClass('active')) {
+      $('body').removeClass('open-sidebar');
+    }
+    else {
+      $('body').addClass('open-sidebar');
+    }
+  });
+
+
+
+  $(document).on('change', '.languages-nav select', function(){
+    $('.languages-nav button').addClass('active');
+  });
+
+  $(document).on('change', '.settings select, .settings input', function(){
+    $('.settings button').addClass('active');
+  });
+
+  $('.languages-form').on('change', function(){
+    $('.languages-nav button').addClass('active');
+  });
+
 
 });
