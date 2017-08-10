@@ -5093,7 +5093,7 @@ a {
 .item-masonry .item__title,.item-masonry_post .item__title {
   display: block;
   /*color: #802020;*/
-  color: #0B61A4;
+  color: rgba(26, 141, 26, 0.85);
   font-size: 15px;
   font-weight: bold;
   padding-bottom: 5px;
