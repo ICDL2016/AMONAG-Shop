@@ -2342,8 +2342,8 @@ html {
 
 body {
   height: 100%;
-  /*background: #ddd8da;*/
-  background-color: #808080;
+  background: #ddd8da;
+  /*background-color: #808080;*/
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   line-height: 22px; }
@@ -4843,8 +4843,8 @@ img.book-img-biggest {
 }
 
 .header .logo__block {
-    /*border-right: 2px solid #DDD8DA;*/
-    border-right: 2px solid #808080;
+    border-right: 2px solid #DDD8DA;
+    /*border-right: 2px solid #808080;*/
     padding: 0 7px;
     float: left;
     transition: 0.3s;
@@ -4911,8 +4911,8 @@ img.book-img-biggest {
 
 .nav__btn>li {
     float: left;
-    /*border-left: 2px solid #DDD8DA;*/
-    border-left: 2px solid #808080;
+    border-left: 2px solid #DDD8DA;
+    /*border-left: 2px solid #808080;*/
     height: 40px;
     width: 40px;
     position: relative;
@@ -5058,8 +5058,8 @@ a {
 
 .content {
   margin: 40px 0 0 0;
-  /*border-top: 2px solid #DDD8DA;*/
-  border-top: 2px solid #808080;
+  border-top: 2px solid #DDD8DA;
+  /*border-top: 2px solid #808080;*/
 }
 .sizer {
   width: 180px;
@@ -5075,10 +5075,10 @@ a {
 .item-masonry a, .item-masonry_post a {
   display: block;
   background: #f3f3f3;
-/*  border-left: 2px solid #DDD8DA;
-  border-bottom: 2px solid #DDD8DA;*/
-  border-left: 2px solid #808080;
-  border-bottom: 2px solid #808080;
+  border-left: 2px solid #DDD8DA;
+  border-bottom: 2px solid #DDD8DA;
+/*  border-left: 2px solid #808080;
+  border-bottom: 2px solid #808080;*/
   text-align: center;
   text-decoration: none;
   transition: 0.3s;
