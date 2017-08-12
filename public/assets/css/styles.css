@@ -2483,7 +2483,10 @@ a {
     text-decoration: none; }
 
 p {
-  margin-bottom: 20px; }
+  color: #666666;
+  line-height: 1.2;
+  font-size: 15px;
+  margin-bottom: 15px;}
 
 /* This is the default Tooltipster theme (feel free to modify or duplicate and create multiple themes!): */
 .tooltipster-default {
@@ -3622,6 +3625,8 @@ p {
 
 .socials {
   white-space: nowrap;
+  background-color: #fff;
+  padding-bottom: 15px;
   text-align: center; }
 
 .social_fb:hover {
@@ -5184,4 +5189,58 @@ a {
 .item-masonry .price__item .price {
   font-weight: bold;
   float: right;
+}
+
+/*About page*/
+
+.content {
+    margin: 40px 0 0 0;
+    border-top: 2px solid #808080;
+}
+
+.content__restaurant_bs {
+    overflow: hidden;
+}
+
+.amonag__content {
+    background: #fff;
+    padding: 10px;
+}
+
+.inside__content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.amonag__content h3 {
+    text-align: center;
+    color: #0B61A4;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 10px;
+}
+
+.justify__t {
+    text-align: justify;
+}
+
+div.justify__t.how_p {
+    color: #666666;
+    line-height: 1.2;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+
+.gallery__block {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.gallery__block.img__size_150-100 img, .gallery__block.img__size_210-140 img, .gallery__block.img__size_300-200 img {
+    width: auto;
+}
+
+.img__size_300-200 img {
+    width: 300px;
+    height: 200px;
 }
