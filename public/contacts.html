@@ -204,20 +204,62 @@
       <!--    input(type="text")-->
       <!--    button(type="submit")-->
     </div>
-      <div class="container">
+      <div class="content">
         <div class="text-center">
-          <div class="contacts">
-            <div class="contacts__title">Написать в AMONAG</div>
-            <form class="contacts__form">
-              <input type="text" placeholder="Имя">
-              <input type="tel" placeholder="Телфон">
-              <input type="email" placeholder="E-mail">
-              <textarea placeholder="Сообщение"></textarea>
-              <button type="submit" class="btn btn-lg">Отправить</button>
-            </form>
-            <div class="contacts__info">Телефон: </br> +7 926 214 60 60</div>
-            <div class="contacts__info">Адрес: </br> г. Москва, Проспект мира, 150</div>
-            <div class="socials"><a href="" class="social_fb"><i class="fa fa-facebook"></i></a><a href="" class="social_tw"><i class="fa fa-twitter"></i></a><a href="" class="social_in"><i class="fa fa-linkedin"></i></a><a href="" class="social_vk"><i class="fa fa-vk"></i></a><a href="" class="social_od"><i class="fa fa-odnoklassniki"></i></a><a href="" class="social_yt"><i class="fa fa-youtube"></i></a><a href="" class="social_inst"><i class="fa fa-instagram"></i></a></div>
+          <div class="amonag__content">
+            <div class="inside__content">
+              <h3>Контакты</h3>
+
+              <div class="contact__form">
+                <span class="write">Написать</span>
+                <p style="margin-bottom: 10px"><font class="errortext"></font></p>
+                <form name="SIMPLE_FORM_1" class="price-study" id="form_feed" action="/contacts/" method="POST" enctype="multipart/form-data">
+                  <input type="hidden" name="sessid" id="sessid" value="ce31ff3c31ed5d78f8da044894e6ed6e">
+                  <input type="hidden" name="WEB_FORM_ID" value="1">
+                  <input type="text" class="price-study__text" placeholder="Имя" id="name" name="form_text_1" value="" size="55">
+                  <div class="error-box top__min"></div>
+                  <input type="text" class="price-study__text" placeholder="Телефон" name="form_text_2" value="" size="0">
+                  <div class="error-box top__min"></div>
+                  <input type="email" id="email" class="price-study__text" placeholder="Email" name="form_email_3" value="" size="0">
+                  <div class="error-box top__min"></div>
+                  <textarea placeholder="Сообщение" name="form_textarea_4" cols="50" rows="3" class="price-study__text" id="message"></textarea>
+                  <div class="error-box top__min"></div>
+                  <input type="hidden" name="web_form_submit" value="Отправить">
+                  <input type="submit" name="button_submit" id="button_submit" onclick="if(!valid_order_form()){return false;}" value="Отправить">
+                </form>
+              </div>
+
+              <spanc class="calling">Позвонить</spanc>
+              <div class="phone__number">
+                Тел. +7 926 214 9090
+              </div>
+              <div class="consult">
+                Вас проконсультируют с 10 до 19 по мск:
+              </div>
+
+              <div class="specialist__block">
+                <div class="sp_bl">
+                  <img src="assets/img/anastasia.png" height="200" width="200" alt="Анастасия">
+                  <span>Анастасия</span>
+                </div>
+                <div class="sp_bl">
+                  <img src="assets/img/dmitry.png" alt="Дмитрий">
+                  <span>Дмитрий</span>
+                </div>
+                <div class="sp_bl">
+                  <img src="assets/img/yana.png" alt="Яна">
+                  <span>Яна</span>
+                </div>
+              </div>
+
+              <span class="address__txt">Адрес и схема проезда:</span>
+              <span class="address__map">
+                г. Москва, (ст. метро Международная), Пресненская наб., д. 6, стр. 2,
+                <br>
+                ММДЦ "Москва-Сити", Башня "Империя"
+                <br>
+              </span>
+            </div>
           </div>
         </div>
       </div>

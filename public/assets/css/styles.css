@@ -5244,3 +5244,124 @@ div.justify__t.how_p {
     width: 300px;
     height: 200px;
 }
+
+/*Contacts*/
+
+.contact__form {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact__form .write {
+    display: block;
+    padding-bottom: 10px;
+    color: #666;
+}
+
+p font.errortext, p font.notetext {
+    color: #0B61A4 !important;
+}
+
+.contact__form form {
+    background: #0B61A4;
+    overflow: hidden;
+    padding: 10px;
+    margin-bottom: 25px;
+    transition: 0.3s;
+}
+
+.contact__form input {
+    width: 100%;
+    padding: 8px 10px 7px;
+    border: 0;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    color: #808080;
+}
+
+.error-box {
+    text-align: left;
+    font-size: 12px;
+}
+
+.contact__form form .error-box {
+    color: #fff !important;
+}
+
+.contact__form_block textarea, .contact__form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    font-family: Arial;
+    padding: 10px;
+    border: none;
+    color: #808080;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.contact__form input[type="submit"] {
+    background: transparent;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+spanc.calling {
+    text-align: center;
+    display: block;
+    color: #666;
+    padding-bottom: 10px;
+}
+
+.phone__number {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0B61A4;
+    display: block;
+    text-align: center;
+}
+
+.consult {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 10px 0 15px;
+}
+
+.specialist__block {
+    width: 606px;
+    margin: 0 auto 25px;
+    overflow: hidden;
+}
+
+.specialist__block .sp_bl {
+    width: 200px;
+    float: left;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+    position: relative;
+}
+
+.specialist__block .sp_bl span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(11, 97, 164, 0.9);
+    padding: 10px 0;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.address__txt {
+    display: block;
+    text-align: center;
+    color: #666;
+    padding: 10px 0;
+}
