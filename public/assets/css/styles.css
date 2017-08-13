@@ -3527,7 +3527,7 @@ p {
     max-height: 100%; }
 
 .news__img {
-  background-color: #f2e6e6;
+  /*background-color: #f2e6e6;*/
   width: 250px;
   height: 170px;
   margin-bottom: 20px; }
@@ -3541,18 +3541,18 @@ p {
 .news__date {
   font-size: 15px;
   line-height: 40px;
-  color: #3b3b3b; }
+  color: #666; }
 
 .news__title {
   font-weight: bold;
   font-size: 18px;
   line-height: 20px;
-  color: #000000;
+  color: #0B61A4;
   text-decoration: none;
   display: block;
   margin-bottom: 8px; }
   .news__title:hover {
-    color: #800000; }
+    color: rgba(63, 146, 210, 0.8); }
 
 .news__type {
   margin-bottom: 20px;
