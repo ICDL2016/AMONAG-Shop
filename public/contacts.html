@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link type="text/css" rel="stylesheet" href="assets/css/styles.css">
-    <link rel="apple-touch-icon" sizes="57x57" href="assets/i/favicon/apple-touch-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="assets/i/favicon/apple-touch-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="assets/i/favicon/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="assets/i/favicon/apple-touch-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="assets/i/favicon/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="assets/i/favicon/apple-touch-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="assets/i/favicon/apple-touch-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="assets/i/favicon/apple-touch-icon-152x152.png">
-    <link rel="icon" type="image/png" href="assets/i/favicon/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="assets/i/favicon/favicon-96x96.png" sizes="96x96">
-    <link rel="icon" type="image/png" href="assets/i/favicon/favicon-16x16.png" sizes="16x16">
-    <link rel="manifest" href="assets/i/favicon/manifest.json">
-    <link rel="stylesheet" type="text/css" href="assets/css/plugins/jquery.fancybox.css">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="msapplication-TileImage" content="assets/i/favicon/mstile-144x144.png">
-    <meta name="theme-color" content="#800000">
-    <title>gulpApp</title>
-  </head>
-  <body>
-    <div class="wrapper">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="assets/css/styles.css">
+  <link rel="apple-touch-icon" sizes="57x57" href="assets/i/favicon/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="assets/i/favicon/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="assets/i/favicon/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="assets/i/favicon/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="assets/i/favicon/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="assets/i/favicon/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="assets/i/favicon/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="assets/i/favicon/apple-touch-icon-152x152.png">
+  <link rel="icon" type="image/png" href="assets/i/favicon/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="assets/i/favicon/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="assets/i/favicon/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="assets/i/favicon/manifest.json">
+  <link rel="stylesheet" type="text/css" href="assets/css/plugins/jquery.fancybox.css">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="assets/i/favicon/mstile-144x144.png">
+  <meta name="theme-color" content="#800000">
+  <title>gulpApp</title>
+</head>
+<body>
+  <div class="wrapper">
     <header class="header">
       <div class="inner__content">
         <div class="logo__block jQtooltip" title="Главная страница">
@@ -205,141 +205,141 @@
       <!--    input(type="text")-->
       <!--    button(type="submit")-->
     </div>
-      <div class="content">
-        <div class="text-center">
-          <div class="amonag__content">
-            <div class="inside__content">
-              <h3>Контакты</h3>
+    <div class="content">
+      <div class="text-center">
+        <div class="amonag__content">
+          <div class="inside__content">
+            <h3>Контакты</h3>
 
-              <div class="contact__form">
-                <span class="write">Написать</span>
-                <p style="margin-bottom: 10px"><font class="errortext"></font></p>
-                <form name="SIMPLE_FORM_1" class="price-study" id="form_feed" action="/contacts/" method="POST" enctype="multipart/form-data">
-                  <input type="hidden" name="sessid" id="sessid" value="ce31ff3c31ed5d78f8da044894e6ed6e">
-                  <input type="hidden" name="WEB_FORM_ID" value="1">
-                  <input type="text" class="price-study__text" placeholder="Имя" id="name" name="form_text_1" value="" size="55">
-                  <div class="error-box top__min"></div>
-                  <input type="text" class="price-study__text" placeholder="Телефон" name="form_text_2" value="" size="0">
-                  <div class="error-box top__min"></div>
-                  <input type="email" id="email" class="price-study__text" placeholder="Email" name="form_email_3" value="" size="0">
-                  <div class="error-box top__min"></div>
-                  <textarea placeholder="Сообщение" name="form_textarea_4" cols="50" rows="3" class="price-study__text" id="message"></textarea>
-                  <div class="error-box top__min"></div>
-                  <input type="hidden" name="web_form_submit" value="Отправить">
-                  <input type="submit" name="button_submit" id="button_submit" onclick="if(!valid_order_form()){return false;}" value="Отправить">
-                </form>
-              </div>
-
-              <spanc class="calling">Позвонить</spanc>
-              <div class="phone__number">
-                Тел. +7 926 214 9090
-              </div>
-              <div class="consult">
-                Вас проконсультируют с 10 до 19 по мск:
-              </div>
-
-              <div class="specialist__block">
-                <div class="sp_bl">
-                  <img src="assets/img/anastasia.png" height="200" width="200" alt="Анастасия">
-                  <span>Анастасия</span>
-                </div>
-                <div class="sp_bl">
-                  <img src="assets/img/dmitry.png" alt="Дмитрий">
-                  <span>Дмитрий</span>
-                </div>
-                <div class="sp_bl">
-                  <img src="assets/img/yana.png" alt="Яна">
-                  <span>Яна</span>
-                </div>
-              </div>
-
-              <span class="address__txt">Адрес и схема проезда:</span>
-              <span class="address__map">
-                г. Москва, (ст. метро Международная), Пресненская наб., д. 6, стр. 2,
-                <br>
-                ММДЦ "Москва-Сити", Башня "Империя"
-                <br>
-              </span>
+            <div class="contact__form">
+              <span class="write">Написать</span>
+              <p style="margin-bottom: 10px"><font class="errortext"></font></p>
+              <form name="SIMPLE_FORM_1" class="price-study" id="form_feed" action="/contacts/" method="POST" enctype="multipart/form-data">
+                <input type="hidden" name="sessid" id="sessid" value="ce31ff3c31ed5d78f8da044894e6ed6e">
+                <input type="hidden" name="WEB_FORM_ID" value="1">
+                <input type="text" class="price-study__text" placeholder="Имя" id="name" name="form_text_1" value="" size="55">
+                <div class="error-box top__min"></div>
+                <input type="text" class="price-study__text" placeholder="Телефон" name="form_text_2" value="" size="0">
+                <div class="error-box top__min"></div>
+                <input type="email" id="email" class="price-study__text" placeholder="Email" name="form_email_3" value="" size="0">
+                <div class="error-box top__min"></div>
+                <textarea placeholder="Сообщение" name="form_textarea_4" cols="50" rows="3" class="price-study__text" id="message"></textarea>
+                <div class="error-box top__min"></div>
+                <input type="hidden" name="web_form_submit" value="Отправить">
+                <input type="submit" name="button_submit" id="button_submit" onclick="if(!valid_order_form()){return false;}" value="Отправить">
+              </form>
             </div>
+
+            <spanc class="calling">Позвонить</spanc>
+            <div class="phone__number">
+              Тел. +7 926 214 9090
+            </div>
+            <div class="consult">
+              Вас проконсультируют с 10 до 19 по мск:
+            </div>
+
+            <div class="specialist__block">
+              <div class="sp_bl">
+                <img src="assets/img/anastasia.png" height="200" width="200" alt="Анастасия">
+                <span>Анастасия</span>
+              </div>
+              <div class="sp_bl">
+                <img src="assets/img/dmitry.png" alt="Дмитрий">
+                <span>Дмитрий</span>
+              </div>
+              <div class="sp_bl">
+                <img src="assets/img/yana.png" alt="Яна">
+                <span>Яна</span>
+              </div>
+            </div>
+
+            <span class="address__txt">Адрес и схема проезда:</span>
+            <span class="address__map">
+              г. Москва, (ст. метро Международная), проспект Мира, д. 150
+              <br>
+              гостиница "Космос"
+              <br>
+            </span>
           </div>
-          <div class="map">
-            <iframe src="https://yandex.ru/map-widget/v1/-/CBUQaIBJLA" width="100%" height="400" frameborder="0"></iframe>
-          </div>
-          <div class="wrap__item bg__white" style="position: relative; height: 0px;">
-            <ul class="contact__images img__size_300-200">
-              <li>
-                <a class="fancybox" href="assets/img/contacts1.jpg" data-fancybox-group="gallery">
-                  <img src="assets/img/contacts1.jpg">
-                </a>
-              </li>
-              <li>
-                <a class="fancybox" href="assets/img/contacts2.jpg" data-fancybox-group="gallery">
-                  <img src="assets/img/contacts2.jpg">
-                </a>
-              </li>
-              <li>
-                <a class="fancybox" href="assets/img/contacts3.jpg" data-fancybox-group="gallery">
-                  <img src="assets/img/contacts3.jpg">
-                </a>
-              </li>
-              <li>
-                <a class="fancybox" href="assets/img/contacts4.jpg" data-fancybox-group="gallery">
-                  <img src="assets/img/contacts4.jpg">
-                </a>
-              </li>
-              <li>
-                <a class="fancybox" href="assets/img/contacts5.jpg" data-fancybox-group="gallery">
-                  <img src="assets/img/contacts5.jpg">
-                </a>
-              </li>
-              <li>
-                <a class="fancybox" href="assets/img/contacts6.jpg" data-fancybox-group="gallery">
-                  <img src="assets/img/contacts6.jpg">
-                </a>
-              </li>
-              <li>
-                <a class="fancybox" href="assets/img/contacts1.jpg" data-fancybox-group="gallery">
-                  <img src="assets/img/contacts7.jpg">
-                </a>
-              </li>
-              <li>
-                <a class="fancybox" href="assets/img/contacts2.jpg" data-fancybox-group="gallery">
-                  <img src="assets/img/contacts8.jpg">
-                </a>
-              </li>
-              <li>
-                <a class="fancybox" href="assets/img/contacts3.jpg" data-fancybox-group="gallery">
-                  <img src="assets/img/contacts9.jpg">
-                </a>
-              </li>
-              <li>
-                <a class="fancybox" href="assets/img/contacts4.jpg" data-fancybox-group="gallery">
-                  <img src="assets/img/contacts10.jpg">
-                </a>
-              </li>
-              <li>
-                <a class="fancybox" href="assets/img/contacts5.jpg" data-fancybox-group="gallery">
-                  <img src="assets/img/contacts11.jpg">
-                </a>
-              </li>
-              <li>
-                <a class="fancybox" href="assets/img/contacts6.jpg" data-fancybox-group="gallery">
-                  <img src="assets/img/contacts12.jpg">
-                </a>
-              </li>
-            </ul>
-          </div>
+        </div>
+        <div class="map">
+          <iframe src="https://yandex.ru/map-widget/v1/-/CBUQaIBJLA" width="100%" height="400" frameborder="0"></iframe>
+        </div>
+        <div class="wrap__item bg__white" style="position: relative; height: 0px;">
+          <ul class="contact__images img__size_300-200">
+            <li>
+              <a class="fancybox" href="assets/img/contacts1.jpg" data-fancybox-group="gallery">
+                <img src="assets/img/contacts1.jpg">
+              </a>
+            </li>
+            <li>
+              <a class="fancybox" href="assets/img/contacts2.jpg" data-fancybox-group="gallery">
+                <img src="assets/img/contacts2.jpg">
+              </a>
+            </li>
+            <li>
+              <a class="fancybox" href="assets/img/contacts3.jpg" data-fancybox-group="gallery">
+                <img src="assets/img/contacts3.jpg">
+              </a>
+            </li>
+            <li>
+              <a class="fancybox" href="assets/img/contacts4.jpg" data-fancybox-group="gallery">
+                <img src="assets/img/contacts4.jpg">
+              </a>
+            </li>
+            <li>
+              <a class="fancybox" href="assets/img/contacts5.jpg" data-fancybox-group="gallery">
+                <img src="assets/img/contacts5.jpg">
+              </a>
+            </li>
+            <li>
+              <a class="fancybox" href="assets/img/contacts6.jpg" data-fancybox-group="gallery">
+                <img src="assets/img/contacts6.jpg">
+              </a>
+            </li>
+            <li>
+              <a class="fancybox" href="assets/img/contacts1.jpg" data-fancybox-group="gallery">
+                <img src="assets/img/contacts7.jpg">
+              </a>
+            </li>
+            <li>
+              <a class="fancybox" href="assets/img/contacts2.jpg" data-fancybox-group="gallery">
+                <img src="assets/img/contacts8.jpg">
+              </a>
+            </li>
+            <li>
+              <a class="fancybox" href="assets/img/contacts3.jpg" data-fancybox-group="gallery">
+                <img src="assets/img/contacts9.jpg">
+              </a>
+            </li>
+            <li>
+              <a class="fancybox" href="assets/img/contacts4.jpg" data-fancybox-group="gallery">
+                <img src="assets/img/contacts10.jpg">
+              </a>
+            </li>
+            <li>
+              <a class="fancybox" href="assets/img/contacts5.jpg" data-fancybox-group="gallery">
+                <img src="assets/img/contacts11.jpg">
+              </a>
+            </li>
+            <li>
+              <a class="fancybox" href="assets/img/contacts6.jpg" data-fancybox-group="gallery">
+                <img src="assets/img/contacts12.jpg">
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
-  </body>
-  <script src="assets/js/plugins/jquery-1.11.2.min.js"></script>
-  <script src="assets/js/plugins/waypoints.min.js"></script>
-  <script src="assets/js/plugins/animate-css.js"></script>
-  <script src="assets/js/plugins/plugins-scroll.js"></script>
-  <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
-  <script src="assets/js/plugins/masonry.pkgd.min.js"></script>
-  <script src="assets/js/plugins/jquery.fancybox.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/common.js"></script>
+  </div>
+</body>
+<script src="assets/js/plugins/jquery-1.11.2.min.js"></script>
+<script src="assets/js/plugins/waypoints.min.js"></script>
+<script src="assets/js/plugins/animate-css.js"></script>
+<script src="assets/js/plugins/plugins-scroll.js"></script>
+<script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+<script src="assets/js/plugins/masonry.pkgd.min.js"></script>
+<script src="assets/js/plugins/jquery.fancybox.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/common.js"></script>
 </html>
