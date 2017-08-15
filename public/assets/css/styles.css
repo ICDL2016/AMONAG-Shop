@@ -2405,7 +2405,7 @@ input:not([type="submit"]):not([type="button"]), textarea {
   padding: 6px 10px 4px;
   border: 1px solid #e6e6e6;
   font-size: 16px;
-  color: #800000; }
+  color: #808080; }
   input:not([type="submit"]):not([type="button"]) ::-webkit-input-placeholder, textarea ::-webkit-input-placeholder {
     color: #888;
     font-weight: normal; }
@@ -5397,3 +5397,58 @@ spanc.calling {
     display: inline-block;
     margin: 4px 2px;
 }
+
+/* LC */
+
+.more__curs {
+  margin: 0 -10px;
+  text-align: center;
+  padding: 11px 0 10px;
+  color: #fff;
+  background: #808080;
+  line-height: 1;
+  font-size: 17px;
+}
+
+.user__info {
+    padding: 10px 0 15px;
+    text-align: center;
+}
+
+.user__info span {
+    display: block;
+    color: #666;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.quest__btn {
+    display: block;
+    width: 280px;
+    text-align: center;
+    color: #fff !important;
+    font-weight: bold;
+    font-size: 18px;
+    background: rgba(11, 97, 164, 0.9);
+    margin: 0 auto 10px;
+    text-decoration: none;
+    padding: 12px 0 10px;
+    line-height: 1.3;
+    transition: 0.3s;
+}
+
+.quest__btn:hover {
+  background: rgba(63, 146, 210, 0.8);
+}
+
+a.forgot__password {
+    color: #666;
+    text-decoration: underline;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+a.forgot__password:hover {
+  color: rgba(11, 97, 164, 0.9);
+};

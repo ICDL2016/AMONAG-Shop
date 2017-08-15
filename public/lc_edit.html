@@ -204,59 +204,37 @@
       <!--    input(type="text")-->
       <!--    button(type="submit")-->
     </div>
-      <div class="container">
-        <form class="lc">
-          <div class="lc__item">
-            <div class="lc__title">Имя</div>
-            <div class="lc__content">
-              <input type="text" value="Иван" placeholder="Ваше имя">
-            </div>
+    <div class="content">
+      <div class="amonag__content">
+        <div class="inside__content">
+          <div class="err profile" style="text-align:center;">
           </div>
-          <div class="lc__item">
-            <div class="lc__title">Фамилия</div>
-            <div class="lc__content">
-              <input type="text" value="Иванов" placeholder="Ваша фамилия">
-            </div>
+          <h3>Редактирование профиля</h3>
+          <div class="contact__form">
+            <form method="post" name="form1" id="form1" action="/personal/#profile" enctype="multipart/form-data">
+              <input type="hidden" name="sessid" id="sessid" value="">
+              <!--input type="hidden" name="lang" value="ru" /-->
+              <input type="hidden" name="ID" value="">
+              <input type="hidden" name="LOGIN" value="">
+              <input type="hidden" name="save_profile" value="Сохранить настройки профиля">
+              <input type="hidden" name="action" value="edit">
+
+              <input id="name" type="text" name="NAME" value="Иван" placeholder="Имя">
+              <div class="error-box top__min"></div>
+              <input type="text" name="LAST_NAME" value="Иванов" placeholder="Фамилия">
+              <input type="text" name="PERSONAL_BIRTHDAY" value="" placeholder="Дата рождения">
+              <input id="email" type="email" name="EMAIL" value="ivanov@mail.ru" placeholder="E-mail">
+              <div class="error-box top__min"></div>
+              <input type="tel" name="PERSONAL_PHONE" value="" placeholder="Телефон">
+              <input type="text" name="UF_ADDRESS" value="371823754" placeholder="Адрес">
+
+              <input type="submit" value="Сохранить профиль">
+            </form>
+            <a class="forgot__password" href="/personal/">Отменить редактирование</a>
           </div>
-          <div class="lc__item">
-            <div class="lc__title">Отчество</div>
-            <div class="lc__content">
-              <input type="text" value="Иванович" placeholder="Ваше отчество">
-            </div>
-          </div>
-          <div class="lc__item">
-            <div class="lc__title">Дата рождения</div>
-            <div class="lc__content">
-              <input type="text" value="01.01.1980" placeholder="Ваша дата рождения">
-            </div>
-          </div>
-          <div class="lc__item">
-            <div class="lc__title">E-mail</div>
-            <div class="lc__content">
-              <input type="email" value="email@email.com" placeholder="Ваш e-mail">
-            </div>
-          </div>
-          <div class="lc__item">
-            <div class="lc__title">Телефон</div>
-            <div class="lc__content">
-              <input type="tel" value="+7 900 000 00 00" placeholder="Ваш номер телефона телефон">
-            </div>
-          </div>
-          <div class="lc__item">
-            <div class="lc__title">Skype</div>
-            <div class="lc__content">
-              <input type="text" value="Lognskype" placeholder="Ваш skype">
-            </div>
-          </div>
-          <div class="lc__item">
-            <div class="lc__title">Адрес</div>
-            <div class="lc__content">
-              <input type="text" value="Старан, Город, улица, дом" placeholder="Ваш адрес">
-            </div>
-          </div>
-          <button type="submit" class="btn btn-lg">Сохранить профиль</button><a href="">Отменить редактирование</a>
-        </form>
+        </div>
       </div>
+    </div>
     </div>
   </body>
   <script src="assets/js/plugins/jquery-1.11.2.min.js"></script>
