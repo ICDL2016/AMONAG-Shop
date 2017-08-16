@@ -5271,8 +5271,7 @@ p font.errortext, p font.notetext {
     transition: 0.3s;
 }
 
-.contact__form form:hover,
-.contact__form input:hover {
+.contact__form form:hover {
     background: rgba(11, 97, 164, 0.9);
 }
 
