@@ -2404,7 +2404,7 @@ body {
 input:not([type="submit"]):not([type="button"]), textarea {
   padding: 6px 10px 4px;
   border: 1px solid #e6e6e6;
-  font-size: 16px;
+  font-size: 14px;
   color: #808080; }
   input:not([type="submit"]):not([type="button"]) ::-webkit-input-placeholder, textarea ::-webkit-input-placeholder {
     color: #888;
@@ -5269,6 +5269,11 @@ p font.errortext, p font.notetext {
     padding: 10px;
     margin-bottom: 25px;
     transition: 0.3s;
+}
+
+.contact__form form:hover,
+.contact__form input:hover {
+    background: rgba(11, 97, 164, 0.9);
 }
 
 .contact__form input {
