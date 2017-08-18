@@ -5086,6 +5086,9 @@ a {
   text-decoration: none;
   transition: 0.3s;
 }
+.favourites a {
+  border-bottom: none;
+}
 .item-masonry a:hover, .item-masonry_post a:hover {
   background-color: #3F92D2;
 }
@@ -5153,14 +5156,19 @@ a {
   color: #808080;
   line-height: 1.2;
   font-size: 12px;
-/*  border-top: 1px solid #9d9d9d;
-  border-bottom: 1px solid #9d9d9d;*/
   margin-bottom: 4px;
 }
 .item-masonry a:hover .lang__span,
 .item-masonry_post a:hover .lang__span {
   border-color: #9d7266;
   color: #c9c0c0;
+}
+.item-masonry a .lang__span .lang__audio {
+  background: url(../img/lang-audio2.png) center no-repeat;
+}
+.item-masonry a:hover .lang__span .lang__audio,
+.item-masonry_post a:hover .lang__span .lang__audio{
+  background: url(../img/lang-audio3.png) center no-repeat;
 }
 .item-masonry a:hover .price__item {
   color: #fff;
@@ -5452,12 +5460,8 @@ a.forgot__password:hover {
 
 /* Favourites */
 
-.item-masonry.sizer.favourites {
-  border-bottom: none !important;
-}
-
-.item-masonry.sizer.favourites:hover {
-  background-color: #fff;
+.item-masonry a {
+  border-bottom: none;
 }
 
 .item__content .lang__span .lang__audio {
