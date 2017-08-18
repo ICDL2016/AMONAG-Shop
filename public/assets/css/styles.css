@@ -5117,7 +5117,6 @@ a {
 .item-masonry_post .item__content {
   display: block;
   padding: 6px 8px;
-  background-color: #fff;
 }
 .item-masonry a .item__lastrow {
   padding: 5px 0 3px;
@@ -5457,6 +5456,10 @@ a.forgot__password:hover {
   border-bottom: none !important;
 }
 
+.item-masonry.sizer.favourites:hover {
+  background-color: #fff;
+}
+
 .item__content .lang__span .lang__audio {
     min-width: 16px;
     background: url(../img/lang-audio2.png) center no-repeat;
@@ -5466,11 +5469,6 @@ a.forgot__password:hover {
   font-size: 14px;
   line-height: 1.2;
   text-align: left;
-}
-
-.item__title.title__favourites:hover {
-  background-color: #fff;
-  color: #0B61A4;
 }
 
 .item__price {
