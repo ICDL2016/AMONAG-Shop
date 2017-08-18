@@ -5170,7 +5170,9 @@ a {
 .item-masonry_post a:hover .lang__span .lang__audio{
   background: url(../img/lang-audio3.png) center no-repeat;
 }
-.item-masonry a:hover .price__item {
+.item-masonry a:hover .price__item,
+.item-masonry a:hover .item__subscribe,
+.item-masonry_post a:hover .item__subscribe {
   color: #fff;
 }
 .item-masonry .lang__span span {
@@ -5497,6 +5499,19 @@ a.forgot__password:hover {
   font-weight: bold;
 }
 
+.price__old {
+  font-size: 15px;
+  line-height: 20px;
+  color: #808080;
+  text-decoration: line-through;
+}
+
+.sub__old {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .to__favourites:hover {
   cursor: pointer;
   transform: scale(1.1);
@@ -5505,6 +5520,12 @@ a.forgot__password:hover {
 span.fa.fa-rub {
   font-weight: bold;
   font-size: 16px;
+}
+
+span.fa.fa-rub.old {
+  font-weight: normal;
+  font-size: 15px;
+  text-decoration: line-through;
 }
 
 span.fa.fa-folder-o:before {
@@ -5525,4 +5546,15 @@ span.fa.fa-folder-o.active:before {
 
 .item-masonry .btn.btn-block:hover {
   background-color: rgba(63, 146, 210, 0.8)
+}
+
+.item__subscribe {
+  display: block;
+  text-align: center;
+  color: #808080;
+  padding: 5px;
+}
+
+.hidden {
+  display: none;
 }
