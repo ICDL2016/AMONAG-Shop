@@ -5064,7 +5064,6 @@ a {
 
 .content {
   margin: 40px 0 0 0;
-  /*border-top: 2px solid #DDD8DA;*/
   border-top: 2px solid #808080;
 }
 .sizer {
@@ -5081,8 +5080,6 @@ a {
 .item-masonry a, .item-masonry_post a {
   display: block;
   background: #f3f3f3;
-/*  border-left: 2px solid #DDD8DA;
-  border-bottom: 2px solid #DDD8DA;*/
   border-left: 2px solid #808080;
   border-bottom: 2px solid #808080;
   text-align: center;
@@ -5090,15 +5087,10 @@ a {
   transition: 0.3s;
 }
 .item-masonry a:hover, .item-masonry_post a:hover {
-  /*background-color: #902B1A;*/
   background-color: #3F92D2;
-}
-.item-masonry a:hover .rating span {
-  color: #fff;
 }
 .item-masonry .item__title,.item-masonry_post .item__title {
   display: block;
-  /*color: #802020;*/
   color: #0B61A4;
   font-size: 15px;
   font-weight: bold;
@@ -5145,7 +5137,6 @@ a {
 .item-masonry_post a:hover .item__type,
 .item-masonry a:hover .item__level,
 .item-masonry_post a:hover .item__level {
-  /*color: #c9c0c0;*/
   color: #fff;
 }
 .item-masonry a span .item__type,
@@ -5176,7 +5167,8 @@ a {
   color: #fff;
 }
 .item-masonry .lang__span span {
-  padding: 0 2px;
+  line-height: 2;
+  padding: 5px 6px;
 }
 .item-masonry .price__item {
   font-size: 13px;
@@ -5461,14 +5453,24 @@ a.forgot__password:hover {
 
 /* Favourites */
 
-.item-masonry .favourites__link {
+.item-masonry.sizer.favourites {
   border-bottom: none !important;
+}
+
+.item__content .lang__span .lang__audio {
+    min-width: 16px;
+    background: url(../img/lang-audio2.png) center no-repeat;
 }
 
 .item__title.title__favourites {
   font-size: 14px;
   line-height: 1.2;
   text-align: left;
+}
+
+.item__title.title__favourites:hover {
+  background-color: #fff;
+  color: #0B61A4;
 }
 
 .item__price {
@@ -5485,6 +5487,7 @@ a.forgot__password:hover {
 .price__current, .to__favourites {
   display: inline-block;
   font-size: 18px;
+  font-weight: bold;
 }
 
 .price__current {
@@ -5495,6 +5498,11 @@ a.forgot__password:hover {
 .to__favourites:hover {
   cursor: pointer;
   transform: scale(1.1);
+}
+
+span.fa.fa-rub {
+  font-weight: bold;
+  font-size: 16px;
 }
 
 span.fa.fa-folder-o:before {
