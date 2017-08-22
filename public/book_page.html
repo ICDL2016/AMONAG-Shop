@@ -94,6 +94,128 @@
           </ul>
         </div>
 
+        <div class="filters js-filters"><a class="fa fa-close js-filters-close"></a>
+          <form class="filters__search filters-search">
+            <input type="text" placeholder="Искать по названию">
+            <button type="submit" class="fa fa-arrow-right"></button>
+          </form>
+          <form class="filters__select-form">
+            <div class="filters__block filters-block js-filters-block">
+              <div class="filters-block__title">Материалы</div>
+              <div class="filters-block__options">
+                <label>
+                  <input type="radio" name="b" checked="checked" class="js-popular"><span class="wide">Популярные</span>
+                </label>
+                <label>
+                  <input type="radio" name="b"><span class="wide">Новые</span>
+                </label>
+                <label>
+                  <input type="radio" name="b"><span class="wide">По алфавиту</span>
+                </label>
+              </div>
+            </div>
+            <div class="filters__block filters-block"></div>
+            <div class="filters__block filters-block js-filters-block">
+              <div class="filters-block__title">Материалы</div>
+              <div class="filters-block__options">
+                <label>
+                  <input type="checkbox" name="q" checked="checked"><span>RU</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="q" checked="checked"><span>EN</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="q" checked="checked"><span>ES</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="q" checked="checked"><span>GE</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="q" checked="checked"><span>FR</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="q" checked="checked"><span>IT</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="q" checked="checked"><span>PO</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="q" checked="checked"><span>AR</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="q" checked="checked"><span>MA</span>
+                </label>
+              </div>
+            </div>
+            <div class="filters__block filters-block js-filters-block">
+              <div class="filters-block__title">Тип</div>
+              <div class="filters-block__options">
+                <label>
+                  <input type="checkbox" name="a" checked="checked"><span>Литература</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="a" checked="checked"><span>Учебники</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="a" checked="checked"><span>Фильмы</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="a" checked="checked"><span>Песни</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="a" checked="checked"><span>Диалоги</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="a" checked="checked"><span>Разное</span>
+                </label>
+              </div>
+            </div>
+            <div class="filters__block filters-block js-filters-block">
+              <div class="filters-block__title">Уровень</div>
+              <div class="filters-block__options">
+                <label>
+                  <input type="checkbox" name="b" checked="checked"><span>0</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="b" checked="checked"><span>A</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="b" checked="checked"><span>B</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="b" checked="checked"><span>C</span>
+                </label>
+              </div>
+              <input type="hidden" name="level">
+            </div>
+            <button type="submit" class="btn btn-lg btn-2lg">Искать</button>
+            <p class="text-center"><a href="" class="js-clear-filters">Отменить фильтр <br> (Показать все)</a></p>
+          </form>
+        </div>
+        <div class="nav">
+          <div class="nav__authorization authorization-tabs js-tabs">
+            <div class="authorization-tabs__headings">
+              <div class="authorization-tabs__header js-tabs-head active text-left">Вход</div>
+              <div class="authorization-tabs__header js-tabs-head">Регистрация</div>
+            </div>
+            <div class="authorization-tabs__content">
+              <div class="authorization-tabs__item js-tabs-item active">
+                <form>
+                  <input type="email" placeholder="E-mail">
+                  <input type="password" placeholder="Пароль">
+                  <button type="submit">Вход</button><a href="" class="authorization-tabs__link">Забыли пароль?</a>
+                </form>
+              </div>
+              <div class="authorization-tabs__item js-tabs-item">
+                <form>
+                  <input type="text" placeholder="Имя">
+                  <input type="email" placeholder="E-mail">
+                  <button type="submit" class="registartion">Регистрация</button>
+                </form>
+              </div>
+            </div>
+          </div>
+
         <div class="book-nav left__sidebar_box ">
           <div class="inside__sidebar_box">
 
@@ -656,7 +778,14 @@
   <script src="assets/js/main.js"></script>
   <script src="assets/js/common.js"></script>
 
-  <!--<script>
+  <script>
+    $(document).ready(function(){
+      $urlString = window.location.href;
+      $countLangs = ($urlString.split("select_langs").length - 1);
+      $('.container_book-out').css('min-width', 350 * $countLangs);
+    });
+  </script>
+  <script>
       $('.content__box').each(function() {
           $(this).find('.tab__box').eq($(this).parents('.content__tb').find('.active').index()).css('display', 'block');
       });
@@ -671,7 +800,7 @@
       $('.settings__span .st__btn, .set__tab_content span').click(function () {
           $('.setting__block').slideToggle(400);
       });
-  </script> -->
+  </script>
 
 </body>
 
