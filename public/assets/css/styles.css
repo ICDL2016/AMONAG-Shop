@@ -6178,7 +6178,7 @@ span.fa.fa-folder-o.active:before {
   color: #fff;
   text-decoration: none;
   display: inline-block;
-  background: #e64e25;
+  background: rgba(11, 97, 164, 1);
   padding: 5px 10px;
 }
 .inside__tab {
@@ -6517,7 +6517,7 @@ h1 a, h2 a, h3 a, h4 a {
 }
 
 .settings-div {
-    padding-left: 30px;
+    padding-left: 10px;
 }
 
 .settings-div:hover {

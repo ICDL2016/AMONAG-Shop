@@ -192,6 +192,7 @@
             <p class="text-center"><a href="" class="js-clear-filters">Отменить фильтр <br> (Показать все)</a></p>
           </form>
         </div>
+
         <div class="nav">
           <div class="nav__authorization authorization-tabs js-tabs">
             <div class="authorization-tabs__headings">
@@ -216,204 +217,205 @@
             </div>
           </div>
 
-        <div class="book-nav left__sidebar_box ">
-          <div class="inside__sidebar_box">
+          <div class="book-nav left__sidebar_box ">
+            <div class="inside__sidebar_box">
 
-            <div class="settings-div settings__span rel">
-              <span class=" st__btn">Настройки</span>
-              <i class="fa fa-question hint" aria-hidden="true">
-                <span>
-                  <b class="close">x</b>
-                  Press to choose languages and adjust text view
-                </span>
-              </i>
-            </div>
+              <div class="settings-div settings__span rel">
+                <span class=" st__btn">Настройки</span>
+                <i class="fa fa-question hint" aria-hidden="true">
+                  <span>
+                    <b class="close">x</b>
+                    Press to choose languages and adjust text view
+                  </span>
+                </i>
+              </div>
 
-            <div class="setting__block">
-              <div class="languages-nav__list inside__tab">
-                <div class="book-nav__item js-slide-parent">
-                  <form method="get" class="js-languages-list">
-                    <input type="hidden" name="book" value="471">
-                    <input type="hidden" name="order" value="394">
-                    <input id="open_sidebar" type="hidden" name="open_sidebar" value="">
-                    <input id="section_id" type="hidden" name="section_id" value="102">
-                    <input id="input_lang" type="hidden" name="lang" value="389">
-                    <input type="hidden" name="action" value="">
+              <div class="setting__block">
+                <div class="languages-nav__list inside__tab">
+                  <div class="book-nav__item js-slide-parent">
+                    <form method="get" class="js-languages-list">
+                      <input type="hidden" name="book" value="471">
+                      <input type="hidden" name="order" value="394">
+                      <input id="open_sidebar" type="hidden" name="open_sidebar" value="">
+                      <input id="section_id" type="hidden" name="section_id" value="102">
+                      <input id="input_lang" type="hidden" name="lang" value="389">
+                      <input type="hidden" name="action" value="">
 
-                    <div class="set__tab_content">
-                      <span>Настройки</span>
-                      <a href="#">Применить</a>
-                    </div>
-                    <span class="settings__span">Языки<i class="fa fa-question hint" aria-hidden="true">
-                      <span class="leng__hint">
-                        <b class="close">x</b>
-                        В списке языков первым выберите тот язык, который хотите изучать.<br>
-                        Аудио будет проигрываться на этом языке. Второй язык – это язык основного перевода.<br>
-                        Третий и последующие языки – это языки дополнительных переводов.<br>
-                        Выберите их, если хотите изучать более одного языка.
+                      <div class="set__tab_content">
+                        <span>Настройки</span>
+                        <a href="#">Применить</a>
+                      </div>
+                      <span class="settings__span">Языки <i class="fa fa-question hint" aria-hidden="true">
+                        <span class="leng__hint">
+                          <b class="close">x</b>
+                          В списке языков первым выберите тот язык, который хотите изучать.<br>
+                          Аудио будет проигрываться на этом языке. Второй язык – это язык основного перевода.<br>
+                          Третий и последующие языки – это языки дополнительных переводов.<br>
+                          Выберите их, если хотите изучать более одного языка.
+                        </span>
+                        </i>
                       </span>
-                      </i>
-                    </span>
 
-                    <ol class="select__block">
-                      <li class="js-lang-item">
-                        <div class="select-wrap">
-                          <select name="select_langs[]" class="js-lang-select">
-                            <option value="389" selected="selected">EN (English)</option>
-                            <option value="388">RU (Русский)</option>
-                          </select>
-                        </div>
-                        <span class="js-del-lang">
-                          <i class="fa fa-minus" title="Убрать язык из отображения"></i>
-                        </span>
-                      </li>
-                      <li class="js-lang-item">
-                        <div class="select-wrap">
-                          <select name="select_langs[]" class="js-lang-select">
-                            <option value="388" selected="selected">RU (Русский)</option>
-                          </select>
-                        </div>
-                        <span class="js-del-lang">
-                          <i class="fa fa-minus" title="Убрать язык из отображения"></i>
-                        </span>
-                      </li>
-                    </ol>
+                      <ol class="select__block">
+                        <li class="js-lang-item">
+                          <div class="select-wrap">
+                            <select name="select_langs[]" class="js-lang-select">
+                              <option value="389" selected="selected">EN (English)</option>
+                              <option value="388">RU (Русский)</option>
+                            </select>
+                          </div>
+                          <span class="js-del-lang">
+                            <i class="fa fa-minus" title="Убрать язык из отображения"></i>
+                          </span>
+                        </li>
+                        <li class="js-lang-item">
+                          <div class="select-wrap">
+                            <select name="select_langs[]" class="js-lang-select">
+                              <option value="388" selected="selected">RU (Русский)</option>
+                            </select>
+                          </div>
+                          <span class="js-del-lang">
+                            <i class="fa fa-minus" title="Убрать язык из отображения"></i>
+                          </span>
+                        </li>
+                      </ol>
 
-                    <a href="#" class="book-subnav-list__add js-add-lang" title="Добавить язык к отображению" style="display: none;">+</a>
+                      <a href="#" class="book-subnav-list__add js-add-lang" title="Добавить язык к отображению" style="display: none;">+</a>
 
-                    <span class="settings__span">Отображение</span>
-                    <ul class="select__block bottom__menu_ol">
-                      <li>
-                        <div class="select-wrap">
-                          <select name="view">
-                            <option selected="" value="1">Текст моно</option>
-                            <option value="3">Текст слайдами</option>
-                            <option value="2">Текст столбцами</option>
-                          </select>
-                          <span class="quest__i">
-                            <i class="fa fa-question hint" aria-hidden="true">
-                              <span>
-                                <b class="close">x</b>
-                                «Текст моно» отображает текст только на первом выбранном языке.<br>
-                                «Текст столбцами» отображает тексты всех выбранных языков в колонках и делит тексты по слайдам.<br>
-                                «Текст слайдами» отображает текст и переводы на всех выбранных языках последовательно, слайд за слайдом.
+                      <span class="settings__span">Отображение</span>
+                      <ul class="select__block bottom__menu_ol">
+                        <li>
+                          <div class="select-wrap">
+                            <select name="view">
+                              <option selected="" value="1">Текст моно</option>
+                              <option value="3">Текст слайдами</option>
+                              <option value="2">Текст столбцами</option>
+                            </select>
+                            <span class="quest__i">
+                              <i class="fa fa-question hint" aria-hidden="true">
+                                <span>
+                                  <b class="close">x</b>
+                                  «Текст моно» отображает текст только на первом выбранном языке.<br>
+                                  «Текст столбцами» отображает тексты всех выбранных языков в колонках и делит тексты по слайдам.<br>
+                                  «Текст слайдами» отображает текст и переводы на всех выбранных языках последовательно, слайд за слайдом.
+                                </span>
+                                </i>
                               </span>
+                            </div>
+                        </li>
+                        <li>
+                          <div class="select-wrap">
+                            <select name="slides">
+                              <option selected="" value="1">Слайды 1 уровня</option>
+                              <option value="2">Слайды 2 уровня</option>
+                              <option value="3">Слайды 3 уровня</option>
+                            </select>
+                            <span class="quest__i">
+                              <i class="fa fa-question hint" aria-hidden="true">
+                                <span>
+                                  <b class="close">x</b>
+                                  Режим «Слайды 1 уровня» делит текст на логические предложения и показывает по одному предложению на слайде в слайд-шоу.<br>
+                                  Режим «Слайды 2 уровня» делит текст на логические фразы по 2-3 предложения и показывает по одной фразе на слайде в слайд-шоу.<br>
+                                  Режим «Слайды 3 уровня» делит текст на логические абзацы по 4-6 предложений и показывает по одной фразе на слайде в слайд-шоу.
+                                </span>
+                                </i>
+                              </span>
+                            </div>
+                        </li>
+                        <li>
+                          <div class="select-wrap">
+                            <select name="font_size">
+                              <option value="small">Маленький шрифт</option>
+                              <option value="medium" selected="">Средний шрифт</option>
+                              <option value="large">Большой шрифт</option>
+                            </select>
+                            <span class="quest__i">
+                              <i class="fa fa-question hint" aria-hidden="true">
+                                <span>
+                                  <b class="close">x</b>
+                                  Выберите размер шрифта
+                                </span>
                               </i>
                             </span>
                           </div>
-                      </li>
-                      <li>
-                        <div class="select-wrap">
-                          <select name="slides">
-                            <option selected="" value="1">Слайды 1 уровня</option>
-                            <option value="2">Слайды 2 уровня</option>
-                            <option value="3">Слайды 3 уровня</option>
-                          </select>
-                          <span class="quest__i">
-                            <i class="fa fa-question hint" aria-hidden="true">
-                              <span>
-                                <b class="close">x</b>
-                                Режим «Слайды 1 уровня» делит текст на логические предложения и показывает по одному предложению на слайде в слайд-шоу.<br>
-                                Режим «Слайды 2 уровня» делит текст на логические фразы по 2-3 предложения и показывает по одной фразе на слайде в слайд-шоу.<br>
-                                Режим «Слайды 3 уровня» делит текст на логические абзацы по 4-6 предложений и показывает по одной фразе на слайде в слайд-шоу.
-                              </span>
+                        </li>
+                        <li>
+                          <div class="select-wrap">
+                            <select name="page_style" class="js-select_page_font_and_background_color">
+                              <option value="default" selected="">Стиль «Серый 1»</option>
+                              <option value="grey">Стиль «Серый 2»</option>
+                              <option value="silver">Стиль «Серый 3»</option>
+                              <option value="white">Стиль «Белый»</option>
+                            </select>
+                            <span class="quest__i">
+                              <i class="fa fa-question hint" aria-hidden="true">
+                                <span>
+                                  <b class="close">x</b>
+                                  Выберите стиль отображения шрифта и фона
+                                </span>
                               </i>
                             </span>
                           </div>
-                      </li>
-                      <li>
-                        <div class="select-wrap">
-                          <select name="font_size">
-                            <option value="small">Маленький шрифт</option>
-                            <option value="medium" selected="">Средний шрифт</option>
-                            <option value="large">Большой шрифт</option>
-                          </select>
-                          <span class="quest__i">
-                            <i class="fa fa-question hint" aria-hidden="true">
-                              <span>
-                                <b class="close">x</b>
-                                Выберите размер шрифта
-                              </span>
-                            </i>
-                          </span>
-                        </div>
-                      </li>
-                      <li>
-                        <div class="select-wrap">
-                          <select name="page_style" class="js-select_page_font_and_background_color">
-                            <option value="default" selected="">Стиль «Серый 1»</option>
-                            <option value="grey">Стиль «Серый 2»</option>
-                            <option value="silver">Стиль «Серый 3»</option>
-                            <option value="white">Стиль «Белый»</option>
-                          </select>
-                          <span class="quest__i">
-                            <i class="fa fa-question hint" aria-hidden="true">
-                              <span>
-                                <b class="close">x</b>
-                                Выберите стиль отображения шрифта и фона
-                              </span>
-                            </i>
-                          </span>
-                        </div>
-                      </li>
-                    </ul>
-                  </form>
-                </div>
+                        </li>
+                      </ul>
+                    </form>
+                  </div>
               </div>
             </div>
 
 
-            <div class="ajaxSect">
+              <div class="ajaxSect">
 
-              <div class="book-upload">
-              </div>
-              <div class="content__tb">
-                <div class="book-nav__languages-list languages-list tbs__tb_block">
-
-                  <span class="languages-list__item tab__tb active" title="Язык отображения содержания">
-                    <span href="#" data-target="en" data-lang="389" class="languages-list__link js-languages-item active">EN</span>
-                  </span>
-                  <span class="languages-list__item tab__tb " title="Язык отображения содержания">
-                    <span href="#" data-target="en" data-lang="388" class="languages-list__link js-languages-item ">RU</span>
-                  </span>
+                <div class="book-upload">
                 </div>
+                <div class="content__tb">
+                  <div class="book-nav__languages-list languages-list tbs__tb_block">
 
-                <div class="content__box">
-                  <div class="book-nav__languages-content languages-content tab__box" style="display:block">
+                    <span class="languages-list__item tab__tb active" title="Язык отображения содержания">
+                      <span href="#" data-target="en" data-lang="389" class="languages-list__link js-languages-item active">EN</span>
+                    </span>
+                    <span class="languages-list__item tab__tb " title="Язык отображения содержания">
+                      <span href="#" data-target="en" data-lang="388" class="languages-list__link js-languages-item ">RU</span>
+                    </span>
+                  </div>
 
-                    <div class="languages-content__content js-slide-parent sidebar__links">
-                      <h3 class="title-course">
-                        <a href="/edu/course/?ORDER_ID=394">Harry Potter and the Philosopher’s Stone</a>
-                      </h3>
-                      <h3 data-content-title="en" class="languages-content__title">
-                        Часть 1. Book of books
-                      </h3>
-                      <div class="book-nav__sub js-slide-child">
-                        <div class="book-subnav">
-                          <div class="book-subnav__item">
-                            <a href="javascript:void(0);" class="book-subnav__title active js-redact-item" data-sect="102" data-sect-title="The Boy Who Lived">
-                               1. The Boy Who Lived
-                            </a>
-                            <a href="javascript:void(0);" class="book-subnav__title js-redact-item" data-sect="103" data-sect-title="Who'll Stop The Rain?">
-                               2. Who'll Stop The Rain?
-                            </a>
+                  <div class="content__box">
+                    <div class="book-nav__languages-content languages-content tab__box" style="display:block">
+
+                      <div class="languages-content__content js-slide-parent sidebar__links">
+                        <h3 class="title-course">
+                          <a href="/edu/course/?ORDER_ID=394">Harry Potter and the Philosopher’s Stone</a>
+                        </h3>
+                        <h3 data-content-title="en" class="languages-content__title">
+                          Часть 1. Book of books
+                        </h3>
+                        <div class="book-nav__sub js-slide-child">
+                          <div class="book-subnav">
+                            <div class="book-subnav__item">
+                              <a href="javascript:void(0);" class="book-subnav__title active js-redact-item" data-sect="102" data-sect-title="The Boy Who Lived">
+                                 1. The Boy Who Lived
+                              </a>
+                              <a href="javascript:void(0);" class="book-subnav__title js-redact-item" data-sect="103" data-sect-title="Who'll Stop The Rain?">
+                                 2. Who'll Stop The Rain?
+                              </a>
+                            </div>
                           </div>
                         </div>
-                      </div>
 
-                      <div class="see-other-part">
-                        <a href="/edu/course/?ORDER_ID=394">Посмотреть другие части книги</a>
-                      </div>
+                        <div class="see-other-part">
+                          <a href="/edu/course/?ORDER_ID=394">Посмотреть другие части книги</a>
+                        </div>
 
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
 
+              </div>
             </div>
           </div>
-        </div>
 
+        </div>
       </div>
 
       <div class="content">
