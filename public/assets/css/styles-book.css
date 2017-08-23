@@ -497,6 +497,9 @@ img {
 	text-transform: capitalize;
 	white-space: nowrap;
 }
+.jQtooltip div:hover {
+	background: rgba(63, 146, 210, 0.8);
+}
 .logo__block div {
 	left: 0;
 	width: 120px;
