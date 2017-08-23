@@ -364,12 +364,13 @@ $(document).ready(function(){
 
 
 	$( ".lang__show" ).click(function() {
-		$( '.left__lang_block' ).toggleClass( "active" );
+		$( '.left__sidebar_box' ).toggleClass( "active" );
 		$( "body" ).toggleClass( "open-sidebar" );
 	});
 
 	$( ".close__window" ).click(function() {
         $( '.left__sidebar_box' ).removeClass( "active" );
+        $( "body" ).removeClass( "open-sidebar" );
         $('.close__window').css('display','none');
     });
 

@@ -781,13 +781,6 @@
   <script src="assets/js/common.js"></script>
 
   <script>
-    $(document).ready(function(){
-      $urlString = window.location.href;
-      $countLangs = ($urlString.split("select_langs").length - 1);
-      $('.container_book-out').css('min-width', 350 * $countLangs);
-    });
-  </script>
-  <script>
       $('.content__box').each(function() {
           $(this).find('.tab__box').eq($(this).parents('.content__tb').find('.active').index()).css('display', 'block');
       });
