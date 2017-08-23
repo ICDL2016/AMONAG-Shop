@@ -2307,7 +2307,7 @@ a {
 .fa-fonticons:before {
   content: "\f280"; }
 
-ol, ul {
+ul {
     list-style: none; }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -2316,9 +2316,9 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 .catalog__text, .text-bold {
   font-weight: bold; }
 
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+/*h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   font-size: 16px;
-  line-height: 20px; }
+  line-height: 20px; }*/
 
 .h1, h1 {
   font-size: 48px;
@@ -2851,8 +2851,9 @@ p {
   top: 0;
   width: 310px;
   height: 100%;
-  padding-top: 48px;
+  padding-top: 40px;
   background: rgba(116, 0, 0, 0.83);
+  border-top: 2px solid #808080;
   color: #fff; }
   .book-nav .fa-plus {
     display: none;
@@ -2865,8 +2866,6 @@ p {
       display: inline-block; }
   .book-nav.active {
     left: 0; }
-  .book-nav__sub {
-    display: none; }
   .book-nav .ico-user {
     z-index: 5;
     position: fixed;
@@ -3042,7 +3041,7 @@ p {
   top: 0;
   width: 290px;
   height: 100%;
-  padding-top: 48px;
+  padding-top: 40px;
   background: rgba(116, 0, 0, 0.83);
   color: #fff; }
   .nav.active {
@@ -4938,7 +4937,7 @@ img.book-img-biggest {
 .jQtooltip div {
     display: none;
     position: absolute;
-    top: 45px;
+    top: 100%;
     right: 0px;
     z-index: 1000;
     padding: 5px 8px;
@@ -5066,7 +5065,7 @@ a {
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 99;
+    z-index: 7000;
     height: 100%;
     overflow: auto;
     display: none;
@@ -5601,7 +5600,7 @@ span.fa.fa-folder-o.active:before {
 /* Book page */
 
 .light {
-  background-color: #CDCDCD;
+  background-color: #E0E0E0;
 }
 
 .inner__content .user__info_block {
@@ -5751,6 +5750,7 @@ span.fa.fa-folder-o.active:before {
     line-height: 20px;
     box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.58);
     white-space: pre-line;
+    transition: 1s;
 }
 
 .header__navigation {
@@ -6351,4 +6351,268 @@ span.fa.fa-folder-o.active:before {
 }
 .set__box .select-wrap select {
   width: 245px;
+}
+
+.languages-content {
+    margin-top: 5px;
+    color: #212121;
+    font-size: 16px;
+}
+
+.sidebar__links h3.title-course {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.sidebar__links h3 {
+    font-weight: bold;
+    color: #000;
+    padding: 5px 0 5px 10px;
+    font-size: 18px;
+}
+
+.sidebar__links h3.title-course a, .sidebar__links .see-other-part a {
+    text-decoration: none;
+    color: #000;
+}
+
+.sidebar__links .book-subnav__title.active, .sidebar__links .book-subnav__part.active, .sidebar__links .book-subnav__link.active {
+    color: white;
+    /* background-color: #800000; */
+    background-color:  rgba(11, 97, 164, 1);
+}
+
+.sidebar__links .book-subnav__item a {
+    display: block;
+    padding: 6px 10px;
+    font-size: 15px;
+    line-height: 1;
+    color: #000000;
+    text-decoration: none;
+}
+
+.book-subnav a {
+    display: block;
+    color: #555;
+    margin-bottom: 5px;
+    font-size: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.lang__show a {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+}
+
+.lang__show img {
+    height: 100%;
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.settings__span.rel:hover {
+    background: #808080;
+    color: #fff;
+}
+
+.settings__span.rel {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: #fff;
+}
+
+.settings-div:hover {
+    background: #989898;
+}
+
+.settings__span {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 9;
+    color: #c0c0c0;
+    cursor: pointer;
+}
+
+.sidebar__links h3.title-course {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.select__block li {
+    margin-bottom: 5px;
+    color: #c0c0c0;
+    font-size: 18px;
+}
+
+.fa.fa-minus:before {
+    content: "-";
+    position: relative;
+    right: -10px;
+    top: 4px;
+    font-size: 35px;
+    cursor: pointer;
+    line-height: 5px;
+}
+
+.sidebar__links .see-other-part {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.sidebar__links .see-other-part a {
+    font-size: 13px;
+}
+
+h1, h2, h3, h4 {
+  text-align: center;
+  font-weight: bold;
+  line-height: 1;
+  margin: 10px 0 20px;
+}
+
+h1 a, h2 a, h3 a, h4 a {
+  margin-left: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.settings__span {
+    display: inline-block;
+    padding: 10px 0 10px 0;
+    box-sizing: border-box;
+    z-index: 9;
+    /*color: #c0c0c0;*/
+    cursor: pointer;
+}
+
+.settings__span.inner__settings__btn {
+    color: #fff;
+    line-height: 29px;
+    padding: 0 10px 0 0;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.settings-nav.visible {
+    display: block;
+}
+
+.settings-nav {
+    padding-top: 10px;
+    padding-left: 10px;
+    display: none;
+    background: #989898;
+}
+
+.settings-div {
+    padding-left: 30px;
+}
+
+.settings-div:hover {
+    background: #989898;
+}
+
+.settings-div .languages-info {
+    margin-left: 5px;
+    color: #fff;
+}
+
+.languages-info {
+    cursor: pointer;
+}
+
+.languages-nav__list {
+    list-style-type: none;
+}
+
+.settings-nav .languages-form button {
+    margin-top: 0;
+}
+
+.settings-nav .languages-form .book-subnav-list__add {
+    margin-top: 5px;
+}
+.sidebar__links .book-subnav__item a {
+    display: block;
+    padding: 6px 10px;
+    font-size: 15px;
+    line-height: 1;
+    color: #000000;
+    text-decoration: none;
+}
+.sidebar__links .book-subnav__item a:hover {
+    background: #808080;
+    color: #fff;
+}
+.setting__block .book-nav__item .languages-form{
+    width: auto;
+}
+.content .setting__block ol,.content .setting__block ul{
+    margin: 0;
+}
+.fa.fa-minus:before {
+    content: "-";
+    position: relative;
+    right: -10px;
+    top: 4px;
+    font-size: 35px;
+    cursor: pointer;
+    line-height: 5px;
+}
+.select-wrap:after{
+    display: none;
+}
+.book-nav.left__sidebar_box.active{
+    z-index: 7000;
+}
+.open-sidebar .container {
+    max-width: calc(100% - 340px);
+    transform: translate3d(155px, 0, 0);
+}
+.open-sidebar .content .container_book-out{
+    max-width: calc(100% - 310px);
+    margin-left: 310px;
+}
+@media only screen and (max-width: 480px){
+    .open-sidebar .content .container_book-out {
+        max-width: calc(100% - 260px);
+        margin-left: 260px;
+    }
+    .open-sidebar .container {
+        width: 100%;
+        max-width: 350px;
+        transform: none !important;
+        margin-left: 260px;
+    }
+}
+.sidebar__links h3.title-course{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.sidebar__links h3.title-course a,.sidebar__links .see-other-part a{
+    text-decoration: none;
+    color: #000;
+}
+.sidebar__links h3.title-course a:hover,.sidebar__links .see-other-part a:hover{
+    text-decoration: underline;
+}
+.sidebar__links .see-other-part{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.sidebar__links .see-other-part a{
+    font-size: 13px;
 }

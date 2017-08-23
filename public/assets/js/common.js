@@ -365,9 +365,17 @@ $(document).ready(function(){
 
 	$( ".lang__show" ).click(function() {
 		$( '.left__lang_block' ).toggleClass( "active" );
+		$( "body" ).toggleClass( "open-sidebar" );
 	});
 
+	$( ".close__window" ).click(function() {
+        $( '.left__sidebar_box' ).removeClass( "active" );
+        $('.close__window').css('display','none');
+    });
 
+    $('.hint').click(function () {
+        $(this).children('span').fadeToggle(400);
+    });
 
 
 
@@ -415,11 +423,9 @@ $( ".order__lang li a" ).click(function() {
 });
 
 
-
 $( ".jQtooltip" ).click(function() {
 	$( this ).find('div').toggleClass( 'active' );
 });
-
 
 
 $( ".head__quest_icon i" ).click(function() {
