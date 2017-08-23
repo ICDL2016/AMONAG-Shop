@@ -3609,7 +3609,7 @@ p {
 .news {
   text-align: center; }
 
-[class*='social_'] {
+/* [class*='social_'] {
   display: inline-block;
   vertical-align: middle;
   width: 28px;
@@ -3621,7 +3621,7 @@ p {
   [class*='social_']:last-child {
     margin-right: 0; }
   [class*='social_'] .fa:hover {
-    transform: scale(1); }
+    transform: scale(1); } */
 
 .socials {
   white-space: nowrap;
@@ -5892,8 +5892,57 @@ span.fa.fa-folder-o.active:before {
 
 /*hz*/
 
-
 .hidden {
     display: none;
 }
 
+
+ /* Item */
+
+ .content__restaurant_bs .restaurant__sidebar {
+    width: 180px;
+    float: left;
+}
+
+.content__restaurant_bs {
+    overflow: hidden;
+}
+
+.bli__border {
+  border-right: none;
+}
+
+.restaurant__content {
+    background: #fff;
+    padding: 10px 10px 10px 210px;
+    min-height: 500px;
+}
+
+.restaurant__content h3 {
+    text-align: center;
+    color: rgba(11, 97, 164, 1);
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.social__network {
+    background: #fff;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.social__network a {
+    display: inline-block;
+    font-size: 20px;
+    background: #999999;
+    color: #fff;
+    padding: 7px 5px 5px;
+    width: 25px;
+    transition: 0.3s;
+}
+
+.social__network a:hover {
+    background: rgba(11, 97, 164, 0.8);
+}
