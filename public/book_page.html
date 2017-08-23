@@ -1,9 +1,14 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="ru"> <!--<![endif]-->
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link type="text/css" rel="stylesheet" href="assets/css/styles.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/styles-book.css">
     <link rel="apple-touch-icon" sizes="57x57" href="assets/i/favicon/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="assets/i/favicon/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="assets/i/favicon/apple-touch-icon-72x72.png">
@@ -23,14 +28,191 @@
     <title>gulpApp</title>
   </head>
 
-  <body class="light">
+<body class="bg__white">
 
-    <div class="wrapper">
 
-      <div class="header-container">
+<div class="audio__playback">
+	<div class="audio__playback_inside">
+		<button class="audio_b setting__button"><i class="fa fa-cog" aria-hidden="true"></i></button>
+		<div class="set__box">
+			<h3>Settings Auto slide show</h3>
 
-        <header class="header">
-          <div class="inner__content">
+			<ol class="select__block bottom__menu_ol">
+				<li>
+					<div class="select-wrap">
+						<select name="primary" class="js-lang-select">
+							<option value="">Reps voice 1</option>
+							<option value="317">Reps voice 2</option>
+							<option value="318">Reps voice 3</option>
+							<option value="319">Reps voice 4</option>
+						</select>
+						<span class="quest__i">
+							<i class="fa fa-question hint" aria-hidden="true">
+								<span>
+									<b class="close">x</b>
+									They were the last people you’d expect to be involved in anything strange or mysterious, because they just didn’t hold with such nonsense.
+								</span>
+							</i>
+						</span>
+					</div>
+				</li>
+				<li>
+					<div class="select-wrap">
+						<select name="secondary[]" class="js-lang-select">
+							<option value="">Duration of the pause 1</option>
+							<option value="">Duration of the pause 2</option>
+							<option value="">Duration of the pause 3</option>
+							<option value="">Duration of the pause 4</option>
+							<option value="">Duration of the pause 5</option>
+						</select>
+						<span class="quest__i">
+							<i class="fa fa-question hint" aria-hidden="true">
+								<span>
+									<b class="close">x</b>
+									They were the last people you’d expect to be involved in anything strange or mysterious, because they just didn’t hold with such nonsense.
+								</span>
+							</i>
+						</span>
+					</div>
+				</li>
+				<li>
+					<div class="select-wrap">
+						<select name="secondary[]" class="js-lang-select">
+							<option value="">Reps voice after a pause 2</option>
+							<option value="">Reps voice after a pause 1</option>
+							<option value="">Reps voice after a pause 3</option>
+							<option value="">Reps voice after a pause 4</option>
+							<option value="">Reps voice after a pause 5</option>
+						</select>
+						<span class="quest__i">
+							<i class="fa fa-question hint" aria-hidden="true">
+								<span>
+									<b class="close">x</b>
+									They were the last people you’d expect to be involved in anything strange or mysterious, because they just didn’t hold with such nonsense.
+								</span>
+							</i>
+						</span>
+					</div>
+				</li>
+				<li>
+					<div class="select-wrap">
+						<select name="secondary[]" class="js-lang-select">
+							<option value="">Font size 1</option>
+							<option value="">Font size 2</option>
+							<option value="">Font size 3</option>
+							<option value="">Font size 4</option>
+							<option value="">Font size 5</option>
+						</select>
+						<span class="quest__i">
+							<i class="fa fa-question hint" aria-hidden="true">
+								<span>
+									<b class="close">x</b>
+									They were the last people you’d expect to be involved in anything strange or mysterious, because they just didn’t hold with such nonsense.
+								</span>
+							</i>
+						</span>
+					</div>
+				</li>
+				<li>
+					<div class="select-wrap">
+						<select name="secondary[]" class="js-lang-select">
+							<option value="">Font color 1</option>
+							<option value="">Font color 2</option>
+							<option value="">Font color 3</option>
+							<option value="">Font color 4</option>
+							<option value="">Font color 5</option>
+						</select>
+						<span class="quest__i">
+							<i class="fa fa-question hint" aria-hidden="true">
+								<span>
+									<b class="close">x</b>
+									They were the last people you’d expect to be involved in anything strange or mysterious, because they just didn’t hold with such nonsense.
+								</span>
+							</i>
+						</span>
+					</div>
+				</li>
+				<li>
+					<div class="select-wrap">
+						<select name="secondary[]" class="js-lang-select">
+							<option value="">Background 1</option>
+							<option value="">Background 2</option>
+							<option value="">Background 3</option>
+							<option value="">Background 4</option>
+							<option value="">Background 5</option>
+						</select>
+						<span class="quest__i">
+							<i class="fa fa-question hint" aria-hidden="true">
+								<span>
+									<b class="close">x</b>
+									They were the last people you’d expect to be involved in anything strange or mysterious, because they just didn’t hold with such nonsense.
+								</span>
+							</i>
+						</span>
+					</div>
+				</li>
+				<li>
+					<div class="select-wrap">
+						<select name="secondary[]" class="js-lang-select">
+							<option value="">Demonstrate media</option>
+							<option value="">Demonstrate media</option>
+							<option value="">Demonstrate media</option>
+							<option value="">Demonstrate media</option>
+							<option value="">Demonstrate media</option>
+						</select>
+						<span class="quest__i">
+							<i class="fa fa-question hint" aria-hidden="true">
+								<span>
+									<b class="close">x</b>
+									They were the last people you’d expect to be involved in anything strange or mysterious, because they just didn’t hold with such nonsense.
+								</span>
+							</i>
+						</span>
+					</div>
+				</li>
+				<li>
+					<div class="select-wrap">
+						<select name="secondary[]" class="js-lang-select">
+							<option value="">Demonstrate base translation</option>
+							<option value="">Demonstrate base translation</option>
+							<option value="">Demonstrate base translation</option>
+							<option value="">Demonstrate base translation</option>
+							<option value="">Demonstrate base translation</option>
+						</select>
+						<span class="quest__i">
+							<i class="fa fa-question hint" aria-hidden="true">
+								<span>
+									<b class="close">x</b>
+									They were the last people you’d expect to be involved in anything strange or mysterious, because they just didn’t hold with such nonsense.
+								</span>
+							</i>
+						</span>
+					</div>
+				</li>
+			</ol>
+			<a class="apply__buttun" href="#">Apply</a>
+			<div class="clear"></div>
+			<button class="audio_b close__bt"><i class="fa fa-times" aria-hidden="true"></i></button>
+		</div>
+		<button class="audio_b volume__btn"><i class="fa fa-volume-up" aria-hidden="true"></i></button>
+		<button class="audio_b times__btn"><i class="fa fa-times" aria-hidden="true"></i></button>
+		<button class="audio_b prev__btn"><i class="fa fa-arrow-left" aria-hidden="true"></i></button>
+		<button class="audio_b play__btn"><i class="fa fa-play" aria-hidden="true"></i></button>
+		<button class="audio_b next__btn"><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+
+		<div class="text__audio">
+			<h1>There was a tabby cat standing on the corner of Privet Drive, but there wasn’t a map in sight. What could he have been thinking of?</h1>
+			<h3>As Mr Dursley drove around the corner and up the road, he watched the cat in his mirror. It was now reading the sign that said Privet Drive – no, looking at the sign; cats couldn’t read maps or signs.</h3>
+			<p>But on the edge of town, drills were driven out of his mind by something else. As he sat in the usual morning traffic jam, he couldn’t help noticing that there seemed to be a lot of
+				strangely dressed people about.</p>
+		</div>
+
+	</div>
+</div>
+
+
+	<header class="header">
+		<div class="inner__content">
             <div class="logo__block jQtooltip" title="Главная страница">
               <a href="index.html"><img src="assets/img/logo.png" alt=""></a>
             </div>
@@ -84,17 +266,16 @@
             </ul>
             <div class="clear"></div>
           </div>
-        </header>
-
-        <div class="sidebar__nav">
+	</header>
+	<div class="sidebar__nav">
           <ul>
             <li><a href="#">Контакты</a></li>
             <li><a href="#">Об AMONAG</a></li>
             <li><a href="#">Блог AMONAG</a></li>
           </ul>
-        </div>
+    </div>
 
-        <div class="filters js-filters"><a class="fa fa-close js-filters-close"></a>
+    <div class="filters js-filters"><a class="fa fa-close js-filters-close"></a>
           <form class="filters__search filters-search">
             <input type="text" placeholder="Искать по названию">
             <button type="submit" class="fa fa-arrow-right"></button>
@@ -191,612 +372,511 @@
             <button type="submit" class="btn btn-lg btn-2lg">Искать</button>
             <p class="text-center"><a href="" class="js-clear-filters">Отменить фильтр <br> (Показать все)</a></p>
           </form>
-        </div>
+    </div>
 
-        <div class="nav">
-          <div class="nav__authorization authorization-tabs js-tabs">
-            <div class="authorization-tabs__headings">
-              <div class="authorization-tabs__header js-tabs-head active text-left">Вход</div>
-              <div class="authorization-tabs__header js-tabs-head">Регистрация</div>
-            </div>
-            <div class="authorization-tabs__content">
-              <div class="authorization-tabs__item js-tabs-item active">
-                <form>
-                  <input type="email" placeholder="E-mail">
-                  <input type="password" placeholder="Пароль">
-                  <button type="submit">Вход</button><a href="" class="authorization-tabs__link">Забыли пароль?</a>
-                </form>
-              </div>
-              <div class="authorization-tabs__item js-tabs-item">
-                <form>
-                  <input type="text" placeholder="Имя">
-                  <input type="email" placeholder="E-mail">
-                  <button type="submit" class="registartion">Регистрация</button>
-                </form>
-              </div>
-            </div>
-          </div>
+	<div class="left__sidebar_box">
+		<div class="inside__sidebar_box">
+			<span class="settings__span rel"><span class="st__btn">Settings</span> <i class="fa fa-question hint" aria-hidden="true">
+				<span>
+					<b class="close">x</b>
+					They were the last people you’d expect to be involved in anything strange or mysterious, because they just didn’t hold with such nonsense.
+				</span>
+			</i></span>
+			<div class="setting__block">
+				<div class="inside__tab">
+					<div class="set__tab_content">
+						<span>Settings</span>
+						<a href="#">Apply</a>
+					</div>
+					<span class="settings__span">Languages
+						<i class="fa fa-question hint" aria-hidden="true">
+							<span class="leng__hint">
+								<b class="close">x</b>
+								They were the last people you’d expect to be involved in anything strange or mysterious, because they just didn’t hold with such nonsense.
+							</span>
+						</i>
+					</span>
+					<ol class="select__block">
+						<li>
+							<div class="select-wrap">
+								<select name="primary" class="js-lang-select">
+									<option value="">Выберите язык</option>
+									<option value="317">RU (Русский)</option>
+									<option value="318" selected="selected">EN (English)</option>
+									<option value="319">ES (Español)</option>
+									<option value="421">FR (Français)</option>
+									<option value="422">DE (Deutsch)</option>
+									<option value="423">PT (Português)</option>
+									<option value="424">IT (Italiano)</option>
+									<option value="425">PL (Polski)</option>
+									<option value="426">TR (Türkçe)</option>
+									<option value="427">AR (العربية)</option>
+									<option value="428">ZH (中文, 汉语)</option>
+								</select>
+							</div>
+						</li>
+						<li>
+							<div class="select-wrap">
+								<select name="secondary[]" class="js-lang-select">
+									<option value="">Выберите язык</option>
+									<option value="317" selected="selected">RU (Русский)</option>
+									<option value="319">ES (Español)</option>
+									<option value="421">FR (Français)</option>
+									<option value="422">DE (Deutsch)</option>
+									<option value="423">PT (Português)</option>
+									<option value="424">IT (Italiano)</option>
+									<option value="425">PL (Polski)</option>
+									<option value="426">TR (Türkçe)</option>
+									<option value="427">AR (العربية)</option>
+									<option value="428">ZH (中文, 汉语)</option>
+								</select>
+							</div>
+						</li>
+						<li>
+							<div class="select-wrap">
+								<select name="secondary[]" class="js-lang-select">
+									<option value="">Выберите язык</option>
+									<option value="317">RU (Русский)</option>
+									<option value="319" selected="selected">ES (Español)</option>
+									<option value="421">FR (Français)</option>
+									<option value="422">DE (Deutsch)</option>
+									<option value="423">PT (Português)</option>
+									<option value="424">IT (Italiano)</option>
+									<option value="425">PL (Polski)</option>
+									<option value="426">TR (Türkçe)</option>
+									<option value="427">AR (العربية)</option>
+									<option value="428">ZH (中文, 汉语)</option>
+								</select>
+							</div>
+						</li>
+					</ol>
+					<a href="" class="book-subnav-list__add js-add-lang">+</a>
+					<span class="settings__span">Display</span>
+					<ol class="select__block bottom__menu_ol">
+						<li>
+							<div class="select-wrap">
+								<select name="primary" class="js-lang-select">
+									<option value="">View 1</option>
+									<option value="317">View 2</option>
+									<option value="318">View 3</option>
+									<option value="319">View 4</option>
+								</select>
+									<span class="quest__i">
+										<i class="fa fa-question hint" aria-hidden="true">
+											<span>
+												<b class="close">x</b>
+												They were the last people you’d expect to be involved in anything strange or mysterious, because they just didn’t hold with such nonsense.
+											</span>
+										</i>
+									</span>
+							</div>
+						</li>
+						<li>
+							<div class="select-wrap">
+								<select name="secondary[]" class="js-lang-select">
+									<option value="">Slides 1</option>
+									<option value="">Slides 2</option>
+									<option value="">Slides 3</option>
+									<option value="">Slides 4</option>
+									<option value="">Slides 5</option>
+								</select>
+								<span class="quest__i">
+									<i class="fa fa-question hint" aria-hidden="true">
+										<span>
+											<b class="close">x</b>
+											They were the last people you’d expect to be involved in anything strange or mysterious, because they just didn’t hold with such nonsense.
+										</span>
+									</i>
+								</span>
+							</div>
+						</li>
+						<li>
+							<div class="select-wrap">
+								<select name="secondary[]" class="js-lang-select">
+									<option value="">Font size 2</option>
+									<option value="">Font size 1</option>
+									<option value="">Font size 3</option>
+									<option value="">Font size 4</option>
+									<option value="">Font size 5</option>
+								</select>
+								<span class="quest__i">
+									<i class="fa fa-question hint" aria-hidden="true">
+										<span>
+											<b class="close">x</b>
+											They were the last people you’d expect to be involved in anything strange or mysterious, because they just didn’t hold with such nonsense.
+										</span>
+									</i>
+								</span>
+							</div>
+						</li>
+						<li>
+							<div class="select-wrap">
+								<select name="secondary[]" class="js-lang-select">
+									<option value="">Font color 1</option>
+									<option value="">Font color 2</option>
+									<option value="">Font color 3</option>
+									<option value="">Font color 4</option>
+									<option value="">Font color 5</option>
+								</select>
+								<span class="quest__i">
+									<i class="fa fa-question hint" aria-hidden="true">
+										<span>
+											<b class="close">x</b>
+											They were the last people you’d expect to be involved in anything strange or mysterious, because they just didn’t hold with such nonsense.
+										</span>
+									</i>
+								</span>
+							</div>
+						</li>
+						<li>
+							<div class="select-wrap">
+								<select name="secondary[]" class="js-lang-select">
+									<option value="">Background 1</option>
+									<option value="">Background 2</option>
+									<option value="">Background 3</option>
+									<option value="">Background 4</option>
+									<option value="">Background 5</option>
+								</select>
+								<span class="quest__i">
+									<i class="fa fa-question hint" aria-hidden="true">
+										<span>
+											<b class="close">x</b>
+											They were the last people you’d expect to be involved in anything strange or mysterious, because they just didn’t hold with such nonsense.
+										</span>
+									</i>
+								</span>
+							</div>
+						</li>
+					</ol>
+				</div>
+			</div>
+			<div class="content__tb">
+				<div class="tbs__tb_block">
+					<span class="tab__tb active">EN</span>
+					<span class="tab__tb">ES</span>
+					<span class="tab__tb">DE</span>
+					<span class="tab__tb">FR</span>
+					<span class="tab__tb">IT</span>
+					<span class="tab__tb">RU</span>
+				</div>
+				<div class="content__box">
+					<div class="tab__box">
+						<div class="sidebar__links">
+							<h3>Harry Potter and Philosopher's Stone</h3>
+							<ol>
+								<li><a href="#">1. The boy who lived</a></li>
+								<li><a href="#">2. The vanishing glass</a></li>
+								<li><a href="#">3. The letters from no on</a></li>
+								<li><a href="#">4. The keeper of the keys</a></li>
+								<li><a href="#">5. The boy who lived</a></li>
+								<li><a href="#">6. The vanishing glass</a></li>
+								<li><a href="#">7. The letters from no one</a></li>
+								<li><a href="#">8. The keeper of the keys</a></li>
+								<li><a href="#">9. The boy who lived</a></li>
+								<li><a href="#">10. The vanishing glass</a></li>
+								<li><a href="#">11. The letters from no one</a></li>
+								<li><a href="#">12. The keeper of the keys</a></li>
+							</ol>
+						</div>
+					</div>
+					<div class="tab__box">
+						<div class="sidebar__links">
+							<h3> Harry Potter y la piedra filosofal </h3>
+							<ol>
+								<li> <a href="#"> 1. El niño que vivió </a> </li>
+								<li> <a href="#"> 2. El vidrio de desaparición </a> </li>
+								<li> <a href="#"> 3. Las letras de no en </a> </li>
+								<li> <a href="#"> 4. El guardián de las claves </a> </li>
+								<li> <a href="#"> 5. El niño que vivió </a> </li>
+								<li> <a href="#"> 6. El vidrio de desaparición </a> </li>
+								<li> <a href="#"> 7. Las cartas de nadie </a> </li>
+								<li> <a href="#"> 8. El guardián de las claves </a> </li>
+								<li> <a href="#"> 9. El niño que vivió </a> </li>
+								<li> <a href="#"> 10. El vidrio de desaparición </a> </li>
+								<li> <a href="#"> 11. Las cartas de nadie </a> </li>
+								<li> <a href="#"> 12. El guardián de las claves </a> </li>
+							</ol>
+						</div>
+					</div>
+					<div class="tab__box">
+						<div class="sidebar__links">
+							<h3>Harry Potter und der Stein der Weisen</h3>
+							<ol>
+								<li><a href="#">1. Der Junge der lebte</a></li>
+								<li><a href="#">2. Das verschwindende glas</a></li>
+								<li><a href="#">3. Die Briefe von nein an</a></li>
+								<li><a href="#">4. The keeper of the keys</a></li>
+								<li><a href="#">5. Der Hüter der Schlüssel</a></li>
+								<li><a href="#">6. Das verschwindende glas</a></li>
+								<li><a href="#">7. Die Briefe von niemandem</a></li>
+								<li><a href="#">8. The keeper of the keys</a></li>
+								<li><a href="#">9. The boy who lived</a></li>
+								<li><a href="#">10. The vanishing glass</a></li>
+								<li><a href="#">11. The letters from no one</a></li>
+								<li><a href="#">12. The keeper of the keys</a></li>
+							</ol>
+						</div>
+					</div>
+					<div class="tab__box">
+						<div class="sidebar__links">
+							<h3>Harry Potter et la Pierre Philosophale</h3>
+							<ol>
+								<li><a href="#">1. The boy who lived</a></li>
+								<li><a href="#">2. The vanishing glass</a></li>
+								<li><a href="#">3. The letters from no on</a></li>
+								<li><a href="#">4. The keeper of the keys</a></li>
+								<li><a href="#">5. The boy who lived</a></li>
+								<li><a href="#">6. The vanishing glass</a></li>
+								<li><a href="#">7. The letters from no one</a></li>
+								<li><a href="#">8. The keeper of the keys</a></li>
+								<li><a href="#">9. The boy who lived</a></li>
+								<li><a href="#">10. The vanishing glass</a></li>
+								<li><a href="#">11. The letters from no one</a></li>
+								<li><a href="#">12. The keeper of the keys</a></li>
+							</ol>
+						</div>
+					</div>
+					<div class="tab__box">
+						<div class="sidebar__links">
+							<h3>Harry Potter e la pietra filosofale</h3>
+							<ol>
+								<li><a href="#">1. The boy who lived</a></li>
+								<li><a href="#">2. The vanishing glass</a></li>
+								<li><a href="#">3. The letters from no on</a></li>
+								<li><a href="#">4. The keeper of the keys</a></li>
+								<li><a href="#">5. The boy who lived</a></li>
+								<li><a href="#">6. The vanishing glass</a></li>
+								<li><a href="#">7. The letters from no one</a></li>
+								<li><a href="#">8. The keeper of the keys</a></li>
+								<li><a href="#">9. The boy who lived</a></li>
+								<li><a href="#">10. The vanishing glass</a></li>
+								<li><a href="#">11. The letters from no one</a></li>
+								<li><a href="#">12. The keeper of the keys</a></li>
+							</ol>
+						</div>
+					</div>
+					<div class="tab__box">
+						<div class="sidebar__links">
+							<h3>Гарри Поттер и философский камень</h3>
+							<ol>
+								<li><a href="#">1. The boy who lived</a></li>
+								<li><a href="#">2. The vanishing glass</a></li>
+								<li><a href="#">3. The letters from no on</a></li>
+								<li><a href="#">4. The keeper of the keys</a></li>
+								<li><a href="#">5. The boy who lived</a></li>
+								<li><a href="#">6. The vanishing glass</a></li>
+								<li><a href="#">7. The letters from no one</a></li>
+								<li><a href="#">8. The keeper of the keys</a></li>
+								<li><a href="#">9. The boy who lived</a></li>
+								<li><a href="#">10. The vanishing glass</a></li>
+								<li><a href="#">11. The letters from no one</a></li>
+								<li><a href="#">12. The keeper of the keys</a></li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
-          <div class="book-nav left__sidebar_box ">
-            <div class="inside__sidebar_box">
-
-              <div class="settings-div settings__span rel">
-                <span class=" st__btn">Настройки</span>
-                <i class="fa fa-question hint" aria-hidden="true">
-                  <span>
-                    <b class="close">x</b>
-                    Press to choose languages and adjust text view
-                  </span>
-                </i>
-              </div>
-
-              <div class="setting__block">
-                <div class="languages-nav__list inside__tab">
-                  <div class="book-nav__item js-slide-parent">
-                    <form method="get" class="js-languages-list">
-                      <input type="hidden" name="book" value="471">
-                      <input type="hidden" name="order" value="394">
-                      <input id="open_sidebar" type="hidden" name="open_sidebar" value="">
-                      <input id="section_id" type="hidden" name="section_id" value="102">
-                      <input id="input_lang" type="hidden" name="lang" value="389">
-                      <input type="hidden" name="action" value="">
-
-                      <div class="set__tab_content">
-                        <span>Настройки</span>
-                        <a href="#">Применить</a>
-                      </div>
-                      <span class="settings__span">Языки <i class="fa fa-question hint" aria-hidden="true">
-                        <span class="leng__hint">
-                          <b class="close">x</b>
-                          В списке языков первым выберите тот язык, который хотите изучать.<br>
-                          Аудио будет проигрываться на этом языке. Второй язык – это язык основного перевода.<br>
-                          Третий и последующие языки – это языки дополнительных переводов.<br>
-                          Выберите их, если хотите изучать более одного языка.
-                        </span>
-                        </i>
-                      </span>
-
-                      <ol class="select__block">
-                        <li class="js-lang-item">
-                          <div class="select-wrap">
-                            <select name="select_langs[]" class="js-lang-select">
-                              <option value="389" selected="selected">EN (English)</option>
-                              <option value="388">RU (Русский)</option>
-                            </select>
-                          </div>
-                          <span class="js-del-lang">
-                            <i class="fa fa-minus" title="Убрать язык из отображения"></i>
-                          </span>
-                        </li>
-                        <li class="js-lang-item">
-                          <div class="select-wrap">
-                            <select name="select_langs[]" class="js-lang-select">
-                              <option value="388" selected="selected">RU (Русский)</option>
-                            </select>
-                          </div>
-                          <span class="js-del-lang">
-                            <i class="fa fa-minus" title="Убрать язык из отображения"></i>
-                          </span>
-                        </li>
-                      </ol>
-
-                      <a href="#" class="book-subnav-list__add js-add-lang" title="Добавить язык к отображению" style="display: none;">+</a>
-
-                      <span class="settings__span">Отображение</span>
-                      <ul class="select__block bottom__menu_ol">
-                        <li>
-                          <div class="select-wrap">
-                            <select name="view">
-                              <option selected="" value="1">Текст моно</option>
-                              <option value="3">Текст слайдами</option>
-                              <option value="2">Текст столбцами</option>
-                            </select>
-                            <span class="quest__i">
-                              <i class="fa fa-question hint" aria-hidden="true">
-                                <span>
-                                  <b class="close">x</b>
-                                  «Текст моно» отображает текст только на первом выбранном языке.<br>
-                                  «Текст столбцами» отображает тексты всех выбранных языков в колонках и делит тексты по слайдам.<br>
-                                  «Текст слайдами» отображает текст и переводы на всех выбранных языках последовательно, слайд за слайдом.
-                                </span>
-                                </i>
-                              </span>
-                            </div>
-                        </li>
-                        <li>
-                          <div class="select-wrap">
-                            <select name="slides">
-                              <option selected="" value="1">Слайды 1 уровня</option>
-                              <option value="2">Слайды 2 уровня</option>
-                              <option value="3">Слайды 3 уровня</option>
-                            </select>
-                            <span class="quest__i">
-                              <i class="fa fa-question hint" aria-hidden="true">
-                                <span>
-                                  <b class="close">x</b>
-                                  Режим «Слайды 1 уровня» делит текст на логические предложения и показывает по одному предложению на слайде в слайд-шоу.<br>
-                                  Режим «Слайды 2 уровня» делит текст на логические фразы по 2-3 предложения и показывает по одной фразе на слайде в слайд-шоу.<br>
-                                  Режим «Слайды 3 уровня» делит текст на логические абзацы по 4-6 предложений и показывает по одной фразе на слайде в слайд-шоу.
-                                </span>
-                                </i>
-                              </span>
-                            </div>
-                        </li>
-                        <li>
-                          <div class="select-wrap">
-                            <select name="font_size">
-                              <option value="small">Маленький шрифт</option>
-                              <option value="medium" selected="">Средний шрифт</option>
-                              <option value="large">Большой шрифт</option>
-                            </select>
-                            <span class="quest__i">
-                              <i class="fa fa-question hint" aria-hidden="true">
-                                <span>
-                                  <b class="close">x</b>
-                                  Выберите размер шрифта
-                                </span>
-                              </i>
-                            </span>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="select-wrap">
-                            <select name="page_style" class="js-select_page_font_and_background_color">
-                              <option value="default" selected="">Стиль «Серый 1»</option>
-                              <option value="grey">Стиль «Серый 2»</option>
-                              <option value="silver">Стиль «Серый 3»</option>
-                              <option value="white">Стиль «Белый»</option>
-                            </select>
-                            <span class="quest__i">
-                              <i class="fa fa-question hint" aria-hidden="true">
-                                <span>
-                                  <b class="close">x</b>
-                                  Выберите стиль отображения шрифта и фона
-                                </span>
-                              </i>
-                            </span>
-                          </div>
-                        </li>
-                      </ul>
-                    </form>
-                  </div>
-              </div>
-            </div>
-
-
-              <div class="ajaxSect">
-
-                <div class="book-upload">
-                </div>
-                <div class="content__tb">
-                  <div class="book-nav__languages-list languages-list tbs__tb_block">
-
-                    <span class="languages-list__item tab__tb active" title="Язык отображения содержания">
-                      <span href="#" data-target="en" data-lang="389" class="languages-list__link js-languages-item active">EN</span>
-                    </span>
-                    <span class="languages-list__item tab__tb " title="Язык отображения содержания">
-                      <span href="#" data-target="en" data-lang="388" class="languages-list__link js-languages-item ">RU</span>
-                    </span>
-                  </div>
-
-                  <div class="content__box">
-                    <div class="book-nav__languages-content languages-content tab__box" style="display:block">
-
-                      <div class="languages-content__content js-slide-parent sidebar__links">
-                        <h3 class="title-course">
-                          <a href="/edu/course/?ORDER_ID=394">Harry Potter and the Philosopher’s Stone</a>
-                        </h3>
-                        <h3 data-content-title="en" class="languages-content__title">
-                          Часть 1. Book of books
-                        </h3>
-                        <div class="book-nav__sub js-slide-child">
-                          <div class="book-subnav">
-                            <div class="book-subnav__item">
-                              <a href="javascript:void(0);" class="book-subnav__title active js-redact-item" data-sect="102" data-sect-title="The Boy Who Lived">
-                                 1. The Boy Who Lived
-                              </a>
-                              <a href="javascript:void(0);" class="book-subnav__title js-redact-item" data-sect="103" data-sect-title="Who'll Stop The Rain?">
-                                 2. Who'll Stop The Rain?
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div class="see-other-part">
-                          <a href="/edu/course/?ORDER_ID=394">Посмотреть другие части книги</a>
-                        </div>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <div class="content">
-        <div class="container container_book book__page">
-          <div id="jquery_jplayer_1" class="jp-jplayer"></div>
-          <div id="jp_container_1" role="application" aria-label="media player" class="jp-audio"></div>
-          <div class="book-page text__content">
-
-            <span class="text_align_center">
-              <span class="book-page__item js-sentence tooltip" data-lang_id="389" data-index="1" data-number="0" data-timestart="0.001" data-timeend="6.1095" data-pause="0">
-                <span class="font_bold" style="font-size: 24px;" data-index="1">
-                  <span class="gallery">
+	<div class="close__window"></div>
+	<div class="content">
+		<div class="container book__page text__content
+">
+			<span class="gallery text_align_center">
                     <a class="gallery" rel="group" href="assets/i/catalog1.png">
                       <img src="assets/i/catalog1.png"><br>
                     </a>
-                  </span><br>
-                  Harry Potter and the Philosopher’s Stone.<br><br>
-                </span>
-                <div class="base__translate" style="width: 1004px; height: 40px; display: none;">Гарри Поттер и волшебный камень.</div>
-              </span>
             </span>
+			<h1 class="jQtooltip txtool" title="Harry Potter y la piedra filosofal">Harry Potter and Philosopher's Stone</h1>
+			<h3 class="jQtooltip txtool" title="The boy who lived">The boy who lived</h3>
+			<span class="jQtooltip txtool" title="Mr and Mrs Dursley, of number four, Privet Drive, were proud to say that they were perfectly
+normal, thank you very much.">Mr and Mrs Dursley, of number four, Privet Drive, were proud to say that they were perfectly
+normal, thank you very much.</span>
+			<span class="jQtooltip txtool" title="They were the last people you’d expect to be involved in anything strange or mysterious, because
+they just didn’t hold with such nonsense.">They were the last people you’d expect to be involved in anything strange or mysterious, because
+they just didn’t hold with such nonsense.</span><br>
+			<span class="jQtooltip txtool" title="Mr Dursley was the director of a firm called Grunnings, which made drills.">Mr Dursley was the director of a firm called Grunnings, which made drills.</span>
+			<span class="jQtooltip txtool" title="The Dursleys had a small son called Dudley and in their opinion there was no finer boy anywhere.">The Dursleys had a small son called Dudley and in their opinion there was no finer boy anywhere.</span>
+			<span class="jQtooltip txtool" title="The Dursleys had everything they wanted, but they also had a secret, and their greatest fear was
+that somebody would discover it.">The Dursleys had everything they wanted, but they also had a secret, and their greatest fear was
+that somebody would discover it.</span><br>
+			<span class="jQtooltip txtool" title="They didn’t think they could bear it if anyone found out about the Potters.">They didn’t think they could bear it if anyone found out about the Potters.</span><br>
+			<span class="jQtooltip txtool" title="Mrs Potter was Mrs Dursley’s sister, but they hadn’t met for several years; in fact, Mrs Dursley
+pretended she didn’t have a sister, because her sister and her good-for-nothing husband were as
+unDursleyish as it was possible to be.">Mrs Potter was Mrs Dursley’s sister, but they hadn’t met for several years; in fact, Mrs Dursley pretended she didn’t have a sister, because her sister and her good-for-nothing husband were as
+unDursleyish as it was possible to be.</span>
 
-            <span class="book-page__item js-sentence tooltip" data-lang_id="389" data-index="2" data-number="1" data-timestart="6.1095" data-timeend="11.5629" data-pause="0">
-              <span class="font_bold" style="font-size: 20px;" data-index="2">
-                The Boy Who Lived.<br><br>
-              </span>
-              <div class="base__translate" style="">Мальчик который остался жив.</div>
-            </span>
+			<span class="jQtooltip txtool" title="The Dursleys shuddered to think what the neighbours would say if the Potters arrived in the street.">The Dursleys shuddered to think what the neighbours would say if the Potters arrived in the street.</span>
+			<span class="jQtooltip txtool" title="The Dursleys knew that the Potters had a small son, too, but they had never even seen him.">The Dursleys knew that the Potters had a small son, too, but they had never even seen him.</span>
+			<span class="jQtooltip txtool" title="This boy was another good reason for keeping the Potters away; they didn’t want Dudley mixing
+with a child like that.">This boy was another good reason for keeping the Potters away; they didn’t want Dudley mixing
+with a child like that.</span> <br>
+			<span class="jQtooltip txtool" title="When Mr and Mrs Dursley woke up on the dull, grey Tuesday our story starts, there was nothing
+about the cloudy sky outside to suggest that strange and mysterious things would soon be
+happening all over the country.">When Mr and Mrs Dursley woke up on the dull, grey Tuesday our story starts, there was nothing
+about the cloudy sky outside to suggest that strange and mysterious things would soon be
+happening all over the country.</span>
 
-            <span class="book-page__item js-sentence tooltip" data-lang_id="389" data-index="3" data-number="2" data-timestart="11.5629" data-timeend="21.1986" data-pause="0">
-              <span class="" style="font-size: 20px;" data-index="3">Mr and Mrs Dursley of number four, Privet Drive, were proud to say that they were perfectly normal, thank you very much.</span>
-              <div class="base__translate" style="">Мистер и миссис Дурслей, обитатели дома № 4 по Бирючиновой аллее, очень гордились тем, что могут в любое время заявить – у нас всё, слава Богу, совершенно нормально.</div>
-            </span>
+			<span class="jQtooltip txtool" title="Mr Dursley hummed as he picked out his most boring tie for work and Mrs Dursley gossiped away
+happily as she wrestled a screaming Dudley into his high chair.">Mr Dursley hummed as he picked out his most boring tie for work and Mrs Dursley gossiped away
+happily as she wrestled a screaming Dudley into his high chair.</span>
+			<span class="jQtooltip txtool" title="None of them noticed a large tawny owl flutter past the window.">None of them noticed a large tawny owl flutter past the window.</span>
+			<span class="jQtooltip txtool" title="At half past eight, Mr Dursley picked up his briefcase, pecked Mrs Dursley on the cheek and tried
+to kiss Dudley goodbye but missed, because Dudley was now having a tantrum and throwing his
+cereal at the walls.">At half past eight, Mr Dursley picked up his briefcase, pecked Mrs Dursley on the cheek and tried
+to kiss Dudley goodbye but missed, because Dudley was now having a tantrum and throwing his
+cereal at the walls.</span>
+			<span class="jQtooltip txtool" title="‘Little tyke,’ chortled Mr Dursley as he left the house.">‘Little tyke,’ chortled Mr Dursley as he left the house.</span>
+			<span class="jQtooltip txtool" title="He got into his car and backed out of number four’s drive.">He got into his car and backed out of number four’s drive.</span>
+			<span class="jQtooltip txtool" title="It was on the corner of the street that he noticed the first sign of something peculiar – a cat reading
+a map.">It was on the corner of the street that he noticed the first sign of something peculiar – a cat reading
+a map.</span>
+			<span class="jQtooltip txtool" title="For a second, Mr Dursley didn’t realise what he had seen – then he jerked his head around to look
+again.">For a second, Mr Dursley didn’t realise what he had seen – then he jerked his head around to look
+again.</span>
+			<span class="jQtooltip txtool" title="There was a tabby cat standing on the corner of Privet Drive, but there wasn’t a map in sight.
+What could he have been thinking of?">There was a tabby cat standing on the corner of Privet Drive, but there wasn’t a map in sight.
+What could he have been thinking of?</span>
+			<span class="jQtooltip txtool" title="It must have been a trick of the light.">It must have been a trick of the light.</span>
+			<span class="jQtooltip txtool" title="Mr Dursley blinked and stared at the cat.">Mr Dursley blinked and stared at the cat.</span>
+			<span class="jQtooltip txtool" title="It stared back.">It stared back.</span>
+			<span class="jQtooltip txtool" title="As Mr Dursley drove around the corner and up the road, he watched the cat in his mirror.">As Mr Dursley drove around the corner and up the road, he watched the cat in his mirror.</span>
+			<span class="jQtooltip txtool" title="It was now reading the sign that said Privet Drive – no, looking at the sign; cats couldn’t read maps
+or signs.">It was now reading the sign that said Privet Drive – no, looking at the sign; cats couldn’t read maps
+or signs.</span>
 
-            <span class="book-page__item js-sentence tooltip" data-lang_id="389" data-index="5" data-number="3" data-timestart="21.1986" data-timeend="30.5678" data-pause="0">
-              <span class="" style="font-size: 20px;" data-index="5">They were the last people you'd expect to be involved in anything strange or mysterious, because they just didn't hold with such nonsense.<br>
-              </span>
-              <div class="base__translate" style="">Невозможно было представить, что такие люди окажутся замешаны в чем-то необычном, а уж тем более загадочном – они терпеть не могли всяких глупостей.</div>
-            </span>
+			<span class="jQtooltip txtool" title="Mr Dursley gave himself a little shake and put the cat out of his mind.">Mr Dursley gave himself a little shake and put the cat out of his mind.</span>
+			<span class="jQtooltip txtool" title="As he drove towards town he thought of nothing except a large order of drills he was hoping to get
+that day.">As he drove towards town he thought of nothing except a large order of drills he was hoping to get
+that day.</span>
+			<span class="jQtooltip txtool" title="But on the edge of town, drills were driven out of his mind by something else.">But on the edge of town, drills were driven out of his mind by something else.</span>
+			<span class="jQtooltip txtool" title="As he sat in the usual morning traffic jam, he couldn’t help noticing that there seemed to be a lot of
+strangely dressed people about.">As he sat in the usual morning traffic jam, he couldn’t help noticing that there seemed to be a lot of
+strangely dressed people about.</span>
+			<span class="jQtooltip txtool" title="People in cloaks.">People in cloaks.</span>
+			<span class="jQtooltip txtool" title="Mr Dursley couldn’t bear people who dressed in funny clothes – the get-ups you saw on young
+people!">Mr Dursley couldn’t bear people who dressed in funny clothes – the get-ups you saw on young
+people!</span>
+			<span class="jQtooltip txtool" title="He supposed this was some stupid new fashion.">He supposed this was some stupid new fashion.</span>
+			<span class="jQtooltip txtool" title="He drummed his fingers on the steering wheel and his eyes fell on a huddle of these weirdos
+standing quite close by.">He drummed his fingers on the steering wheel and his eyes fell on a huddle of these weirdos
+standing quite close by.</span>
+			<span class="jQtooltip txtool" title="They were whispering excitedly together.">They were whispering excitedly together.</span>
+			<span class="jQtooltip txtool" title="Mr Dursley was enraged to see that a couple of them weren’t young at all; why, that man had to be
+older than he was, and wearing an emerald-green cloak!">Mr Dursley was enraged to see that a couple of them weren’t young at all; why, that man had to be
+older than he was, and wearing an emerald-green cloak!</span>
+			<span class="jQtooltip txtool" title="The nerve of him!">The nerve of him!</span>
+			<span class="jQtooltip txtool" title="But then it struck Mr Dursley that this was probably some silly stunt – these people were obviously
+collecting for something ... yes, that would be it.">But then it struck Mr Dursley that this was probably some silly stunt – these people were obviously
+collecting for something ... yes, that would be it.</span>
+			<span class="jQtooltip txtool" title="The traffic moved on, and a few minutes later, Mr Dursley arrived in the Grunnings car park, his
+mind back on drills.">The traffic moved on, and a few minutes later, Mr Dursley arrived in the Grunnings car park, his
+mind back on drills.</span>
+			<span class="jQtooltip txtool" title="Mr Dursley always sat with his back to the window in his office on the ninth floor.">Mr Dursley always sat with his back to the window in his office on the ninth floor.</span>
+			<span class="jQtooltip txtool" title="If he hadn’t, he might have found it harder to concentrate on drills that morning.">If he hadn’t, he might have found it harder to concentrate on drills that morning.</span>
+			<span class="jQtooltip txtool" title="He didn’t see the owls swooping past in broad daylight, though people down in the street did; they
+pointed and gazed open-mouthed as owl after owl sped overhead.">He didn’t see the owls swooping past in broad daylight, though people down in the street did; they
+pointed and gazed open-mouthed as owl after owl sped overhead.</span>
+			<span class="jQtooltip txtool" title="Most of them had never seen an owl even at nighttime.">Most of them had never seen an owl even at nighttime.</span>
+			<span class="jQtooltip txtool" title="Mr Dursley, however, had a perfectly normal, owl-free morning.">Mr Dursley, however, had a perfectly normal, owl-free morning.</span>
+			<span class="jQtooltip txtool" title="He yelled at five different people.">He yelled at five different people.</span>
+			<span class="jQtooltip txtool" title="He made several important telephone calls and shouted a bit more">He made several important telephone calls and shouted a bit more.</span>
+			<span class="jQtooltip txtool" title="He was in a very good mood until lunch-time, when he thought he’d stretch his legs and walk
+across the road to buy himself a bun from the baker’s opposite.">He was in a very good mood until lunch-time, when he thought he’d stretch his legs and walk
+across the road to buy himself a bun from the baker’s opposite.</span>
+			<span class="jQtooltip txtool" title="He’d forgotten all about the people in cloaks until he passed a group of them next to the baker’s.
+He eyed them angrily as he passed.">He’d forgotten all about the people in cloaks until he passed a group of them next to the baker’s.
+He eyed them angrily as he passed.</span>
+			<span class="jQtooltip txtool" title="He didn’t know why, but they made him uneasy.">He didn’t know why, but they made him uneasy.</span>
+			<span class="jQtooltip txtool" title="This lot were whispering excitedly, too, and he couldn’t see a single collecting tin.">This lot were whispering excitedly, too, and he couldn’t see a single collecting tin.</span>
+			<span class="jQtooltip txtool" title="It was on his way back past them, clutching a large doughnut in a bag, that he caught a few words
+of what they were saying.">It was on his way back past them, clutching a large doughnut in a bag, that he caught a few words
+of what they were saying.</span><br>
+			<span class="jQtooltip txtool" title="‘The Potters, that’s right, that’s what I heard –’">‘The Potters, that’s right, that’s what I heard –’</span><br>
+			<span class="jQtooltip txtool" title="‘– yes, their son, Harry –’">‘– yes, their son, Harry –’</span><br>
+			<span class="jQtooltip txtool" title="Mr Dursley stopped dead.">Mr Dursley stopped dead.</span>
 
-            <span class="book-page__item js-sentence tooltip" data-lang_id="389" data-index="6" data-number="4" data-timestart="30.5678" data-timeend="36.8413" data-pause="0">
-              <span class="" style="font-size: 20px;" data-index="6">Mr Dursley was the director of a firm called Grunnings, which made drills.</span>
-              <div class="base__translate" style="">Мистер Дурслей работал директором фирмы под названием "Груннингс", которая производила сверла.</div>
-            </span>
-
-           <span class="book-page__item js-sentence tooltip" data-lang_id="389" data-index="7" data-number="5" data-timestart="36.8413" data-timeend="43.6478" data-pause="0">
-              <span class="" style="font-size: 20px;" data-index="7">He was a big, beefy man with hardly any neck, although he did have a very large moustache.</span>
-              <div class="base__translate" style="">У мистера Дурслея, крупного мясистого мужчины, практически полностью отсутствовала шея, зато под носом росли очень длинные усы.</div>
-            </span>
-
-            <span class="book-page__item js-sentence tooltip" data-lang_id="389" data-index="9" data-number="6" data-timestart="43.6478" data-timeend="55.9693" data-pause="0">
-              <span class="" style="font-size: 20px;" data-index="9">Mrs Dursley was thin and blonde and had nearly twice the usual amount of neck, which came in very useful as she spent so much of her time craning over garden fences, spying on the neighbours.</span>
-              <div class="base__translate" style="">Миссис Дурслей, худая блондинка, обладала шеей двойной длины, что было как нельзя кстати, ибо эта леди обожала заглядывать за чужие заборы и шпионить за соседями.</div>
-            </span>
-
-            <span class="book-page__item js-sentence tooltip" data-lang_id="389" data-index="10" data-number="7" data-timestart="55.9693" data-timeend="64.703" data-pause="0">
-              <span class="" style="font-size: 20px;" data-index="10">The Dursleys had a small son called Dudley and in their opinion there was no finer boy anywhere.</span>
-              <div class="base__translate" style="">У Дурслеев был маленький сын по имени Дудли – по мнению родителей, на свет еще не рождался ребенок прекраснее.</div>
-            </span>
-
-            <span class="book-page__item js-sentence tooltip" data-lang_id="389" data-index="11" data-number="8" data-timestart="64.703" data-timeend="76.5939" data-pause="0">
-              <span class="" style="font-size: 20px;" data-index="11">The Dursleys had everything they wanted, but they also had a secret, and their greatest fear was that somebody would discover it.<br>
-                <br>
-              </span>
-              <div class="base__translate" style="">У Дурслеев было все, чего они только могли пожелать, но, кроме того, у них имелась страшная тайна, и больше всего на свете супруги боялись, что кто-нибудь эту тайну раскроет.</div>
-            </span>
-
-            <span class="book-page__item js-sentence tooltip" data-lang_id="389" data-index="14" data-number="9" data-timestart="76.5939" data-timeend="83.1134" data-pause="0">
-              <span class="" style="font-size: 20px;" data-index="14">They didn't think they could bear it if anyone found out about the Potters.</span>
-              <div class="base__translate" style="">Они бы попросту не вынесли, если бы кто-то узнал про Поттеров.</div>
-            </span>
-
-            <span class="book-page__item js-sentence tooltip" data-lang_id="389" data-index="15" data-number="10" data-timestart="83.1134" data-timeend="100.6422" data-pause="0">
-              <span class="" style="font-size: 20px;" data-index="15">Mrs Potter was Mrs Dursley's sister, but they hadn't met for several years; in fact, Mrs Dursley pretended she didn't have a sister, because her sister and her good-for-nothing husband were as unDursleyish as it was possible to be.</span>
-              <div class="base__translate" style="">Миссис Поттер доводилась сестрой миссис Дурслей, но они не встречались уже много лет, и, сказать по правде, миссис Дурслей вообще делала вид, что у нее нет никакой сестры, а всё из-за того, что эта самая сестричка и её бестолковый муженёк были настолько не-Дурслеями, насколько это возможно.</div>
-            </span>
-
-            <span class="book-page__item js-sentence tooltip" data-lang_id="389" data-index="16" data-number="11" data-timestart="100.6422" data-timeend="107.3462" data-pause="0">
-              <span class="" style="font-size: 20px;" data-index="16">The Dursleys shuddered to think what the neighbours would say if the Potters arrived in the street.</span>
-              <div class="base__translate" style="">Чету Дурслеев пробирала дрожь при одной мысли о том, что сказали бы соседи, появись Поттеры у них на улице.</div>
-            </span>
-
-            <span class="book-page__item js-sentence tooltip" data-lang_id="389" data-index="18" data-number="12" data-timestart="107.3462" data-timeend="113.3532" data-pause="0">
-              <span class="" style="font-size: 20px;" data-index="18">The Dursleys knew that the Potters had a small son, too, but they had never even seen him.</span>
-              <div class="base__translate" style="">Чете Дурслеев было известно, что у Поттеров тоже есть маленький сын, но они его никогда не видели.</div>
-            </span>
-
-            <span class="book-page__item js-sentence tooltip" data-lang_id="389" data-index="19" data-number="13" data-timestart="0" data-timeend="0" data-pause="0">
-              <span class="" style="font-size: 20px;" data-index="19">This boy was another good reason for keeping the Potters away; they didn't want Dudley mixing with a child like that.<br>
-              </span>
-              <div class="base__translate" style="">Собственно, наличие сына заставляло держаться от Поттеров еще дальше – не хватало, чтобы Дудли водился со всякими хулиганами.</div>
-            </span>
-
-            <span class="book-page__item js-sentence tooltip" data-lang_id="389" data-index="20" data-number="14" data-timestart="0" data-timeend="0" data-pause="0">
-              <span class="" style="font-size: 20px;" data-index="20">When Mr and Mrs Dursley woke up on the dull, grey Tuesday our story starts, there was nothing about the cloudy sky outside to suggest that strange and mysterious things would soon be hap­pening all over the country.</span>
-              <div class="base__translate" style="">Когда мистер и миссис Дурслей проснулись утром скучного, серого вторника – того самого дня, когда начинается наша история – в пасмурном небе за окном не было видно ничего такого, что дало бы основания предполагать, что вскоре произойдут таинственные, загадочные события.</div>
-            </span>
-
-            <span class="book-page__item js-sentence tooltip" data-lang_id="389" data-index="23" data-number="15" data-timestart="0" data-timeend="0" data-pause="0">
-              <span class="" style="font-size: 20px;" data-index="23">Mr Dursley hummed as he picked out his most boring tie for work and Mrs Dursley gossiped away happily as she wrestled a screaming Dudley into his high chair.<br>
-              </span>
-              <div class="base__translate" style="">Мистер Дурслей гудел что-то себе под нос, выбирая на работу галстук поскучнее, а миссис Дурслей торопливо досказывала вчерашние сплетни, одновременно впихивая Дудли в высокий детский стульчик.</div>
-            </span>
-
-            <span class="book-page__item js-sentence tooltip" data-lang_id="389" data-index="24" data-number="16" data-timestart="0" data-timeend="0" data-pause="0">
-              <span class="" style="font-size: 20px;" data-index="24">None of them noticed a large tawny owl flutter past the window.<br>
-              </span>
-              <div class="base__translate" style="">Никто из них не заметил большой, рыжевато-коричневой совы, пролетевшей мимо окна.</div>
-            </span>
-
-            <span class="book-page__item js-sentence tooltip" data-lang_id="389" data-index="25" data-number="17" data-timestart="0" data-timeend="0" data-pause="0">
-              <span class="" style="font-size: 20px;" data-index="25">At half past eight, Mr Dursley picked up his briefcase, pecked Mrs Dursley on the cheek and tried to kiss Dudley goodbye but missed, because Dudley was now having a tantrum and throwing his cereal at the walls.</span>
-              <div class="base__translate" style="">В половине девятого мистер Дурслей взял портфель, клюнул миссис Дурслей в щеку и попытался поцеловать на прощание Дудли, но промахнулся, поскольку в это самое время Дудли устраивал скандал: метался в стуле и отчаянно швырялся овсянкой.</div>
-            </span>
-
-            <span class="book-page__item js-sentence tooltip" data-lang_id="389" data-index="27" data-number="18" data-timestart="0" data-timeend="0" data-pause="0">
-              <span class="" style="font-size: 20px;" data-index="27">'Little tyke,' chortled Mr Dursley as he left the house.</span>
-              <div class="base__translate" style="">"Зайчик мой", прокурлыкал мистер Дурслей и вышел за дверь.</div>
-            </span>
-
-            <span class="book-page__item js-sentence tooltip" data-lang_id="389" data-index="28" data-number="19" data-timestart="0" data-timeend="0" data-pause="0">
-              <span class="" style="font-size: 20px;" data-index="28">He got into his car and backed out of number four's drive.<br>
-              </span>
-              <div class="base__translate" style="">Он забрался в машину и задним ходом выехал со стоянки дома №4.</div>
-            </span>
-
-            <span class="book-page__item js-sentence tooltip" data-lang_id="389" data-index="29" data-number="20" data-timestart="0" data-timeend="0" data-pause="0">
-              <span class="" style="font-size: 20px;" data-index="29">It was on the corner of the street that he noticed the first sign of something peculiar - a cat reading a map.</span>
-              <div class="base__translate" style="">Впервые в то утро он заметил нечто странное, только выехав на перекресток. Он увидел кошку, изучавшую карту.</div>
-            </span>
-
-            <span class="book-page__item js-sentence tooltip" data-lang_id="389" data-index="32" data-number="21" data-timestart="0" data-timeend="0" data-pause="0">
-              <span class="" style="font-size: 20px;" data-index="32">For a second, Mr Dursley didn't realise what he had seen - then he jerked his head around to look again.</span>
-              <div class="base__translate" style="">В первое мгновение он даже и не понял, что же такое увидел – но потом рывком повернул голову назад.</div>
-            </span>
-
-            <span class="book-page__item js-sentence tooltip" data-lang_id="389" data-index="33" data-number="22" data-timestart="0" data-timeend="0" data-pause="0">
-              <span class="" style="font-size: 20px;" data-index="33">There was a tabby cat standing on the corner of Privet Drive, but there wasn't a map in sight.</span>
-              <div class="base__translate" style="">На углу Бирючиновой аллеи стояла полосатая кошка, но никакой карты нигде не было.</div>
-            </span>
-
-            <span class="book-page__item js-sentence tooltip" data-lang_id="389" data-index="34" data-number="23" data-timestart="0" data-timeend="0" data-pause="0">
-              <span class="" style="font-size: 20px;" data-index="34">What could he have been thinking of?</span>
-              <div class="base__translate" style="">Что это ему взбрело в голову?</div>
-            </span>
-
-            <span class="book-page__item js-sentence tooltip" data-lang_id="389" data-index="36" data-number="24" data-timestart="0" data-timeend="0" data-pause="0">
-              <span class="" style="font-size: 20px;" data-index="36">It must have been a trick of the light.</span>
-              <div class="base__translate" style="">Это, надо полагать, была игра света.</div>
-            </span>
-
-            <span class="book-page__item js-sentence tooltip" data-lang_id="389" data-index="37" data-number="25" data-timestart="0" data-timeend="0" data-pause="0">
-              <span class="" style="font-size: 20px;" data-index="37">Mr Dursley blinked and stared at the cat.</span>
-              <div class="base__translate" style="">Мистер Дурслей поморгал и уставился на кошку.</div>
-            </span>
-          </div>
-
-        </div>
-
-        <div class="header__navigation phone-hidden text-center">
-          <div class="page-nav-wrap">
-            <a href="javascript:void(0);" class="nav-next"></a>
-            <input type="text" id="book_page_number" value="1"><span>2</span>
-          </div>
-        </div>
-
-        <div class="audio__playback translations js-translations ">
-          <div class="audio__playback_inside">
-            <a class="js-settings audio_b setting__button fa fa-gear" title="Настройки для слайд-шоу"></a>
-            <a class="audio_b volume__btn js-translation-play fa fa-volume-up" title="Озвучить слайд"></a>
-            <a class="audio_b times__btn js-translations-close fa fa-close" title="Выйти из слайд-шоу"></a>
-            <a class="audio_b prev__btn js-translation-left fa fa-arrow-left" title="Предыдущий слайд"></a>
-            <a class="audio_b play__btn js-translation-slideshow fa fa-play" title="Старт/пауза"></a>
-            <a class="audio_b next__btn js-translation-right fa fa-arrow-right" title="Следующий слайд"></a>
-
-            <div class="settings js-settings-child set__box">
-              <h3>Настройки слайд-шоу</h3>
-              <ol class="select__block bottom__menu_ol">
-                <li>
-                  <div class="settings__title">
-                    <div class="select-wrap">
-                      <select class="js-repeat-count js-repeat">
-                        <option value="0">Без аудио</option>
-                        <option value="1" selected="">Аудио х 1</option>
-                        <option value="2">Аудио х 2</option>
-                        <option value="3">Аудио х 3</option>
-                      </select>
-                      <span class="quest__i">
-                        <i class="fa fa-question hint" aria-hidden="true">
-                          <span>
-                            <b class="close">x</b>
-                            Выберите, сколько раз будет озвучен слайд до паузы.
-                          </span>
-                        </i>
-                      </span>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="settings__title">
-                    <div class="select-wrap">
-                      <select class="js-pause-time">
-                        <option value="0" selected="">Без паузы</option>
-                        <option value="0.25">Пауза х 0.25</option>
-                        <option value="0.5">Пауза х 0.5</option>
-                        <option value="0.75">Пауза х 0.75</option>
-                        <option value="1">Пауза х 1</option>
-                        <option value="1.25">Пауза х 1.25</option>
-                        <option value="1.5">Пауза х 1.5</option>
-                        <option value="1.75">Пауза х 1.75</option>
-                        <option value="2">Пауза х 2</option>
-                        <option value="2.5">Пауза х 2.5</option>
-                        <option value="3">Пауза х 3</option>
-                      </select>
-                      <span class="quest__i">
-                        <i class="fa fa-question hint" aria-hidden="true">
-                          <span>
-                            <b class="close">x</b>
-                            Выберите длительность паузы. Длительность пропорциональна длине озвученной фразы.
-                          </span>
-                        </i>
-                      </span>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="settings__title">
-                    <div class="select-wrap">
-                      <select class="js-repeat-after-count js-repeat">
-                        <option value="0" selected="">Без аудио после паузы</option>
-                        <option value="1">Аудио после паузы х 1</option>
-                        <option value="2">Аудио после паузы х 2</option>
-                        <option value="3">Аудио после паузы х 3</option>
-                      </select>
-                      <span class="quest__i">
-                        <i class="fa fa-question hint" aria-hidden="true">
-                          <span>
-                            <b class="close">x</b>
-                            Выберите, сколько раз будет озвучен слайд после паузы.
-                          </span>
-                        </i>
-                      </span>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="settings__title">
-                    <div class="select-wrap">
-                      <select class="js-slideshow_font_size">
-                        <option value="-2">Маленький шрифт</option>
-                        <option value="0" selected="">Средний шрифт</option>
-                        <option value="2">Большой шрифт</option>
-                      </select>
-                      <span class="quest__i">
-                        <i class="fa fa-question hint" aria-hidden="true">
-                          <span>
-                            <b class="close">x</b>
-                            Выберите размер шрифта.
-                          </span>
-                        </i>
-                      </span>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="settings__title">
-                    <div class="select-wrap">
-                      <select class="js-slideshow_style">
-                        <option value="translations_style_default">Стиль «Серый 1»</option>
-                        <option value="translations_style_grey">Стиль «Серый 2»</option>
-                        <option value="translations_style_silver">Стиль «Серый 3</option>
-                        <option value="translations_style_white">Стиль «Белый»</option>
-                      </select>
-                      <span class="quest__i">
-                        <i class="fa fa-question hint" aria-hidden="true">
-                          <span>
-                            <b class="close">x</b>
-                            Выберите цвет шрифта и фона.
-                          </span>
-                        </i>
-                      </span>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="settings__title">
-                    <div class="select-wrap">
-                      <select class="js-show-media">
-                        <option value="yes">Показать картинки и видео</option>
-                        <option value="no">Не показывать картинки и видео</option>
-                      </select>
-                      <span class="quest__i">
-                        <i class="fa fa-question hint" aria-hidden="true">
-                          <span>
-                            <b class="close">x</b>
-                            Установите режим отображения картинок и видео на слайдах.
-                          </span>
-                        </i>
-                      </span>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="settings__title">
-                    <div class="select-wrap">
-                      <select class="js-show-translate">
-                        <option value="no">Не показывать переводы</option>
-                        <option value="yes">Показать переводы</option>
-                      </select>
-                      <span class="quest__i">
-                        <i class="fa fa-question hint" aria-hidden="true">
-                          <span>
-                            <b class="close">x</b>
-                            Установите режим отображения переводов во время проигрывания слайд-шоу.
-                          </span>
-                        </i>
-                      </span>
-                    </div>
-                  </div>
-                </li>
-              </ol>
-
-              <a class="apply__buttun js-settings__save" href="javascript:void(0);">Сохранить</a>
-              <div class="clear"></div>
-              <button class="audio_b close__bt"><i class="fa fa-times" aria-hidden="true"></i></button>
-            </div>
-            <div class="translations__overflow-wrap">
-              <div class="translations__overflow-inner">
-                <div class="translations__text-wrap">
-                  <div class="translations__text-parent">
-                    <div class="translations__text">
-                      <div class="translations__item">asdahsdkjashkd</div>
-                      <div class="translations__item">asdahsdkjashkd</div>
-                      <div class="translations__item">asdahsdkjashkd</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div> <!--End of content-->
-
-    </div> <!--End of wrapper-->
+			<span class="jQtooltip txtool" title="Fear flooded him.">Fear flooded him.</span>
+			<span class="jQtooltip txtool" title="He looked back at the whisperers as if he wanted to say something to them, but thought better of
+it.">He looked back at the whisperers as if he wanted to say something to them, but thought better of
+it.</span>
+			<span class="jQtooltip txtool" title="He dashed back across the road, hurried up to his office, snapped at his secretary not to disturb
+him, seized his telephone and had almost finished dialling his home number when he changed his
+mind.">He dashed back across the road, hurried up to his office, snapped at his secretary not to disturb
+him, seized his telephone and had almost finished dialling his home number when he changed his
+mind.</span>
+			<span class="jQtooltip txtool" title="He put the receiver back down and stroked his moustache, thinking ... no, he was being stupid.
+Potter wasn’t such an unusual name.">He put the receiver back down and stroked his moustache, thinking ... no, he was being stupid.
+Potter wasn’t such an unusual name.</span>
+			<span class="jQtooltip txtool" title="He was sure there were lots of people called Potter who had a son called Harry.">He was sure there were lots of people called Potter who had a son called Harry.</span>
+			<span class="jQtooltip txtool" title="Come to think of it, he wasn’t even sure his nephew was called Harry.">Come to think of it, he wasn’t even sure his nephew was called Harry.</span>
+			<span class="jQtooltip txtool" title="He’d never even seen the boy.">He’d never even seen the boy.</span>
+			<span class="jQtooltip txtool" title="It might have been Harvey. Or Harold.">It might have been Harvey. Or Harold.</span>
+			<span class="jQtooltip txtool" title="There was no point in worrying Mrs Dursley, she always got so upset at any mention of her sister.">There was no point in worrying Mrs Dursley, she always got so upset at any mention of her sister.</span>
+			<span class="jQtooltip txtool" title="He didn’t blame her – if he’d had a sister like that ...">He didn’t blame her – if he’d had a sister like that ...</span>
+			<span class="jQtooltip txtool" title="but all the same, those people in cloaks ...">but all the same, those people in cloaks ...</span>
+			<span class="jQtooltip txtool" title="He found it a lot harder to concentrate on drills that afternoon, and when he left the building at five
+o’clock, he was still so worried that he walked straight into someone just outside the door.">He found it a lot harder to concentrate on drills that afternoon, and when he left the building at five
+o’clock, he was still so worried that he walked straight into someone just outside the door.</span>
+			<span class="jQtooltip txtool" title="‘Sorry,’ he grunted, as the tiny old man stumbled and almost fell.">‘Sorry,’ he grunted, as the tiny old man stumbled and almost fell.</span>
+			<span class="jQtooltip txtool" title="It was a few seconds before Mr Dursley realised that the man was wearing a violet cloak.">It was a few seconds before Mr Dursley realised that the man was wearing a violet cloak.</span>
+			<span class="jQtooltip txtool" title="He didn’t seem at all upset at being almost knocked to the ground.">He didn’t seem at all upset at being almost knocked to the ground.</span>
+			<span class="jQtooltip txtool" title="On the contrary, his face split into a wide smile and he said in a squeaky voice that made passersby
+stare:">On the contrary, his face split into a wide smile and he said in a squeaky voice that made passersby
+stare:</span>
+			<span class="jQtooltip txtool" title="‘Don’t be sorry, my dear sir, for nothing could upset me today!">‘Don’t be sorry, my dear sir, for nothing could upset me today!</span>
+			<span class="jQtooltip txtool" title="Rejoice, for You-Know-Who has gone at last!">Rejoice, for You-Know-Who has gone at last!</span>
 
 
 
-  <script src="assets/js/plugins/jquery-1.11.2.min.js"></script>
-  <script src="assets/js/plugins/jquery.tooltipster.min.js"></script>
-  <script src="assets/js/plugins/audio/jquery.jplayer.min.js"></script>
-  <script src="assets/js/plugins/audio/jplayer.playlist.min.js"></script>
-  <script src="assets/js/plugins/masonry.pkgd.min.js"></script>
-  <script src="assets/js/plugins/waypoints.min.js"></script>
-  <script src="assets/js/plugins/animate-css.js"></script>
-  <script src="assets/js/plugins/plugins-scroll.js"></script>
-  <script src="assets/js/plugins/jquery.fancybox.js"></script>
-  <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
-  <!--<script src="assets/js/audio.js"></script>-->
-  <!--<script src="assets/js/languageSelect.js"></script>-->
-  <script src="assets/js/comments.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/common.js"></script>
 
-  <script>
-      $('.content__box').each(function() {
-          $(this).find('.tab__box').eq($(this).parents('.content__tb').find('.active').index()).css('display', 'block');
-      });
-      $(".content__tb .tab__tb").click(function() {
-          var thisIndex = $(this).index();
-          $(this).parents('.content__tb').find('.tab__tb').removeClass('active');
-          $(this).addClass('active');
-          $(this).parents('.content__tb').find('.content__box').find('.tab__box').hide();
-          $(this).parents('.content__tb').find('.content__box').find('.tab__box').eq(thisIndex).show();
-      });
-      $('.fancybox').fancybox();
-      $('.settings__span .st__btn, .set__tab_content span').click(function () {
-          $('.setting__block').slideToggle(400);
-      });
-  </script>
+
+
+
+		</div>
+		<div class="header__navigation phone-hidden text-center">
+			<div class="page-nav-wrap"><a href="" class="nav-next"></a>
+				<input type="text" value="111"><span>1800</span><a href="" class="nav-prev"></a>
+			</div>
+		</div>
+	</div><!-- .content -->
+	<div class="hidden"></div>
+	<div class="loader">
+		<div class="loader_inner"></div>
+	</div>
+	<script src="assets/js/plugins/jquery-1.11.2.min.js"></script>
+	<script src="assets/js/plugins/jquery.tooltipster.min.js"></script>
+	<script src="assets/js/plugins/audio/jquery.jplayer.min.js"></script>
+	<script src="assets/js/plugins/audio/jplayer.playlist.min.js"></script>
+	<script src="assets/js/plugins/masonry.pkgd.min.js"></script>
+	<script src="assets/js/plugins/waypoints.min.js"></script>
+	<script src="assets/js/plugins/animate-css.js"></script>
+	<script src="assets/js/plugins/plugins-scroll.js"></script>
+	<script src="assets/js/plugins/jquery.fancybox.js"></script>
+	<script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+	<!--<script src="assets/js/audio.js"></script>-->
+  	<!--<script src="assets/js/languageSelect.js"></script>-->
+  	<script src="assets/js/comments.js"></script>
+  	<script src="assets/js/main.js"></script>
+  	<script src="assets/js/common.js"></script>
+
+	<script>
+		$('.content__box').each(function() {
+			$(this).find('.tab__box').eq($(this).parents('.content__tb').find('.active').index()).css('display', 'block');
+		});
+		$(".content__tb .tab__tb").click(function() {
+			var thisIndex = $(this).index();
+			$(this).parents('.content__tb').find('.tab__tb').removeClass('active');
+			$(this).addClass('active');
+			$(this).parents('.content__tb').find('.content__box').find('.tab__box').hide();
+			$(this).parents('.content__tb').find('.content__box').find('.tab__box').eq(thisIndex).show();
+		});
+		$('.fancybox').fancybox();
+		$('.settings__span .st__btn, .set__tab_content span').click(function () {
+			$('.setting__block').slideToggle(400);
+		});
+	</script>
 
 </body>
-
 </html>
