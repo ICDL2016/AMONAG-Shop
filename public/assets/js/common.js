@@ -186,7 +186,7 @@ $(document).ready(function(){
 				{
 					$(this).addClass('not_error');
 					$(this).next('.error-box').text(' ')
-						.css('color','green')
+						.css('color','white')
 						.animate({'paddingLeft':'10px'},400)
 						.animate({'paddingLeft':'5px'},400);
 				}
@@ -198,7 +198,7 @@ $(document).ready(function(){
 				{
 					$(this).removeClass('not_error').addClass('error');
 					$(this).next('.error-box').html('&bull; поле "Имя" обязательно для заполнения')
-						.css('color','red')
+						.css('color','#c9c0c0')
 						.animate({'paddingLeft':'10px'},400)
 						.animate({'paddingLeft':'5px'},400);
 				}
@@ -217,7 +217,7 @@ $(document).ready(function(){
 				{
 					$(this).addClass('not_error');
 					$(this).next('.error-box').text(' ')
-						.css('color','green')
+						.css('color','white')
 						.animate({'paddingLeft':'10px'},400)
 						.animate({'paddingLeft':'5px'},400);
 				}
@@ -229,7 +229,7 @@ $(document).ready(function(){
 				{
 					$(this).removeClass('not_error').addClass('error');
 					$(this).next('.error-box').html('&bull; поле "Логин" обязательно для заполнения')
-						.css('color','red')
+						.css('color','#c9c0c0')
 						.animate({'paddingLeft':'10px'},400)
 						.animate({'paddingLeft':'5px'},400);
 				}
@@ -247,7 +247,7 @@ $(document).ready(function(){
 				{
 					$(this).addClass('not_error');
 					$(this).next('.error-box').text(' ')
-						.css('color','green')
+						.css('color','white')
 						.animate({'paddingLeft':'10px'},400)
 						.animate({'paddingLeft':'5px'},400);
 				}
@@ -259,7 +259,7 @@ $(document).ready(function(){
 				{
 					$(this).removeClass('not_error').addClass('error');
 					$(this).next('.error-box').html('&bull; поле "пароль" обязательно для заполнения')
-						.css('color','red')
+						.css('color','#c9c0c0')
 						.animate({'paddingLeft':'10px'},400)
 						.animate({'paddingLeft':'5px'},400);
 				}
@@ -273,7 +273,7 @@ $(document).ready(function(){
 				{
 					$(this).addClass('not_error');
 					$(this).next('.error-box').text('')
-						.css('color','green')
+						.css('color','white')
 						.animate({'paddingLeft':'10px'},400)
 						.animate({'paddingLeft':'5px'},400);
 				}
@@ -281,7 +281,7 @@ $(document).ready(function(){
 				{
 					$(this).removeClass('not_error').addClass('error');
 					$(this).next('.error-box').html('&bull; поле "Email" обязательно для заполнения<br> &bull; поле должно содержать правильный email-адрес<br> (например: example123@mail.ru)')
-						.css('color','red')
+						.css('color','#c9c0c0')
 						.animate({'paddingLeft':'10px'},400)
 						.animate({'paddingLeft':'5px'},400);
 				}
@@ -294,7 +294,7 @@ $(document).ready(function(){
 				{
 					$(this).addClass('not_error');
 					$(this).next('.error-box').text(' ')
-						.css('color','green')
+						.css('color','white')
 						.animate({'paddingLeft':'10px'},400)
 						.animate({'paddingLeft':'5px'},400);
 				}
@@ -302,7 +302,7 @@ $(document).ready(function(){
 				{
 					$(this).removeClass('not_error').addClass('error');
 					$(this).next('.error-box').html('&bull; поле "Сообщение" обязательно для заполнения')
-						.css('color','red')
+						.css('color','#c9c0c0')
 						.animate({'paddingLeft':'10px'},400)
 						.animate({'paddingLeft':'5px'},400);
 				}

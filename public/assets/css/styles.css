@@ -2404,6 +2404,7 @@ body {
 
 input:not([type="submit"]):not([type="button"]), textarea {
   padding: 6px 10px 4px;
+  width: 100%;
   border: 1px solid #e6e6e6;
   font-size: 14px;
   color: #808080; }
@@ -5893,7 +5894,7 @@ span.fa.fa-folder-o.active:before {
 /*hz*/
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 
@@ -5971,7 +5972,7 @@ span.fa.fa-folder-o.active:before {
 .restaurant__content {
     background: #fff;
     padding: 10px 10px 10px 210px;
-    min-height: 500px;
+    min-height: 600px;
 }
 
 .restaurant__content h3 {
@@ -6001,4 +6002,40 @@ span.fa.fa-folder-o.active:before {
 
 .social__network a:hover {
     background: rgba(11, 97, 164, 0.8);
+}
+
+.item__left .item__subscribe {
+  color: #c9c0c0;
+}
+
+.item__left input[type="text"],
+.item__left input[type="password"] {
+    width: 100%;
+    background: #fff;
+    color: #c9c0c0;
+    padding: 7px 5px 5px;
+    border: 0;
+    margin: 2px 0;
+    box-sizing: border-box;
+}
+
+.item-masonry .btn__subscribe {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    line-height: 1.4;
+    padding: 8px 0;
+    transition: 0.3s;
+    font-weight: bold;
+    border-left: none;
+    background: rgba(11, 97, 164, 1);
+}
+
+.item-masonry .item__auth {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.8;
+  background: rgba(11, 97, 164, 1);
+  border-left: none;
 }
