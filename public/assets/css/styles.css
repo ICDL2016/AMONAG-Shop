@@ -5583,7 +5583,7 @@ span.fa.fa-folder-o.active:before {
 }
 
 .item-masonry .btn.btn-block:hover {
-  background-color: rgba(63, 146, 210, 0.8)
+  background-color: rgba(63, 146, 210, 0.8);
 }
 
 .item__subscribe {
@@ -5908,8 +5908,64 @@ span.fa.fa-folder-o.active:before {
     overflow: hidden;
 }
 
-.bli__border {
-  border-right: none;
+.subscription__unit .favourites__link {
+    background: rgba(11, 97, 164, 1);
+    padding: 5px;
+    text-align: center;
+    transition: 0.3s;
+    margin-top: -7px;
+}
+
+.subscription__unit .favourites__link:hover {
+    background: rgba(63, 146, 210, 1);
+}
+
+.item-masonry .item__left {
+  padding: 6px 2px 0px 2px;
+}
+
+.item__left .lang__span {
+    background: none;
+    color: #c9c0c0;
+}
+
+.item__left .lang__span .lang__audio {
+    background: url(../img/lang-audio3.png) center no-repeat;
+}
+
+.item__left .lang__span:hover,
+.item__left .item__lastrow:hover {
+  color: #c9c0c0;
+}
+
+.item-masonry .item__left .item__type,
+.item-masonry_post .item__left .item__type,
+.item-masonry .item__left .item__level,
+.item-masonry_post .item__left .item__level {
+  color: #c9c0c0;
+}
+
+.item__typerow,
+.item__pricerow {
+  margin: 10px 0;
+  padding: 0 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.item__pricerow .price__current,
+.item__pricerow .to__favourites {
+  color: #fff;
+}
+
+.item__pricerow span.fa.fa-folder-o:before {
+  color: #c9c0c0;
+}
+
+.item-masonry .btn.item__btn {
+  border-left: none;
+  width: 106px;
 }
 
 .restaurant__content {
