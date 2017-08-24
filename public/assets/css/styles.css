@@ -6027,7 +6027,7 @@ span.fa.fa-folder-o.active:before {
     line-height: 1.4;
     padding: 8px 0;
     transition: 0.3s;
-    font-weight: bold;
+    font-size: 18px;
     border-left: none;
     background: rgba(11, 97, 164, 1);
 }
