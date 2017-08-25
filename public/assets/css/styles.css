@@ -5391,7 +5391,7 @@ a.forgot__password:hover {
 
 .to__favourites:hover {
   cursor: pointer;
-  transform: scale(1.1);
+  transform: scale(1);
 }
 
 span.fa.fa-rub {
@@ -5814,7 +5814,7 @@ span.fa.fa-folder.active:before {
 
 .restaurant__content {
     background: #fff;
-    padding: 10px 10px 10px 210px;
+    padding: 10px 10px 10px 200px;
     min-height: 600px;
 }
 
@@ -5825,6 +5825,31 @@ span.fa.fa-folder.active:before {
     line-height: 1;
     margin-bottom: 10px;
     font-size: 24px;
+}
+
+.gallery__block {
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.gallery__block a {
+    display: inline-block;
+    margin-bottom: 4px;
+}
+
+.img__size_300-200 img {
+    width: 300px;
+    height: 200px;
+}
+
+.img__size_210-140 img {
+    width: 210px;
+    height: 140px;
+}
+
+.img__size_150-100 img {
+    width: 150px;
+    height: 100px;
 }
 
 .social__network {
