@@ -164,7 +164,7 @@ $( ".nav__btn>li" ).click(function() {
 $(document).ready(function(){
 
 	// Устанавливаем обработчик потери фокуса для всех полей ввода текста
-	$('input#name,input#login,input#password, input#email, textarea#message').unbind().blur( function(){
+	$('input#name,input#login,input#password, input#email, input#email-fg, textarea#message').unbind().blur( function(){
 
 		// Для удобства записываем обращения к атрибуту и значению каждого поля в переменные
 		var id = $(this).attr('id');
@@ -281,6 +281,27 @@ $(document).ready(function(){
 				{
 					$(this).removeClass('not_error').addClass('error');
 					$(this).next('.error-box').html('&bull; поле "Email" обязательно для заполнения<br> &bull; поле должно содержать правильный email-адрес<br> (например: example123@mail.ru)')
+						.css('color','#c9c0c0')
+						.animate({'paddingLeft':'10px'},400)
+						.animate({'paddingLeft':'5px'},400);
+				}
+				break;
+
+			// Проверка email
+			case 'email-fg':
+				var rv_email = /^([a-zA-Z0-9_.-])+@([a-zA-Z0-9_.-])+\.([a-zA-Z])+([a-zA-Z])+/;
+				if(val != '' && rv_email.test(val))
+				{
+					$(this).addClass('not_error');
+					$(this).next('.error-box').text('')
+						.css('color','white')
+						.animate({'paddingLeft':'10px'},400)
+						.animate({'paddingLeft':'5px'},400);
+				}
+				else
+				{
+					$(this).removeClass('not_error').addClass('error');
+					$(this).next('.error-box').html('&bull; поле должно содержать правильный email-адрес<br> (например: example123@mail.ru)')
 						.css('color','#c9c0c0')
 						.animate({'paddingLeft':'10px'},400)
 						.animate({'paddingLeft':'5px'},400);
