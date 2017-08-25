@@ -4902,6 +4902,14 @@ a {
     text-decoration: none;
 }
 
+.filters__string {
+  width: 400px !important;
+}
+
+.filters p a {
+  color: rgba(11, 97, 164, 1);
+}
+
 .sidebar__nav {
     position: fixed;
     top: 0;
