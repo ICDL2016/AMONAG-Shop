@@ -433,7 +433,15 @@ $( ".head__quest_icon i" ).click(function() {
 	$( '.head__quest_icon .explained').fadeToggle( 300 );
 });
 
-
+$(".subscription__unit .favourites__link").hover(function() {
+  	$( ".item-masonry .btn.item__btn" ).css("background", "rgba(14, 122, 205, 1)");
+  	$( ".item-masonry .item__auth" ).css("background", "rgba(14, 122, 205, 1)");
+  	$( ".item-masonry .btn__subscribe" ).css("background", "rgba(14, 122, 205, 1)");
+}, function() {
+  	$( ".item-masonry .btn.item__btn" ).css("background", "rgba(11, 97, 164, 1)");
+  	$( ".item-masonry .item__auth" ).css("background", "rgba(11, 97, 164, 1)");
+  	$( ".item-masonry .btn__subscribe" ).css("background", "rgba(11, 97, 164, 1)");
+});
 
 
 

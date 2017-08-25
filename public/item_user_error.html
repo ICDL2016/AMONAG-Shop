@@ -568,16 +568,6 @@
   <script src="assets/js/common.js"></script>
   <script>
     $(document).ready(function(){
-        $(".subscription__unit .favourites__link").hover(function() {
-          $( ".item-masonry .btn.item__btn" ).css("background", "rgba(63, 146, 210, 1)");
-          $( ".item-masonry .item__auth" ).css("background", "rgba(63, 146, 210, 1)");
-          $( ".item-masonry .btn__subscribe" ).css("background", "rgba(63, 146, 210, 1)");
-        }, function() {
-          $( ".item-masonry .btn.item__btn" ).css("background", "rgba(11, 97, 164, 1)");
-          $( ".item-masonry .item__auth" ).css("background", "rgba(11, 97, 164, 1)");
-          $( ".item-masonry .btn__subscribe" ).css("background", "rgba(11, 97, 164, 1)");
-        }
-        );
         $("#email").next('.error-box').html('&bull; Пользователь с таким <nobr>E-mail</nobr> уже зарегистрирован')
             .css('color','#c9c0c0')
             .animate({'paddingLeft':'10px'},400)

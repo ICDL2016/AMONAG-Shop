@@ -3495,7 +3495,7 @@ p {
     color: #fff; }
   .filters-block label input:checked + span:hover {
     /*background: rgba(170, 0, 0, 0.9); */
-    background-color: #3F92D2; }
+    background-color: rgba(14, 122, 205, 1); }
   .filters-block label span {
     padding: 0 9px;
     font-size: 18px;
@@ -3507,7 +3507,7 @@ p {
       padding: 0 37px; }
     .filters-block label span:hover, .filters-block label span.active {
       /*background: #892e2a;*/
-      background-color: #3F92D2;
+      background-color: rgba(14, 122, 205, 1);
       color: #fff; }
   @media (max-width: 768px) {
     .filters-block label {
@@ -3553,7 +3553,7 @@ p {
   display: block;
   margin-bottom: 8px; }
   .news__title:hover {
-    color: rgba(63, 146, 210, 0.8); }
+    color: rgba(14, 122, 205, 0.8); }
 
 .news__type {
   margin-bottom: 20px;
@@ -4859,7 +4859,7 @@ img.book-img-biggest {
 
 .header .logo__block:hover {
     /*background: rgba(170, 0, 0, 0.83);*/
-    background-color: #3F92D2;
+    background-color: rgba(14, 122, 205, 0.8);
   }
 
 .header .logo__block a {
@@ -4971,7 +4971,7 @@ img.book-img-biggest {
 
 .nav__btn>li:hover {
     /*background: rgba(170, 0, 0, 0.83);*/
-    background-color: rgba(63, 146, 210, 0.8);
+    background-color: rgba(14, 122, 205, 0.8);
 }
 
 .jQtooltip {
@@ -5103,7 +5103,7 @@ a {
 .sidebar__nav a:hover,
 .nav__btn li .lang__list a:hover {
     /*background: rgba(160, 0, 0, 0.9);*/
-    background-color: rgba(63, 146, 210, 0.8);
+    background-color: rgba(14, 122, 205, 0.8);
 }
 
 .content {
@@ -5134,7 +5134,7 @@ a {
   border-bottom: none;
 }
 .item-masonry a:hover, .item-masonry_post a:hover {
-  background-color: #3F92D2;
+  background-color: rgba(14, 122, 205, 1);
 }
 .item-masonry .item__title,.item-masonry_post .item__title {
   display: block;
@@ -5484,7 +5484,7 @@ spanc.calling {
 }
 
 .quest__btn:hover {
-  background: rgba(63, 146, 210, 0.8);
+  background: rgba(14, 122, 205, 0.8);
 }
 
 a.forgot__password {
@@ -5584,7 +5584,7 @@ span.fa.fa-folder-o.active:before {
 }
 
 .item-masonry .btn.btn-block:hover {
-  background-color: rgba(63, 146, 210, 0.8);
+  background-color: rgba(14, 122, 205, 0.8);
 }
 
 .item__subscribe {
@@ -5609,7 +5609,7 @@ span.fa.fa-folder-o.active:before {
 }
 
 .inner__content .user__info_block div:hover {
-  background-color: rgba(63, 146, 210, 0.8);
+  background-color: rgba(14, 122, 205, 0.8);
 }
 
 .inner__content .user__info_block div a:hover {
@@ -5918,7 +5918,7 @@ span.fa.fa-folder-o.active:before {
 }
 
 .subscription__unit .favourites__link:hover {
-    background: rgba(63, 146, 210, 1);
+    background: rgba(14, 122, 205, 1);
 }
 
 .item-masonry .item__left {
