@@ -5421,7 +5421,7 @@ span.fa.fa-folder:before {
 
 span.fa.fa-folder.active:before {
   font-size: 20px;
-  color: #808080;
+  color: rgba(11, 97, 164, 1);
   content: "\f07b";
 }
 
@@ -5815,6 +5815,10 @@ span.fa.fa-folder.active:before {
   color: #c9c0c0;
 }
 
+.item__pricerow span:hover .fa.fa-folder {
+  color: #fff;
+}
+
 .item-masonry .btn.item__btn {
   border-left: none;
   width: 106px;
@@ -5926,6 +5930,29 @@ span.fa.fa-folder.active:before {
 .item-masonry .item__auth:hover {
   text-decoration: none;
 }
+
+/* Personal */
+
+.quest__span {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #808080;
+    padding: 30px 10px 15px;
+}
+
+.personal {
+  font-size: 20px;
+}
+
+.check__in a {
+    position: relative;
+    color: rgba(11, 97, 164, 1);
+    font-size: 25px;
+    margin-left: 0;
+}
+
+/* General */
 
 .white {
   background-color: #fff;
