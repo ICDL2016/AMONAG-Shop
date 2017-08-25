@@ -5635,9 +5635,14 @@ span.fa.fa-folder.active:before {
     z-index: 2;
 }
 
-.open-sidebar .container {
+.open-sidebar .container,
+.open-sidebar .header__navigation {
     max-width: calc(100% - 340px);
     transform: translate3d(155px, 0, 0);
+}
+
+.open-sidebar .header__navigation {
+  padding-left: 170px;
 }
 
 .nav-next:before {
@@ -5877,4 +5882,8 @@ span.fa.fa-folder.active:before {
   background: rgba(11, 97, 164, 1);
   border-left: none;
   text-decoration: underline;
+}
+
+.item-masonry .item__auth:hover {
+  text-decoration: none;
 }
