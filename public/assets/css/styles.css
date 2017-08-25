@@ -5405,13 +5405,13 @@ span.fa.fa-rub.old {
   text-decoration: line-through;
 }
 
-span.fa.fa-folder-o:before {
+span.fa.fa-folder:before {
   font-size: 20px;
   color: #808080;
   content: "\f114";
 }
 
-span.fa.fa-folder-o.active:before {
+span.fa.fa-folder.active:before {
   font-size: 20px;
   color: #808080;
   content: "\f07b";
@@ -5798,7 +5798,7 @@ span.fa.fa-folder-o.active:before {
   color: #fff;
 }
 
-.item__pricerow span.fa.fa-folder-o:before {
+.item__pricerow span.fa.fa-folder:before {
   color: #c9c0c0;
 }
 
