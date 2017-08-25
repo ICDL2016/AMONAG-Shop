@@ -5862,6 +5862,12 @@ span.fa.fa-folder.active:before {
     box-sizing: border-box;
 }
 
+.error-box {
+    text-align: left;
+    font-size: 12px;
+    line-height: 1;
+}
+
 .item-masonry .btn__subscribe {
     display: block;
     text-align: center;
@@ -5886,4 +5892,8 @@ span.fa.fa-folder.active:before {
 
 .item-masonry .item__auth:hover {
   text-decoration: none;
+}
+
+.white {
+  background-color: #fff;
 }
