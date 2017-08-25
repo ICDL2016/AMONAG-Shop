@@ -6038,4 +6038,5 @@ span.fa.fa-folder-o.active:before {
   line-height: 1.8;
   background: rgba(11, 97, 164, 1);
   border-left: none;
+  text-decoration: underline;
 }
