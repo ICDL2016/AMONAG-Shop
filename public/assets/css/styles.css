@@ -5066,7 +5066,10 @@ a {
 }
 .item-masonry a .lang__span .lang__audio {
   background: url(../img/lang-audio2.png) center no-repeat;
-  min-width: 18px;
+}
+.item-masonry a .lang__span .ital,
+.item__left .lang__span .ital {
+  padding: 5px 7px;
 }
 .item-masonry a:hover .lang__span .lang__audio,
 .item-masonry_post a:hover .lang__span .lang__audio{

@@ -91,15 +91,6 @@ $(document).ready(function () {
 		$( ".search__block input[type='text']" ).fadeIn( 300, "linear" );
 	});
 
-	// $( ".favourites__link" ).hover(
-	//   function() {
-	//     $( this ).closest(".item-masonry").find('.item__price').toggleClass('price__hover');
-	//   }, function() {
-	//     $( this ).closest(".item-masonry").find('.item__price').toggleClass('price__hover');
-	//   }
-	// );
-
-
 });
 
 
