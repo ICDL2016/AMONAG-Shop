@@ -5032,6 +5032,8 @@ a {
 .item-masonry_post a:hover .item__level,
 .item-masonry a:hover .price__current,
 .item-masonry_post a:hover .price__current,
+.item-masonry a:hover .price__old,
+.item-masonry_post a:hover .price__old,
 .item-masonry a:hover .to__favourites .fa.fa-folder.active:before,
 .item-masonry_post a:hover .to__favourites .fa.fa-folder.active:before {
   color: #fff;
