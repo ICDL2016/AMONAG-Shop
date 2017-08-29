@@ -5029,8 +5029,16 @@ a {
 .item-masonry a:hover .item__type,
 .item-masonry_post a:hover .item__type,
 .item-masonry a:hover .item__level,
-.item-masonry_post a:hover .item__level {
+.item-masonry_post a:hover .item__level,
+.item-masonry a:hover .price__current,
+.item-masonry_post a:hover .price__current,
+.item-masonry a:hover .to__favourites .fa.fa-folder.active:before,
+.item-masonry_post a:hover .to__favourites .fa.fa-folder.active:before {
   color: #fff;
+}
+.item-masonry a:hover .item__price,
+.item-masonry_post a:hover .item__price {
+  background-color: rgba(14, 122, 205, 0.8);
 }
 .item-masonry a span .item__type,
 .item-masonry_post a span .item__type {
@@ -5353,14 +5361,6 @@ a.forgot__password:hover {
   border-bottom: none;
 }
 
-.favourites__link {
-    background: #fff;
-    padding: 5px;
-    text-align: center;
-    transition: 0.3s;
-    margin-top: -7px;
-}
-
 .item__title.title__favourites {
   font-size: 14px;
   line-height: 1.2;
@@ -5374,8 +5374,6 @@ a.forgot__password:hover {
   justify-content: space-between;
   width: 158px;
   padding: 10px;
-  border-left: 2px solid #808080;
-  border-right: 2px solid #808080;
 }
 
 .price__current, .to__favourites {
@@ -5386,7 +5384,6 @@ a.forgot__password:hover {
 
 .price__current {
   color: rgba(11, 97, 164, 1);
-  font-weight: bold;
 }
 
 .price__old {
