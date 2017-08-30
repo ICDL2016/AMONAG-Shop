@@ -5058,6 +5058,7 @@ a {
   line-height: 1.2;
   font-size: 12px;
   margin-bottom: 4px;
+  min-width: 16px;
 }
 .item-masonry a:hover .lang__span,
 .item-masonry_post a:hover .lang__span {
@@ -5066,10 +5067,6 @@ a {
 }
 .item-masonry a .lang__span .lang__audio {
   background: url(../img/lang-audio2.png) center no-repeat;
-}
-.item-masonry a .lang__span .ital,
-.item__left .lang__span .ital {
-  padding: 5px 7px;
 }
 .item-masonry a:hover .lang__span .lang__audio,
 .item-masonry_post a:hover .lang__span .lang__audio{
@@ -5394,7 +5391,7 @@ a.forgot__password:hover {
 .price__old {
   font-size: 15px;
   line-height: 20px;
-  color: #808080;
+  color: #c9c0c0;
   text-decoration: line-through;
 }
 
@@ -5420,16 +5417,13 @@ span.fa.fa-rub.old {
   text-decoration: line-through;
 }
 
-span.fa.fa-folder:before {
-  font-size: 20px;
-  color: #808080;
-  content: "\f114";
-}
-
 span.fa.fa-folder.active:before {
   font-size: 20px;
   color: rgba(11, 97, 164, 1);
-  content: "\f07b";
+}
+
+span.fa.fa-folder.active:hover {
+  color: #fff;
 }
 
 .item-masonry .btn.btn-block {
@@ -5783,13 +5777,19 @@ span.fa.fa-folder.active:before {
   padding: 6px 2px 0px 2px;
 }
 
-.item__left .lang__span {
+.item-masonry .item__left .item__title {
+  color: #fff;
+}
+
+.item__left .lang__span,
+.item__left .item__description {
     background: none;
     color: #c9c0c0;
 }
 
 .item__left .lang__span .lang__audio {
     background: url(../img/lang-audio3.png) center no-repeat;
+    width: 30px !important;
 }
 
 .item__left .lang__span:hover,
@@ -5813,16 +5813,27 @@ span.fa.fa-folder.active:before {
   justify-content: space-between;
 }
 
+.item__pricerow.old__new {
+  flex-direction: column;
+  justify-content: center;
+}
+
 .item__pricerow .price__current,
 .item__pricerow .to__favourites {
   color: #fff;
 }
 
-.item__pricerow span.fa.fa-folder:before {
+.item__pricerow span.fa.fa-folder:before,
+.item__pricerow span.fa.fa-folder.active:before {
   color: #c9c0c0;
 }
 
-.item__pricerow span:hover .fa.fa-folder {
+.item__pricerow span:hover .fa.fa-folder,
+.item__pricerow span:hover .fa.fa-folder.active {
+  color: #fff;
+}
+
+.to__favourites .fa.fa-folder.active:hover {
   color: #fff;
 }
 

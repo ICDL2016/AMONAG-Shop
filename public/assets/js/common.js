@@ -86,10 +86,11 @@ $(document).ready(function () {
 		$(".lang__list").slideUp();
 	});
 
-
 	$( ".mobile__search_btn" ).click(function() {
 		$( ".search__block input[type='text']" ).fadeIn( 300, "linear" );
 	});
+
+
 
 });
 
@@ -452,13 +453,9 @@ $( ".head__quest_icon i" ).click(function() {
 });
 
 $(".subscription__unit .favourites__link").hover(function() {
-  	$( ".item-masonry .btn.item__btn" ).css("background", "rgba(14, 122, 205, 1)");
-  	$( ".item-masonry .item__auth" ).css("background", "rgba(14, 122, 205, 1)");
-  	$( ".item-masonry .btn__subscribe" ).css("background", "rgba(14, 122, 205, 1)");
+  	$(this).closest( ".item-masonry").find( ".btn.item__btn" ).css("background", "rgba(14, 122, 205, 1)");
 }, function() {
-  	$( ".item-masonry .btn.item__btn" ).css("background", "rgba(11, 97, 164, 1)");
-  	$( ".item-masonry .item__auth" ).css("background", "rgba(11, 97, 164, 1)");
-  	$( ".item-masonry .btn__subscribe" ).css("background", "rgba(11, 97, 164, 1)");
+  	$(this).closest( ".item-masonry").find( ".btn.item__btn" ).css("background", "rgba(11, 97, 164, 1)");
 });
 
 
