@@ -5139,10 +5139,10 @@ div.justify__t.how_p {
     padding-bottom: 15px;
 }
 
-.gallery__block.img__size_150-100 img, .gallery__block.img__size_210-140 img, .gallery__block.img__size_300-200 img {
+/*.gallery__block.img__size_150-100 img, .gallery__block.img__size_210-140 img, .gallery__block.img__size_300-200 img {
     width: auto;
 }
-
+*/
 .img__size_300-200 img {
     width: 300px;
     height: 200px;
@@ -5844,11 +5844,6 @@ span.fa.fa-folder.active:before {
     line-height: 1;
     margin-bottom: 10px;
     font-size: 24px;
-}
-
-.gallery__block {
-    text-align: center;
-    padding-bottom: 15px;
 }
 
 .gallery__block a {

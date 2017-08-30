@@ -16,6 +16,7 @@
     <link rel="icon" type="image/png" href="assets/i/favicon/favicon-96x96.png" sizes="96x96">
     <link rel="icon" type="image/png" href="assets/i/favicon/favicon-16x16.png" sizes="16x16">
     <link rel="manifest" href="assets/i/favicon/manifest.json">
+    <link rel="stylesheet" type="text/css" href="assets/css/plugins/fancybox/jquery.fancybox.css">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-TileImage" content="assets/i/favicon/mstile-144x144.png">
     <meta name="theme-color" content="#800000">
@@ -239,7 +240,7 @@
                   <br>
                 </p>
                 <p style="text-align: center;">
-                  <img alt="notebook" src="assets/img/notebook.png" title="Notebook" width="300" height="200">
+                  <a class="fancybox" href="assets/img/notebook.png" data-fancybox-group="gallery2"><img alt="notebook" src="assets/img/notebook.png" title="Notebook" width="300" height="200"></a>
                   <br>
                 </p>
                 <p style="text-align: justify;">
@@ -269,7 +270,7 @@
                   Все программы обучения Международной Академии Бизнеса лицензированы, а это значит, что после прохождения обучения и итогового тестирования слушатели получают соответствующие документы об обучении – либо дипломы, либо свидетельства.
                 </p>
                 <p style="text-align: center;">
-                  <img alt="Лицензия" title="Лицензия" src="assets/img/documents.jpg" height="219" width="300">
+                  <a class="fancybox" href="assets/img/documents.jpg" data-fancybox-group="gallery3"><img alt="Лицензия" title="Лицензия" src="assets/img/documents.jpg" height="219" width="300"></a>
                   <br>
                 </p>
                 <p style="text-align: center;">
@@ -329,6 +330,10 @@
   <script src="assets/js/plugins/plugins-scroll.js"></script>
   <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
   <script src="assets/js/plugins/masonry.pkgd.min.js"></script>
+  <script src="assets/js/plugins/jquery.fancybox.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/common.js"></script>
+  <script>
+    $('.fancybox').fancybox();
+  </script>
 </html>
