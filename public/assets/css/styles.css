@@ -5971,3 +5971,7 @@ span.fa.fa-folder.active:before {
 .more__articles a {
     color: #666666;
 }
+
+.more__articles a:hover {
+    color: rgba(11, 97, 164, 1);
+}
