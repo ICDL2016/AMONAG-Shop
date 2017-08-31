@@ -5766,7 +5766,6 @@ span.fa.fa-folder.active:hover {
 
 .subscription__unit .favourites__link {
     background: rgba(11, 97, 164, 1);
-    padding: 5px;
     text-align: center;
     transition: 0.3s;
     margin-top: -7px;
@@ -5777,7 +5776,7 @@ span.fa.fa-folder.active:hover {
 }
 
 .item-masonry .item__left {
-  padding: 6px 2px 0px 2px;
+  padding: 6px 5px 0px 5px;
 }
 
 .item-masonry .item__left .item__title {
@@ -5831,10 +5830,16 @@ span.fa.fa-folder.active:hover {
 .item__pricerow span.fa.fa-folder:before,
 .item__pricerow span.fa.fa-folder.active:before {
   color: #c9c0c0;
+  font-size: 20px;
 }
 
 .item__pricerow span:hover .fa.fa-folder,
 .item__pricerow span:hover .fa.fa-folder.active {
+  color: #fff;
+}
+
+.item__pricerow span.fa.fa-folder.white-folder:before,
+.item__pricerow span.fa.fa-folder.active.white-folder:before {
   color: #fff;
 }
 
