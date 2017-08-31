@@ -5828,7 +5828,9 @@ span.fa.fa-folder.active:hover {
 }
 
 .item__pricerow span.fa.fa-folder:before,
-.item__pricerow span.fa.fa-folder.active:before {
+.item__pricerow span.fa.fa-folder.active:before,
+.item__pricerow span.fa.fa-folder-o:before,
+.item__pricerow span.fa.fa-folder-o.active:before {
   color: #c9c0c0;
   font-size: 20px;
 }
