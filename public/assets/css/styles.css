@@ -5843,6 +5843,11 @@ span.fa.fa-folder.active:hover {
   color: #fff;
 }
 
+.item__pricerow span.fa.fa-folder.white-folder:hover:before,
+.item__pricerow span.fa.fa-folder.active.white-folder:hover:before {
+  color: #c9c0c0;
+}
+
 .to__favourites .fa.fa-folder.active:hover {
   color: #fff;
 }
