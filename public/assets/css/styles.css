@@ -5839,12 +5839,16 @@ span.fa.fa-folder.active:hover {
 }
 
 .item__pricerow span.fa.fa-folder.white-folder:before,
-.item__pricerow span.fa.fa-folder.active.white-folder:before {
+.item__pricerow span.fa.fa-folder.active.white-folder:before,
+.item__pricerow span.fa.fa-folder-o.grey-folder:hover:before,
+.item__pricerow span.fa.fa-folder-o.active.grey-folder:hover:before {
   color: #fff;
 }
 
 .item__pricerow span.fa.fa-folder.white-folder:hover:before,
-.item__pricerow span.fa.fa-folder.active.white-folder:hover:before {
+.item__pricerow span.fa.fa-folder.active.white-folder:hover:before,
+.item__pricerow span.fa.fa-folder-o.grey-folder:before,
+.item__pricerow span.fa.fa-folder-o.active.grey-folder:before {
   color: #c9c0c0;
 }
 

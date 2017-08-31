@@ -458,10 +458,18 @@ $(".subscription__unit .favourites__link").hover(function() {
   	$(this).closest( ".item-masonry").find( ".btn.item__btn" ).css("background", "rgba(11, 97, 164, 1)");
 });
 
-
-
-
-
-
-
-
+$(".item__click").click(function() {
+	if( $(this).hasClass('fa-folder-o') ) {
+		$(this).removeClass('fa-folder-o').removeClass('grey-folder');
+		$(this).addClass('fa-folder').addClass('white-folder');
+		$(this).attr({
+			title: 'Удалить из избранного'
+		});
+	} else {
+		$(this).removeClass('fa-folder').removeClass('white-folder');
+		$(this).addClass('fa-folder-o').addClass('grey-folder');
+		$(this).attr({
+			title: 'Добавить в избранное'
+		});
+	}
+});
