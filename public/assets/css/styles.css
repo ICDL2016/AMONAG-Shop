@@ -5769,6 +5769,7 @@ span.fa.fa-folder.active:hover {
     text-align: center;
     transition: 0.3s;
     margin-top: -7px;
+    padding-bottom: 5px;
 }
 
 /*.subscription__unit.item__unit .item-masonry .favourites__link {
@@ -5863,10 +5864,11 @@ span.fa.fa-folder.active:hover {
 }
 
 .item__text {
+  display: block;
   font-size: 14px;
-  line-height: 0.5;
-  padding-bottom: 10px;
   color: #fff;
+  line-height: 1;
+  padding-bottom: 5px;
 }
 
 .item-masonry .btn.item__btn {
@@ -5964,6 +5966,7 @@ span.fa.fa-folder.active:hover {
 }
 
 .item-masonry .item__auth {
+  display: block;
   color: #fff;
   font-size: 14px;
   line-height: 1.8;
@@ -5974,6 +5977,13 @@ span.fa.fa-folder.active:hover {
 
 .item-masonry .item__auth:hover {
   text-decoration: none;
+}
+
+.auth__return {
+  width: 120px;
+  margin: auto;
+  line-height: 1.3;
+  padding-bottom: 5px;
 }
 
 /* Personal */
