@@ -209,7 +209,7 @@
 
       <div class="content__restaurant_bs">
         <div class="restaurant__sidebar">
-          <div class="subscription__unit">
+          <div class="subscription__unit item__unit">
             <div class="item-masonry sizer favourites">
               <div class="favourites__link">
                 <img src="assets/i/catalog1.png" alt="">
@@ -245,17 +245,16 @@
                     <input id="DISCOUNT" name="DISCOUNT" type="hidden" value="">
                     <input id="PRODUCT_ID" name="PRODUCT_ID" type="hidden" value="">
                     <input id="PRODUCT_NAME" name="PRODUCT_NAME" type="hidden" value="">
-                    <input style="display: none;" id="name" name="NAME" type="text" placeholder="Имя" value="">
+                    <input id="name" name="NAME" type="text" placeholder="Имя" value="">
                     <div class="error-box color__wh"></div>
                     <input id="email" name="EMAIL" type="text" placeholder="E-mail" value="">
                     <div class="error-box color__wh"></div>
-                    <input id="PSWD" name="PSWD" type="password" placeholder="Пароль">
+                    <input id="PSWD" name="PSWD" type="hidden" placeholder="Пароль">
                     <input id="needAuth" name="needAuth" type="hidden" value="">
                     <a class="btn__subscribe send_order" href="#">Подписаться</a>
                   </form>
-                  <a class="item__auth" href="">Авторизуйтесь</a>
-                  <span class="item__text">если Вы уже <br>зарегистрированы</span>
-                  <!-- <a href="" class="btn btn-lg btn-block item__btn">Подписаться</a> -->
+                  <a class="item__auth" href="#">Забыли пароль?</a>
+                  <a class="item__auth" href="#">Зарегистрироваться</a>
                 </span>
               </div>
             </div>
@@ -566,12 +565,5 @@
   <script src="assets/js/plugins/masonry.pkgd.min.js"></script>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/common.js"></script>
-  <script>
-    $(document).ready(function(){
-        $("#email").next('.error-box').html('&bull; Пользователь с таким <nobr>E-mail</nobr> уже зарегистрирован')
-            .css('color','#c9c0c0')
-            .animate({'paddingLeft':'10px'},400)
-            .animate({'paddingLeft':'5px'},400);
-    });
-  </script>
+
 </html>

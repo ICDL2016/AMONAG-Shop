@@ -5771,6 +5771,10 @@ span.fa.fa-folder.active:hover {
     margin-top: -7px;
 }
 
+/*.subscription__unit.item__unit .item-masonry .favourites__link {
+  border: none;
+}*/
+
 .subscription__unit .favourites__link:hover {
     background: rgba(14, 122, 205, 1);
 }
@@ -5855,6 +5859,13 @@ span.fa.fa-folder.active:hover {
 }
 
 .to__favourites .fa.fa-folder.active:hover {
+  color: #fff;
+}
+
+.item__text {
+  font-size: 14px;
+  line-height: 0.5;
+  padding-bottom: 10px;
   color: #fff;
 }
 

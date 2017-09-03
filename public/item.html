@@ -209,7 +209,7 @@
 
       <div class="content__restaurant_bs">
         <div class="restaurant__sidebar">
-          <div class="subscription__unit">
+          <div class="subscription__unit item__unit">
             <div class="item-masonry sizer favourites">
               <div class="favourites__link">
                 <img src="assets/i/catalog1.png" alt="">
@@ -240,7 +240,20 @@
                       <span title="Добавить в избранное" class="fa fa-folder-o grey-folder item__click"></span>
                     </span>
                   </div>
-                  <a href="" class="btn btn-lg btn-block item__btn">Подписаться</a>
+                  <form id="buy-form" method="POST">
+                    <input id="PRICE" name="PRICE" type="hidden" value="">
+                    <input id="DISCOUNT" name="DISCOUNT" type="hidden" value="">
+                    <input id="PRODUCT_ID" name="PRODUCT_ID" type="hidden" value="">
+                    <input id="PRODUCT_NAME" name="PRODUCT_NAME" type="hidden" value="">
+                    <input id="name" name="NAME" type="text" placeholder="Имя" value="Ivanov">
+                    <div class="error-box color__wh"></div>
+                    <input id="email" name="EMAIL" type="text" placeholder="E-mail" value="ivan@ivan.ru">
+                    <div class="error-box color__wh"></div>
+                    <input id="PSWD" name="PSWD" type="hidden" placeholder="Пароль">
+                    <input id="needAuth" name="needAuth" type="hidden" value="">
+                    <a class="btn__subscribe send_order" href="#">Подписаться</a>
+                  </form>
+                  <!-- <a href="" class="btn btn-lg btn-block item__btn">Подписаться</a> -->
                 </span>
               </div>
             </div>
