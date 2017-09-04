@@ -4902,9 +4902,28 @@ a {
     text-decoration: none;
 }
 
-.filters__string {
-  width: 400px !important;
+#filters__string {
+  width: 400px;
 }
+  @media (max-width: 600px) {
+    #filters__string {
+      width: 300px;
+      margin-left: 20px;
+      padding-right: 5px;
+    }
+  }
+  @media (max-width: 420px) {
+    #filters__string {
+      width: 200px;
+      float: left;
+    }
+    .filters-search .fa-arrow-right {
+      float: left;
+    }
+    .filters-block__title {
+      clear: both;
+    }
+  }
 
 .filters p a {
   color: rgba(11, 97, 164, 1);
